@@ -163,12 +163,12 @@ section h2 {
 }
 
 .btn-primary {
-  background-color: var(--color-naranja-tostado);
+  background-color: var(--color-verde-oliva);
   border: none;
 }
 
 .btn-primary:hover {
-  background-color: var(--color-verde-oliva);
+  background-color: var(--color-verde-oscuro);
 }
 
 .category-box {
