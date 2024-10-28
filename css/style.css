@@ -94,6 +94,7 @@
 body {
   background-color: var(--color-crema-claro);
   font-family: Roboto, sans-serif;
+  color: var(--color-verde-oscuro);
 }
 
 .navbar .nav-link {
