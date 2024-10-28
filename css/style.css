@@ -6,6 +6,8 @@
   --color-naranja-tostado: #BC6C25;
   --color-verde-oliva: #606C38;
   --color-verde-oscuro: #45462A;
+  --color-verde-pino: #26603F;
+
 
   /* Gradientes entre crema y otros colores */
   --gradient-crema-beige: linear-gradient(to right, #FEFAE0, #EFDCAC);
@@ -57,6 +59,9 @@
 .bg-verde-oscuro {
   background-color: var(--color-verde-oscuro);
 }
+.bg-verde-pino {
+  background-color: var(--color-verde-pino);
+}
 
 /* Clases de color de texto */
 .text-crema-claro {
@@ -81,6 +86,9 @@
 
 .text-verde-oscuro {
   color: var(--color-verde-oscuro);
+}
+.text-verde-pino {
+  color: var(--color-verde-pino);
 }
 
 body {
