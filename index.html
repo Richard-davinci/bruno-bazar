@@ -28,7 +28,6 @@
           <input class="form-control  me-2 w-100" type="search" placeholder="¿Qué estás buscando?" aria-label="Search">
           <button class="btn btn-outline-light" type="submit">
             <i class="bi bi-search fs-4 text-crema-claro"></i>
-
           </button>
         </form>
 
@@ -37,8 +36,16 @@
           <!-- Menú normal -->
           <ul class="navbar-nav d-flex flex-end ms-auto mb-2 mb-lg-0">
             <li class="nav-item d-flex flex-column align-items-center mx-2">
-              <i class="bi bi-chat-left fs-3 text-crema-claro"></i>
-              <a class="nav-link" href="#">Ayuda</a>
+              <i class="bi bi-house fs-3 text-crema-claro"></i>
+              <a class="nav-link" href="#">Inicio</a>
+            </li>
+            <li class="nav-item d-flex flex-column align-items-center mx-2">
+              <i class="bi bi-bag fs-3 text-crema-claro"></i>
+              <a class="nav-link" href="#">Productos</a>
+            </li>
+            <li class="nav-item d-flex flex-column align-items-center mx-2">
+              <i class="bi bi-envelope fs-3 text-crema-claro"></i>
+              <a class="nav-link" href="#">Contacto</a>
             </li>
             <li class="nav-item d-flex flex-column align-items-center mx-2">
               <i class="bi bi-person fs-2 text-crema-claro"></i>
@@ -81,7 +88,6 @@
     </nav>
     <!-- buscador movile -->
     <form class="input-search collapse" id="collapseSearch" role="search">
-      <!-- Ajusta el porcentaje a tu preferencia -->
       <input class="form-control me-2 w-100" type="search" placeholder="¿Qué estás buscando?" aria-label="Search">
       <button class="btn btn-outline-light" type="submit">
         <i class="fa fa-search"></i>
@@ -92,31 +98,34 @@
     <nav class="navbar navbar-expand-lg bg-naranja-tostado d-none d-lg-flex">
       <div class="container-fluid d-flex justify-content-center">
         <ul class="navbar-nav d-flex justify-content-between ">
+
           <li class="nav-item">
             <a class="nav-link text-white" aria-current="page" href="#">Cocina</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="#">Mesa</a>
+            <a class="nav-link text-white" href="#">Cocina</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="#">Coctelería</a>
+            <a class="nav-link text-white" href="#">Comedor</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="#">Línea Industrial</a>
+            <a class="nav-link text-white" href="#">Vajillas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">Dormitorio</a>
           </li>
           <li class="nav-item">
             <a class="nav-link text-white" href="#">Hogar</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="#">Oportunidades</a>
+            <a class="nav-link text-white" href="#">Decoración</a>
           </li>
         </ul>
 
       </div>
     </nav>
     <!-- offcanvas menu -->
-    <div class="offcanvas offcanvas-end bg-verde-pino" data-bs-backdrop="static" tabindex="-1" id="staticBackdrop"
-      >
+    <div class="offcanvas offcanvas-end bg-verde-pino" data-bs-backdrop="static" tabindex="-1" id="staticBackdrop">
       <div class="offcanvas-header d-flex justify-content-between ">
         <button type="button" class="navbar-toggler rounded-2 p-2" data-bs-dismiss="offcanvas" aria-label="Close"><i
             class="bi bi-x fs-1 text-crema-claro"></i></button>
@@ -129,23 +138,33 @@
           <!-- Menú solo en movile -->
           <ul class="navbar-nav d-lg-none ">
             <li class="nav-item divider-list">
-              <a class="nav-link text-verde-oscuro fw-bold" aria-current="page" href="#">Cocina</a>
+              <a class="nav-link text-verde-oscuro fw-bold" aria-current="page" href="#">
+                Inicio 
+                <!-- <i class="bi bi-house fs-3 text-crema-claro"></i> -->
+              </a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-verde-oscuro fw-bold d-flex flex-row-reverse" href="#" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Productos
+              </a>
+              <!-- <i class="bi bi-bag fs-3 text-crema-claro"></i> -->
+              <ul class="dropdown-menu text-verde-oscuro fw-bold">
+                <li><a class="dropdown-item" href="#">Cocina</a></li>
+                <li><a class="dropdown-item" href="#">Comedor</a></li>
+                <li><a class="dropdown-item" href="#">Vajillas</a></li>
+                <li><a class="dropdown-item" href="#">Dormitorio</a></li>
+                <li><a class="dropdown-item" href="#">Hogar</a></li>
+                <li><a class="dropdown-item" href="#">Decoración</a></li>
+              </ul>
             </li>
             <li class="nav-item divider-list">
-              <a class="nav-link text-verde-oscuro fw-bold" href="#">Mesa</a>
+              <a class="nav-link text-verde-oscuro fw-bold" aria-current="page" href="#"> Contacto 
+                <!-- <i
+                  class="bi bi-envelope fs-3 text-crema-claro"></i> -->
+                </a>
             </li>
-            <li class="nav-item divider-list">
-              <a class="nav-link text-verde-oscuro fw-bold" href="#">Coctelería</a>
-            </li>
-            <li class="nav-item divider-list">
-              <a class="nav-link text-verde-oscuro fw-bold" href="#">Línea Industrial</a>
-            </li>
-            <li class="nav-item divider-list">
-              <a class="nav-link text-verde-oscuro fw-bold" href="#">Hogar</a>
-            </li>
-            <li class="nav-item divider-list">
-              <a class="nav-link text-verde-oscuro fw-bold" href="#">Oportunidades</a>
-            </li>
+
           </ul>
           <!-- Menú normal -->
 
@@ -171,12 +190,11 @@
     </div>
 
     <!-- Carrito offcanvas -->
-    <div class="offcanvas offcanvas-end bg-verde-pino" data-bs-backdrop="static" tabindex="-1" id="Carrito"
-      >
+    <div class="offcanvas offcanvas-end bg-verde-pino" data-bs-backdrop="static" tabindex="-1" id="Carrito">
       <div class="offcanvas-header d-flex  align-items-start ">
         <button type="button" class="navbar-toggler rounded-2 p-2" data-bs-dismiss="offcanvas" aria-label="Close"><i
             class="bi bi-x fs-1 text-crema-claro"></i></button>
-       
+
       </div>
       <div class="offcanvas-body bg-beige-claro">
         <div>
@@ -317,7 +335,7 @@
       <div class="modal-dialog modal-lg modal-dialog-centered">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" >Nombre del roducto</h5>
+            <h5 class="modal-title">Nombre del roducto</h5>
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
           </div>
           <div class="modal-body">
@@ -354,8 +372,8 @@
 
   <!-- Bootstrap JavaScript Libraries -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-  integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-  crossorigin="anonymous"></script>
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
