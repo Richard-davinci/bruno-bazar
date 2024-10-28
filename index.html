@@ -22,22 +22,35 @@
       <div class="container-fluid d-flex justify-content-between align-items-center">
         <!-- Logo -->
         <a class="navbar-brand" href="#">
-          <img src="img/Logos/logo-3.webp" alt="Bruno Bazar logo" width="150">
+          <img src="img/Logos/logo.webp" alt="Bruno Bazar logo" width="120">
         </a>
 
         <!--Búsqueda -->
         <form class="input-search d-flex d-none d-lg-flex" role="search"> <!-- Ajusta el porcentaje a tu preferencia -->
-          <input class="form-control   me-2 w-100" type="search" placeholder="¿Qué estás buscando?" aria-label="Search">
+          <input class="form-control  me-2 w-100" type="search" placeholder="¿Qué estás buscando?" aria-label="Search">
           <button class="btn btn-outline-light" type="submit">
-            <i class="fa fa-search"></i>
+            <i class="bi bi-search fs-4 text-crema-claro"></i>
+
           </button>
         </form>
 
-        <!-- Botón de menú-->
-        <button class="navbar-toggler py-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop"
-          aria-controls="staticBackdrop" aria-expanded="false" aria-label="Toggle navigation">
-          <i class="bi-list fs-1 text-crema-claro"></i>
-        </button>
+        <div class="d-flex ">
+          <!-- Botón de menú-->
+          <button class="navbar-toggler mx-2 py-2" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseSearch" aria-expanded="false" aria-controls="collapseSearch" >
+            <i
+            class="bi bi-search fs-4 text-crema-claro"></i>
+          </button>
+          <button class="navbar-toggler mx-2 py-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#Carrito"
+            aria-controls="Carrito" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-cart4 fs-2 text-crema-claro"></i>
+          </button>
+          <button class="navbar-toggler mx-2 py-2" type="button" data-bs-toggle="offcanvas"
+            data-bs-target="#staticBackdrop" aria-controls="staticBackdrop" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <i class="bi-list fs-1 text-crema-claro"></i>
+          </button>
+        </div>
 
         <!-- Menú -->
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -59,8 +72,10 @@
         </div>
       </div>
     </nav>
-    <form class="input-search d-flex d-lg-none" role="search"> <!-- Ajusta el porcentaje a tu preferencia -->
-      <input class="form-control   me-2 w-100" type="search" placeholder="¿Qué estás buscando?" aria-label="Search">
+    <!-- buscador movile -->
+    <form class="input-search collapse" id="collapseSearch" role="search">
+      <!-- Ajusta el porcentaje a tu preferencia -->
+      <input class="form-control me-2 w-100" type="search" placeholder="¿Qué estás buscando?" aria-label="Search">
       <button class="btn btn-outline-light" type="submit">
         <i class="fa fa-search"></i>
       </button>
@@ -92,7 +107,7 @@
         </div>
       </div>
     </nav>
-
+    <!-- offcanvas menu -->
     <div class="offcanvas offcanvas-end bg-verde-pino" data-bs-backdrop="static" tabindex="-1" id="staticBackdrop"
       aria-labelledby="staticBackdropLabel">
       <div class="offcanvas-header d-flex  align-items-start ">
@@ -101,30 +116,30 @@
 
         </button>
         <a class="navbar-brand align-self-end" href="#">
-          <img src="img/Logos/logo-3.webp" alt="Bruno Bazar logo" width="150">
+          <img src="img/Logos/logo.webp" alt="Bruno Bazar logo" width="150">
         </a>
       </div>
-      <div class="offcanvas-body">
+      <div class="offcanvas-body bg-beige-claro">
         <div>
           <!-- Menú solo en movile -->
           <ul class="navbar-nav d-lg-none ">
             <li class="nav-item divider-list">
-              <a class="nav-link text-white" aria-current="page" href="#">Cocina</a>
+              <a class="nav-link text-verde-oscuro fw-bold" aria-current="page" href="#">Cocina</a>
             </li>
             <li class="nav-item divider-list">
-              <a class="nav-link text-white" href="#">Mesa</a>
+              <a class="nav-link text-verde-oscuro fw-bold" href="#">Mesa</a>
             </li>
             <li class="nav-item divider-list">
-              <a class="nav-link text-white" href="#">Coctelería</a>
+              <a class="nav-link text-verde-oscuro fw-bold" href="#">Coctelería</a>
             </li>
             <li class="nav-item divider-list">
-              <a class="nav-link text-white" href="#">Línea Industrial</a>
+              <a class="nav-link text-verde-oscuro fw-bold" href="#">Línea Industrial</a>
             </li>
             <li class="nav-item divider-list">
-              <a class="nav-link text-white" href="#">Hogar</a>
+              <a class="nav-link text-verde-oscuro fw-bold" href="#">Hogar</a>
             </li>
             <li class="nav-item divider-list">
-              <a class="nav-link text-white" href="#">Oportunidades</a>
+              <a class="nav-link text-verde-oscuro fw-bold" href="#">Oportunidades</a>
             </li>
           </ul>
           <!-- Menú normal -->
@@ -144,6 +159,41 @@
             <li class="nav-item d-flex flex-column align-items-center mx-2">
               <i class="bi bi-person fs-2 text-crema-claro"></i>
             </li>
+          </ul>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Carrito offcanvas -->
+    <div class="offcanvas offcanvas-end bg-verde-pino" data-bs-backdrop="static" tabindex="-1" id="Carrito"
+      aria-labelledby="CarritoLabel">
+      <div class="offcanvas-header d-flex  align-items-start ">
+        <button type="button" class="navbar-toggler rounded-2 p-2" data-bs-dismiss="offcanvas" aria-label="Close"><i
+            class="bi bi-x fs-1 text-crema-claro"></i></button>
+        </button>
+      </div>
+      <div class="offcanvas-body bg-beige-claro">
+        <div>
+          <!-- Menú solo en movile -->
+          <ul class="navbar-nav d-lg-none ">
+            <li class="nav-item divider-list  border border-2 border-success rounded-2 px-4">
+              <a class="nav-link text-verde-oscuro" href="#">El carrito de compras está vacío. </a>
+            </li>
+
+          </ul>
+          <!-- Menú normal -->
+
+
+        </div>
+      </div>
+      <div class="offcanvas-footer">
+        <div>
+          <ul class="navbar-nav d-flex align-items-center ms-auto mb-2 mb-lg-0">
+            <li class="nav-item mx-2">
+              <a class="nav-link text-crema-claro" href="#">Finalizar Compra</a>
+            </li>
+
           </ul>
 
         </div>
