@@ -18,7 +18,7 @@
   <header>
     <!-- Navbar principal -->
 
-    <nav class="navbar navbar-expand-lg bg-verde-pino">
+    <nav class="navbar navbar-expand-lg bg-verde-pino 	d-none d-lg-flex">
       <div class="container-fluid d-flex justify-content-between align-items-center">
         <!-- Logo -->
         <a class="navbar-brand" href="#">
@@ -33,24 +33,6 @@
 
           </button>
         </form>
-
-        <div class="d-flex ">
-          <!-- Botón de menú-->
-          <button class="navbar-toggler mx-2 py-2" type="button" data-bs-toggle="collapse"
-            data-bs-target="#collapseSearch" aria-expanded="false" aria-controls="collapseSearch" >
-            <i
-            class="bi bi-search fs-4 text-crema-claro"></i>
-          </button>
-          <button class="navbar-toggler mx-2 py-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#Carrito"
-            aria-controls="Carrito" aria-expanded="false" aria-label="Toggle navigation">
-            <i class="bi bi-cart4 fs-2 text-crema-claro"></i>
-          </button>
-          <button class="navbar-toggler mx-2 py-2" type="button" data-bs-toggle="offcanvas"
-            data-bs-target="#staticBackdrop" aria-controls="staticBackdrop" aria-expanded="false"
-            aria-label="Toggle navigation">
-            <i class="bi-list fs-1 text-crema-claro"></i>
-          </button>
-        </div>
 
         <!-- Menú -->
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -72,6 +54,33 @@
         </div>
       </div>
     </nav>
+
+    <!-- Navbar movile -->
+
+    <nav class="navbar navbar-expand-lg bg-verde-pino d-lg-none">
+      <div class="container-fluid d-flex justify-content-center justify-content-sm-between align-items-center">
+        <!-- Logo -->
+        <a class="navbar-brand" href="#">
+          <img src="img/Logos/logo.webp" alt="Bruno Bazar logo" width="120">
+        </a>
+        <div class="d-flex ">
+          <!-- Botón de menú-->
+          <button class="navbar-toggler border border-0 mx-2 py-2" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseSearch" aria-expanded="false" aria-controls="collapseSearch">
+            <i class="bi bi-search fs-4 text-crema-claro"></i>
+          </button>
+          <button class="navbar-toggler border border-0 mx-2 py-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#Carrito"
+            aria-controls="Carrito" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-cart4 fs-2 text-crema-claro"></i>
+          </button>
+          <button class="navbar-toggler mx-2 py-2" type="button" data-bs-toggle="offcanvas"
+            data-bs-target="#staticBackdrop" aria-controls="staticBackdrop" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <i class="bi-list fs-1 text-crema-claro"></i>
+          </button>
+        </div>
+      </div>
+    </nav>
     <!-- buscador movile -->
     <form class="input-search collapse" id="collapseSearch" role="search">
       <!-- Ajusta el porcentaje a tu preferencia -->
@@ -80,31 +89,31 @@
         <i class="fa fa-search"></i>
       </button>
     </form>
+    <!-- Navbar secundario -->
 
     <nav class="navbar navbar-expand-lg bg-naranja-tostado d-none d-lg-flex">
-      <div class="container-fluid">
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link text-white active" aria-current="page" href="#">Cocina</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" href="#">Mesa</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" href="#">Coctelería</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" href="#">Línea Industrial</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" href="#">Hogar</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" href="#">Oportunidades</a>
-            </li>
-          </ul>
-        </div>
+      <div class="container-fluid d-flex justify-content-center">
+        <ul class="navbar-nav d-flex justify-content-between ">
+          <li class="nav-item">
+            <a class="nav-link text-white" aria-current="page" href="#">Cocina</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">Mesa</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">Coctelería</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">Línea Industrial</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">Hogar</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">Oportunidades</a>
+          </li>
+        </ul>
+        
       </div>
     </nav>
     <!-- offcanvas menu -->
@@ -208,12 +217,8 @@
     <!-- place footer here -->
   </footer>
   <!-- Bootstrap JavaScript Libraries -->
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-    crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.js"></script>
-  <script src="https://kit.fontawesome.com/6f924c7ad0.js" crossorigin="anonymous"></script>
 </body>
 
 </html>

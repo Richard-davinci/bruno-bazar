@@ -120,7 +120,7 @@ body {
   color: var(--color-verde-oscuro);
 }
 .navbar .input-search{
-  width: 30%;
+  width: 50%;
 }
 
 .navbar-nav {
