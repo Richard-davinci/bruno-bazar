@@ -42,14 +42,14 @@
               </a>
             </li>
             <li class="nav-item mx-2">
-              <a class="nav-link d-flex flex-column align-items-center text-center" href="productos.html" data-bs-toggle="collapse"
+              <a class="nav-link d-flex flex-column align-items-center text-center" href="productos" data-bs-toggle="collapse"
                 data-bs-target="#navbarSecundario" aria-expanded="false" aria-controls="navbarSecundario">
                 <i class="bi bi-bag fs-3 text-crema-claro"></i>
                 <span>Productos</span>
               </a>
             </li>
             <li class="nav-item mx-2">
-              <a class="nav-link d-flex flex-column align-items-center text-center" href="./contacto.html">
+              <a class="nav-link d-flex flex-column align-items-center text-center" href="contacto">
                 <i class="bi bi-envelope fs-3 text-crema-claro"></i>
                 <span>Contacto</span>
               </a>
@@ -244,55 +244,49 @@
   </header>
   <main>
     <!-- Carrusel -->
-    <section>
-      <div class="row">
-        <div class="col-12">
-          <div id="Banner" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#Banner" data-bs-slide-to="0" class="active" aria-current="true"
-                aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#Banner" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#Banner" data-bs-slide-to="2" aria-label="Slide 3"></button>
-              <button type="button" data-bs-target="#Banner" data-bs-slide-to="3" aria-label="Slide 4"></button>
-              <button type="button" data-bs-target="#Banner" data-bs-slide-to="4" aria-label="Slide 5"></button>
-            </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="img/Banner/Sala-beige.webp" class="d-block w-100" alt="Banner 1">
-              </div>
-              <div class="carousel-item">
-                <img src="img/Banner/Sala-rosa.webp" class="d-block w-100" alt="Banner 2">
-              </div>
-              <div class="carousel-item">
-                <img src="img/Banner/primavera-verano-hola-decoracion.avif" class="d-block w-100" alt="Banner 3"
-                  style="object-fit: cover; object-position: bottom;">
-              </div>
-              <div class="carousel-item">
-                <img src="img/Banner/W12-BLOG-tons-blancs.webp" class="d-block w-100" alt="Banner 4">
-              </div>
-              <div class="carousel-item">
-                <img src="img/Banner/images.jpeg" class="d-block w-100" alt="Banner 5"
-                  style="object-fit: cover; object-position: center;">
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#Banner" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Anterior</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#Banner" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Siguiente</span>
-            </button>
-          </div>
+    <div id="Banner" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#Banner" data-bs-slide-to="0" class="active" aria-current="true"
+          aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#Banner" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#Banner" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#Banner" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#Banner" data-bs-slide-to="4" aria-label="Slide 5"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/Banner/Sala-beige.webp" class="d-block w-100" alt="Banner 1">
+        </div>
+        <div class="carousel-item">
+          <img src="img/Banner/Sala-rosa.webp" class="d-block w-100" alt="Banner 2">
+        </div>
+        <div class="carousel-item">
+          <img src="img/Banner/primavera-verano-hola-decoracion.avif" class="d-block w-100" alt="Banner 3"
+            style="object-fit: cover; object-position: bottom;">
+        </div>
+        <div class="carousel-item">
+          <img src="img/Banner/W12-BLOG-tons-blancs.webp" class="d-block w-100" alt="Banner 4">
+        </div>
+        <div class="carousel-item">
+          <img src="img/Banner/images.jpeg" class="d-block w-100" alt="Banner 5"
+            style="object-fit: cover; object-position: center;">
         </div>
       </div>
-    </section>
+      <button class="carousel-control-prev" type="button" data-bs-target="#Banner" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#Banner" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Siguiente</span>
+      </button>
+    </div>
     <!-- Fin del Carrusel -->
     <section class="container my-5">
       <h2 class="text-center mb-4">Sobre Nosotros</h2>
       <div class="row">
         <!-- Descripción de la empresa -->
-        <div class="col-12 col-md-4 text-center">
+        <div class="col-md-4 text-center">
           <img src="img/Banner/images.jpeg" class="img-fluid mb-3" alt="Descripción de la empresa"
             style="height: 200px; object-fit: cover;">
           <h5>Descripción de la Empresa</h5>
@@ -300,7 +294,7 @@
             cocina.</p>
         </div>
         <!-- Historia de la empresa -->
-        <div class="col-12 col-md-4 text-center">
+        <div class="col-md-4 text-center">
           <img src="img/Banner/Sala-beige.webp" class="img-fluid mb-3" alt="Historia de la empresa"
             style="height: 200px; object-fit: cover;">
           <h5>Nuestra Historia</h5>
@@ -308,7 +302,7 @@
             marco de calidez y respeto.</p>
         </div>
         <!-- Filosofía y objetivos -->
-        <div class="col-12 col-md-4 text-center">
+        <div class="col-md-4 text-center">
           <img src="img/Banner/W12-BLOG-tons-blancs.webp" class="img-fluid mb-3" alt="Filosofía y Objetivos"
             style="height: 200px; object-fit: cover;">
           <h5>Filosofía y Objetivos</h5>

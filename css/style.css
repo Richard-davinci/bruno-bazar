@@ -8,32 +8,8 @@
   --color-verde-oscuro: #45462A;
   --color-verde-pino: #26603F;
 
-
-  /* Gradientes entre crema y otros colores */
-  --gradient-crema-beige: linear-gradient(to right, #FEFAE0, #EFDCAC);
-  --gradient-crema-durazno: linear-gradient(to right, #FEFAE0, #D4A373);
-  --gradient-crema-naranja: linear-gradient(to right, #FEFAE0, #BC6C25);
-  --gradient-crema-oliva: linear-gradient(to right, #FEFAE0, #606C38);
-  --gradient-crema-verde-oscuro: linear-gradient(to right, #FEFAE0, #45462A);
-
-  /* Gradientes entre beige y otros colores */
-  --gradient-beige-durazno: linear-gradient(to right, #EFDCAC, #D4A373);
-  --gradient-beige-naranja: linear-gradient(to right, #EFDCAC, #BC6C25);
-  --gradient-beige-oliva: linear-gradient(to right, #EFDCAC, #606C38);
-  --gradient-beige-verde-oscuro: linear-gradient(to right, #EFDCAC, #45462A);
-
-  /* Gradientes entre durazno y otros colores */
-  --gradient-durazno-naranja: linear-gradient(to right, #D4A373, #BC6C25);
-  --gradient-durazno-oliva: linear-gradient(to right, #D4A373, #606C38);
-  --gradient-durazno-verde-oscuro: linear-gradient(to right, #D4A373, #45462A);
-
-  /* Gradientes entre naranja y otros colores */
-  --gradient-naranja-oliva: linear-gradient(to right, #BC6C25, #606C38);
-  --gradient-naranja-verde-oscuro: linear-gradient(to right, #BC6C25, #45462A);
-
-  /* Gradientes entre oliva y verde oscuro */
-  --gradient-oliva-verde-oscuro: linear-gradient(to right, #606C38, #45462A);
 }
+  
 
 /* Clases de color de fondo */
 .bg-crema-claro {
@@ -41,7 +17,7 @@
 }
 
 .bg-beige-claro {
-  background-color: var(--color-beige-claro);
+  background-color: var(--color-beige-claro); 
 }
 
 .bg-durazno-suave {
@@ -86,6 +62,7 @@
 
 .text-verde-oscuro {
   color: var(--color-verde-oscuro);
+  
 }
 .text-verde-pino {
   color: var(--color-verde-pino);
