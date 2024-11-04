@@ -11,7 +11,9 @@
 
 }
   
-
+/* *{
+  outline: 1px solid;
+} */
 /* Clases de color de fondo */
 .bg-crema-claro {
   background-color: var(--color-crema-claro);
@@ -106,16 +108,18 @@ body {
 }
 
 
-/* 
-.divider-list{
-  border-bottom: 1px solid var(--color-verde-oscuro);
-  width: 100%;
-} */
-
 /* Estilos para el carrusel */
 .carousel-item img {
-  height: 500px; /* Puedes ajustar la altura según tus necesidades */
+  height: 600px; /* Puedes ajustar la altura según tus necesidades */
   object-fit: cover;
+}
+.carousel-indicators button {
+  background-color: var(--color-verde-pino); 
+  transition: background-color 0.3s ease, opacity 0.3s ease; 
+}
+
+.carousel-indicators button:hover {
+  background-color: #0077cc; 
 }
 
 /* Estilos para la sección de productos destacados */
@@ -124,9 +128,6 @@ section h2 {
   color: var(--color-verde-oscuro);
 }
 
-.card {
-  margin-bottom: 20px;
-}
 .card > img{
   width: 150px;
   height: 250px;
@@ -143,17 +144,9 @@ section h2 {
 }
 
 .btn-primary {
-
   border: none;
 }
 
 .btn-primary:hover {
   background-color: var(--color-verde-oscuro);
 }
-
-
-.nav-link[aria-expanded="true"] .bi-chevron-down {
-  transform: rotate(-90deg);
-  transition: transform 0.3s ease;
-}
-
