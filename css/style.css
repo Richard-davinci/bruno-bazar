@@ -7,6 +7,7 @@
   --color-verde-oliva: #606C38;
   --color-verde-oscuro: #45462A;
   --color-verde-pino: #26603F;
+  --color-dark: #4e4e4e;
 
 }
   
@@ -37,6 +38,9 @@
 }
 .bg-verde-pino {
   background-color: var(--color-verde-pino);
+}
+.bg-color-dark {
+  background-color: var(--color-dark);
 }
 
 /* Clases de color de texto */
@@ -139,7 +143,7 @@ section h2 {
 }
 
 .btn-primary {
-  background-color: var(--color-verde-oliva);
+
   border: none;
 }
 
@@ -152,3 +156,4 @@ section h2 {
   transform: rotate(-90deg);
   transition: transform 0.3s ease;
 }
+

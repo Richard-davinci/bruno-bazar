@@ -15,25 +15,18 @@
 <body>
   <header>
     <!-- Navbar principal -->
-
-    <nav class="navbar navbar-expand-lg bg-verde-pino 	d-none d-lg-flex">
+    <nav class="navbar navbar-expand-lg bg-verde-pino d-none d-lg-flex">
       <div class="container-fluid d-flex justify-content-between align-items-center">
-        <!-- Logo -->
         <a class="navbar-brand" href="index.html">
           <img src="img/Logos/logo.webp" alt="Bruno Bazar logo" width="120">
         </a>
-
-        <!--Búsqueda -->
-        <form class="input-search d-flex d-none d-lg-flex" role="search"> <!-- Ajusta el porcentaje a tu preferencia -->
-          <input class="form-control  me-2 w-100" type="search" placeholder="¿Qué estás buscando?" aria-label="Search">
+        <form class="input-search d-flex d-none d-lg-flex" role="search">
+          <input class="form-control me-2 w-100" type="search" placeholder="¿Qué estás buscando?" aria-label="Search">
           <button class="btn btn-outline-light" type="submit">
             <i class="bi bi-search fs-4 text-crema-claro"></i>
           </button>
         </form>
-
-        <!-- Menú -->
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <!-- Menú normal -->
           <ul class="navbar-nav d-flex ms-auto mb-2 mb-lg-0">
             <li class="nav-item mx-2">
               <a class="nav-link d-flex flex-column align-items-center text-center" href="index.html">
@@ -42,47 +35,41 @@
               </a>
             </li>
             <li class="nav-item mx-2">
-              <a class="nav-link d-flex flex-column align-items-center text-center" href="productos"
-                data-bs-toggle="collapse" data-bs-target="#navbarSecundario" aria-expanded="false"
-                aria-controls="navbarSecundario">
+              <a class="nav-link d-flex flex-column align-items-center text-center" href="productos.html">
                 <i class="bi bi-bag fs-3 text-crema-claro"></i>
                 <span>Productos</span>
               </a>
             </li>
             <li class="nav-item mx-2">
-              <a class="nav-link d-flex flex-column align-items-center text-center" href="contacto">
+              <a class="nav-link d-flex flex-column align-items-center text-center" href="contacto.html">
                 <i class="bi bi-envelope fs-3 text-crema-claro"></i>
                 <span>Contacto</span>
               </a>
             </li>
-            <li class="nav-item mx-2">
+            <!-- <li class="nav-item mx-2">
               <a class="nav-link d-flex flex-column align-items-center text-center" href="#">
                 <i class="bi bi-person fs-3 text-crema-claro"></i>
                 <span>Mi Cuenta</span>
               </a>
-            </li>
+            </li> -->
             <li class="nav-item mx-2">
-              <a class="nav-link d-flex flex-column align-items-center text-center" href="#">
+              <a class="nav-link d-flex flex-column align-items-center text-center" href="#"
+                 data-bs-toggle="offcanvas" data-bs-target="#Carrito" aria-controls="Carrito" aria-expanded="false">
                 <i class="bi bi-cart4 fs-3 text-crema-claro"></i>
                 <span>Mi carrito</span>
               </a>
             </li>
           </ul>
         </div>
-
       </div>
-    </nav>
-
+    </nav>  
     <!-- Navbar movile -->
-
     <nav class="navbar navbar-expand-lg bg-verde-pino d-lg-none">
       <div class="container-fluid d-flex justify-content-between align-items-center">
-        <!-- Logo -->
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="index.html">
           <img src="img/Logos/logo.webp" alt="Bruno Bazar logo" width="120">
         </a>
         <div class="d-flex ">
-          <!-- Botón de menú-->
           <button class="navbar-toggler border border-0 mx-2 py-2" type="button" data-bs-toggle="collapse"
             data-bs-target="#collapseSearch" aria-expanded="false" aria-controls="collapseSearch">
             <i class="bi bi-search fs-4 text-crema-claro"></i>
@@ -105,36 +92,7 @@
       <button class="btn btn-outline-light" type="submit">
         <i class="fa fa-search"></i>
       </button>
-    </form>
-    <!-- Navbar secundario -->
-
-    <!-- Navbar secundario -->
-    <nav class="navbar navbar-expand-lg bg-naranja-tostado d-none d-lg-flex">
-      <div class="container-fluid d-flex justify-content-center">
-        <div class="collapse" id="navbarSecundario">
-          <ul class="navbar-nav d-flex justify-content-between">
-            <li class="nav-item">
-              <a class="nav-link text-white" aria-current="page" href="#">Cocina</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" href="#">Comedor</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" href="#">Vajillas</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" href="#">Dormitorio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" href="#">Hogar</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" href="#">Decoración</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+    </form>  
 
     <!-- offcanvas menu -->
     <div class="offcanvas offcanvas-end bg-verde-pino" data-bs-backdrop="static" tabindex="-1" id="staticBackdrop">
@@ -150,33 +108,18 @@
           <!-- Menú solo en movile -->
           <ul class="navbar-nav d-lg-none flex-start">
             <li class="nav-item divider-list">
-              <a class="nav-link text-verde-oscuro fw-bold" aria-current="page" href="#">
+              <a class="nav-link text-verde-oscuro fw-bold" aria-current="page" href="index.html">
                 Inicio
                 <!-- <i class="bi bi-house fs-3 text-crema-claro"></i> -->
               </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link text-verde-oscuro fw-bold d-flex align-items-center" href="#" data-bs-toggle="collapse"
-                data-bs-target="#collapseProductos" aria-expanded="false" aria-controls="collapseProductos">
-                Productos
-                <i class="bi bi-chevron-down ms-2"></i> <!-- Icono de flecha -->
-              </a>
-              <!-- Menú colapsable -->
-              <div class="collapse" id="collapseProductos">
-                <ul class="list-unstyled text-verde-oscuro fw-bold mx-4">
-                  <li><a class="nav-link" href="#">Cocina</a></li>
-                  <li><a class="nav-link" href="#">Comedor</a></li>
-                  <li><a class="nav-link" href="#">Vajillas</a></li>
-                  <li><a class="nav-link" href="#">Dormitorio</a></li>
-                  <li><a class="nav-link" href="#">Hogar</a></li>
-                  <li><a class="nav-link" href="#">Decoración</a></li>
-                </ul>
-              </div>
-            </li>
-
-
             <li class="nav-item divider-list">
-              <a class="nav-link text-verde-oscuro fw-bold" aria-current="page" href="#"> Contacto
+              <a class="nav-link text-verde-oscuro fw-bold" aria-current="page" href="productos.html">
+                Productos
+              </a>
+            </li>      
+            <li class="nav-item divider-list">
+              <a class="nav-link text-verde-oscuro fw-bold" aria-current="page" href="contacto.html"> Contacto
                 <!-- <i
                   class="bi bi-envelope fs-3 text-crema-claro"></i> -->
               </a>
@@ -188,7 +131,7 @@
 
         </div>
       </div>
-      <div class="offcanvas-footer">
+      <!-- <div class="offcanvas-footer">
         <div>
           <ul class="navbar-nav d-flex flex-row justify-content-end ms-auto mb-2 mb-lg-0">
             <li class="nav-item d-flex flex-column align-items-center mx-2">
@@ -203,7 +146,7 @@
           </ul>
 
         </div>
-      </div>
+      </div> -->
     </div>
 
     <!-- Carrito offcanvas -->
@@ -216,7 +159,7 @@
       <div class="offcanvas-body bg-beige-claro">
         <div>
           <!-- Menú solo en movile -->
-          <ul class="navbar-nav d-lg-none ">
+          <ul class="navbar-nav  ">
             <li class="nav-item divider-list  border border-2 border-success rounded-2 px-4">
               <a class="nav-link text-verde-oscuro" href="#">El carrito de compras está vacío. </a>
             </li>
@@ -239,65 +182,70 @@
         </div>
       </div>
     </div>
-
-
-
   </header>
   <main>
     <!-- Sección de Contacto -->
     <section class="container my-5">
-      <h2 class="text-center mb-4">Contacto</h2>
-      <div class="row justify-content-center">
-        <div class="col-md-8">
-          <form action="procesar_contacto.php" method="POST">
-            <div class="row mb-3">
-              <!-- Nombre -->
-              <div class="col-md-6">
-                <label for="nombre" class="form-label">Nombre</label>
-                <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Ingresa tu nombre"
-                  required>
-              </div>
-              <!-- Apellido -->
-              <div class="col-md-6">
-                <label for="apellido" class="form-label">Apellido</label>
-                <input type="text" class="form-control" id="apellido" name="apellido" placeholder="Ingresa tu apellido"
-                  required>
-              </div>
+      <h2 class="text-center mb-4">Ponte en contacto con nosotros</h2>
+      <div class="row d-flex justify-content-center">
+        <div class="col-12 col-md-8">
+          <div class="card shadow">
+            <div class="card-body p-4">
+              <form action="#" method="POST">
+                <div class="row mb-3">
+                  <!-- Nombre -->
+                  <div class="col-12 col-md-6">
+                    <label for="nombre" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Ingresa tu nombre"
+                      required>
+                  </div>
+                  <!-- Apellido -->
+                  <div class="col-12 col-md-6">
+                    <label for="apellido" class="form-label">Apellido</label>
+                    <input type="text" class="form-control" id="apellido" name="apellido"
+                      placeholder="Ingresa tu apellido" required>
+                  </div>
+                </div>
+                <div class="row mb-3">
+                  <div class="col-12 ">
+                    <label for="direccion" class="form-label">Dirección</label>
+                    <input type="text" class="form-control" id="direccion" name="direccion"
+                      placeholder="Ingresa tu dirección" required>
+                  </div>
+                </div>
+                <div class="row mb-3">
+                  <div class="col-12 col-md-6">
+                    <label for="correo" class="form-label">Correo Electrónico</label>
+                    <input type="email" class="form-control" id="correo" name="correo" placeholder="nombre@ejemplo.com"
+                      required>
+                  </div>
+                  <div class="col-12 col-md-6">
+                    <label for="telefono" class="form-label">Teléfono</label>
+                    <input type="tel" class="form-control" id="telefono" name="telefono"
+                      placeholder="Ingresa tu teléfono" required>
+                  </div>
+                </div>
+                <div class="row mb-3">
+                  <div class="col-12">
+                    <label for="mensaje" class="form-label">Mensaje</label>
+                    <textarea class="form-control" id="mensaje" name="mensaje" rows="4"
+                      placeholder="Escribe tu mensaje aquí..."></textarea>
+                  </div>
+                </div>
+                <!-- Botón de Enviar -->
+                <div class="row">
+                  <div class="col-lg-4 mx-auto d-flex justify-content-center">
+                    <button type="submit" class="btn bg-verde-pino text-crema-claro w-100">Enviar</button>
+                  </div>
+                </div>
+              </form>
             </div>
-            <div class="mb-3">
-              <!-- Dirección -->
-              <label for="direccion" class="form-label">Dirección</label>
-              <input type="text" class="form-control" id="direccion" name="direccion" placeholder="Ingresa tu dirección"
-                required>
-            </div>
-            <div class="row mb-3">
-              <!-- Correo -->
-              <div class="col-md-6">
-                <label for="correo" class="form-label">Correo Electrónico</label>
-                <input type="email" class="form-control" id="correo" name="correo" placeholder="nombre@ejemplo.com"
-                  required>
-              </div>
-              <!-- Teléfono -->
-              <div class="col-md-6">
-                <label for="telefono" class="form-label">Teléfono</label>
-                <input type="tel" class="form-control" id="telefono" name="telefono" placeholder="Ingresa tu teléfono"
-                  required>
-              </div>
-            </div>
-            <!-- Mensaje (opcional) -->
-            <div class="mb-3">
-              <label for="mensaje" class="form-label">Mensaje</label>
-              <textarea class="form-control" id="mensaje" name="mensaje" rows="4"
-                placeholder="Escribe tu mensaje aquí..."></textarea>
-            </div>
-            <!-- Botón de Enviar -->
-            <div class="d-grid">
-              <button type="submit" class="btn bg-verde-pino text-crema-claro">Enviar</button>
-            </div>
-          </form>
+          </div>
+          <!-- Fin del card -->
         </div>
       </div>
     </section>
+
 
   </main>
 
@@ -305,12 +253,12 @@
     <div class="container">
       <div class="row align-items-center">
         <!-- Perfil -->
-        <div class="col-md-3 d-flex justify-content-center">
+        <div class="col-12 col-md-3 d-flex justify-content-center">
           <img src="img/perfil.webp" alt="foto de perfil" class="img-fluid rounded-circle mb-3" style="width: 150px;">
         </div>
 
         <!-- Datos -->
-        <div class="col-md-6 d-flex flex-column align-items-center">
+        <div class="col-12 col-md-6 d-flex flex-column align-items-center">
           <p class="mb-1">Ricardo Rodolfo García</p>
           <p class="mb-1">36 años</p>
           <p class="mb-1">Ricardo.garcia@davinci.edu.ar</p>
@@ -318,21 +266,16 @@
         </div>
 
         <!-- Redes sociales -->
-        <div class="col-md-3 d-flex justify-content-center justify-content-md-end">
-          <ul class="list-unstyled d-flex">
+        <div class="col-12 col-md-3 d-flex justify-content-center justify-content-md-end">
+          <ul class="list-unstyled d-flex">            
             <li class="mx-3">
-              <a href="https://www.facebook.com/martes.sano.7" target="_blank" class="text-white">
-                <i class="bi bi-facebook fs-3"></i>
-              </a>
-            </li>
-            <li class="mx-3">
-              <a href="https://www.instagram.com/artesano_beer.co" target="_blank" class="text-white">
+              <a href="https://www.instagram.com/bruno.decohogar/" target="_blank" class="text-white">
                 <i class="bi bi-instagram fs-3"></i>
               </a>
             </li>
             <li class="mx-3">
-              <a href="https://www.tiktok.com/@arte_sanobeerco" target="_blank" class="text-white">
-                <i class="bi bi-tiktok fs-3"></i>
+              <a href="https://wa.me/5491133968453" target="_blank" class="text-white">
+                <i class="bi bi-whatsapp fs-3"></i>
               </a>
             </li>
           </ul>

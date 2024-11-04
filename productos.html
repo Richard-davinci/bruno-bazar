@@ -15,25 +15,18 @@
 <body>
   <header>
     <!-- Navbar principal -->
-
-    <nav class="navbar navbar-expand-lg bg-verde-pino 	d-none d-lg-flex">
+    <nav class="navbar navbar-expand-lg bg-verde-pino d-none d-lg-flex">
       <div class="container-fluid d-flex justify-content-between align-items-center">
-        <!-- Logo -->
         <a class="navbar-brand" href="index.html">
           <img src="img/Logos/logo.webp" alt="Bruno Bazar logo" width="120">
         </a>
-
-        <!--Búsqueda -->
-        <form class="input-search d-flex d-none d-lg-flex" role="search"> <!-- Ajusta el porcentaje a tu preferencia -->
-          <input class="form-control  me-2 w-100" type="search" placeholder="¿Qué estás buscando?" aria-label="Search">
+        <form class="input-search d-flex d-none d-lg-flex" role="search">
+          <input class="form-control me-2 w-100" type="search" placeholder="¿Qué estás buscando?" aria-label="Search">
           <button class="btn btn-outline-light" type="submit">
             <i class="bi bi-search fs-4 text-crema-claro"></i>
           </button>
         </form>
-
-        <!-- Menú -->
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <!-- Menú normal -->
           <ul class="navbar-nav d-flex ms-auto mb-2 mb-lg-0">
             <li class="nav-item mx-2">
               <a class="nav-link d-flex flex-column align-items-center text-center" href="index.html">
@@ -42,46 +35,41 @@
               </a>
             </li>
             <li class="nav-item mx-2">
-              <a class="nav-link d-flex flex-column align-items-center text-center" href="productos" data-bs-toggle="collapse"
-                data-bs-target="#navbarSecundario" aria-expanded="false" aria-controls="navbarSecundario">
+              <a class="nav-link d-flex flex-column align-items-center text-center" href="productos.html">
                 <i class="bi bi-bag fs-3 text-crema-claro"></i>
                 <span>Productos</span>
               </a>
             </li>
             <li class="nav-item mx-2">
-              <a class="nav-link d-flex flex-column align-items-center text-center" href="contacto">
+              <a class="nav-link d-flex flex-column align-items-center text-center" href="contacto.html">
                 <i class="bi bi-envelope fs-3 text-crema-claro"></i>
                 <span>Contacto</span>
               </a>
             </li>
-            <li class="nav-item mx-2">
+            <!-- <li class="nav-item mx-2">
               <a class="nav-link d-flex flex-column align-items-center text-center" href="#">
                 <i class="bi bi-person fs-3 text-crema-claro"></i>
                 <span>Mi Cuenta</span>
               </a>
-            </li>
+            </li> -->
             <li class="nav-item mx-2">
-              <a class="nav-link d-flex flex-column align-items-center text-center" href="#">
+              <a class="nav-link d-flex flex-column align-items-center text-center" href="#"
+                 data-bs-toggle="offcanvas" data-bs-target="#Carrito" aria-controls="Carrito" aria-expanded="false">
                 <i class="bi bi-cart4 fs-3 text-crema-claro"></i>
                 <span>Mi carrito</span>
               </a>
             </li>
           </ul>
         </div>
-
       </div>
-    </nav>
-
+    </nav>  
     <!-- Navbar movile -->
-
     <nav class="navbar navbar-expand-lg bg-verde-pino d-lg-none">
       <div class="container-fluid d-flex justify-content-between align-items-center">
-        <!-- Logo -->
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="index.html">
           <img src="img/Logos/logo.webp" alt="Bruno Bazar logo" width="120">
         </a>
         <div class="d-flex ">
-          <!-- Botón de menú-->
           <button class="navbar-toggler border border-0 mx-2 py-2" type="button" data-bs-toggle="collapse"
             data-bs-target="#collapseSearch" aria-expanded="false" aria-controls="collapseSearch">
             <i class="bi bi-search fs-4 text-crema-claro"></i>
@@ -104,36 +92,7 @@
       <button class="btn btn-outline-light" type="submit">
         <i class="fa fa-search"></i>
       </button>
-    </form>
-    <!-- Navbar secundario -->
-
-    <!-- Navbar secundario -->
-    <nav class="navbar navbar-expand-lg bg-naranja-tostado d-none d-lg-flex">
-      <div class="container-fluid d-flex justify-content-center">
-        <div class="collapse" id="navbarSecundario">
-          <ul class="navbar-nav d-flex justify-content-between">
-            <li class="nav-item">
-              <a class="nav-link text-white" aria-current="page" href="#">Cocina</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" href="#">Comedor</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" href="#">Vajillas</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" href="#">Dormitorio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" href="#">Hogar</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" href="#">Decoración</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+    </form>  
 
     <!-- offcanvas menu -->
     <div class="offcanvas offcanvas-end bg-verde-pino" data-bs-backdrop="static" tabindex="-1" id="staticBackdrop">
@@ -149,33 +108,18 @@
           <!-- Menú solo en movile -->
           <ul class="navbar-nav d-lg-none flex-start">
             <li class="nav-item divider-list">
-              <a class="nav-link text-verde-oscuro fw-bold" aria-current="page" href="#">
+              <a class="nav-link text-verde-oscuro fw-bold" aria-current="page" href="index.html">
                 Inicio
                 <!-- <i class="bi bi-house fs-3 text-crema-claro"></i> -->
               </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link text-verde-oscuro fw-bold d-flex align-items-center" href="#"
-                 data-bs-toggle="collapse" data-bs-target="#collapseProductos" aria-expanded="false" aria-controls="collapseProductos">
-                Productos
-                <i class="bi bi-chevron-down ms-2"></i> <!-- Icono de flecha -->
-              </a>
-              <!-- Menú colapsable -->
-              <div class="collapse" id="collapseProductos">
-                <ul class="list-unstyled text-verde-oscuro fw-bold mx-4">
-                  <li><a class="nav-link" href="#">Cocina</a></li>
-                  <li><a class="nav-link" href="#">Comedor</a></li>
-                  <li><a class="nav-link" href="#">Vajillas</a></li>
-                  <li><a class="nav-link" href="#">Dormitorio</a></li>
-                  <li><a class="nav-link" href="#">Hogar</a></li>
-                  <li><a class="nav-link" href="#">Decoración</a></li>
-                </ul>
-              </div>
-            </li>
-            
-            
             <li class="nav-item divider-list">
-              <a class="nav-link text-verde-oscuro fw-bold" aria-current="page" href="#"> Contacto
+              <a class="nav-link text-verde-oscuro fw-bold" aria-current="page" href="productos.html">
+                Productos
+              </a>
+            </li>      
+            <li class="nav-item divider-list">
+              <a class="nav-link text-verde-oscuro fw-bold" aria-current="page" href="contacto.html"> Contacto
                 <!-- <i
                   class="bi bi-envelope fs-3 text-crema-claro"></i> -->
               </a>
@@ -187,7 +131,7 @@
 
         </div>
       </div>
-      <div class="offcanvas-footer">
+      <!-- <div class="offcanvas-footer">
         <div>
           <ul class="navbar-nav d-flex flex-row justify-content-end ms-auto mb-2 mb-lg-0">
             <li class="nav-item d-flex flex-column align-items-center mx-2">
@@ -202,7 +146,7 @@
           </ul>
 
         </div>
-      </div>
+      </div> -->
     </div>
 
     <!-- Carrito offcanvas -->
@@ -215,7 +159,7 @@
       <div class="offcanvas-body bg-beige-claro">
         <div>
           <!-- Menú solo en movile -->
-          <ul class="navbar-nav d-lg-none ">
+          <ul class="navbar-nav  ">
             <li class="nav-item divider-list  border border-2 border-success rounded-2 px-4">
               <a class="nav-link text-verde-oscuro" href="#">El carrito de compras está vacío. </a>
             </li>
@@ -238,79 +182,9 @@
         </div>
       </div>
     </div>
-
-
-
   </header>
   <main>
-    <!-- Carrusel -->
-    <div id="Banner" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#Banner" data-bs-slide-to="0" class="active" aria-current="true"
-          aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#Banner" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#Banner" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        <button type="button" data-bs-target="#Banner" data-bs-slide-to="3" aria-label="Slide 4"></button>
-        <button type="button" data-bs-target="#Banner" data-bs-slide-to="4" aria-label="Slide 5"></button>
-      </div>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="img/Banner/Sala-beige.webp" class="d-block w-100" alt="Banner 1">
-        </div>
-        <div class="carousel-item">
-          <img src="img/Banner/Sala-rosa.webp" class="d-block w-100" alt="Banner 2">
-        </div>
-        <div class="carousel-item">
-          <img src="img/Banner/primavera-verano-hola-decoracion.avif" class="d-block w-100" alt="Banner 3"
-            style="object-fit: cover; object-position: bottom;">
-        </div>
-        <div class="carousel-item">
-          <img src="img/Banner/W12-BLOG-tons-blancs.webp" class="d-block w-100" alt="Banner 4">
-        </div>
-        <div class="carousel-item">
-          <img src="img/Banner/images.jpeg" class="d-block w-100" alt="Banner 5"
-            style="object-fit: cover; object-position: center;">
-        </div>
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#Banner" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Anterior</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#Banner" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Siguiente</span>
-      </button>
-    </div>
-    <!-- Fin del Carrusel -->
-    <section class="container my-5">
-      <h2 class="text-center mb-4">Sobre Nosotros</h2>
-      <div class="row">
-        <!-- Descripción de la empresa -->
-        <div class="col-md-4 text-center">
-          <img src="img/Banner/images.jpeg" class="img-fluid mb-3" alt="Descripción de la empresa"
-            style="height: 200px; object-fit: cover;">
-          <h5>Descripción de la Empresa</h5>
-          <p>Somos un emprendimiento que se dedica a la comercialización de artículos de bazar, regalos y utilitarios de
-            cocina.</p>
-        </div>
-        <!-- Historia de la empresa -->
-        <div class="col-md-4 text-center">
-          <img src="img/Banner/Sala-beige.webp" class="img-fluid mb-3" alt="Historia de la empresa"
-            style="height: 200px; object-fit: cover;">
-          <h5>Nuestra Historia</h5>
-          <p>Con 4 años de experiencia en el rubro, nuestra misión es ofrecer productos de calidad a buen precio, en un
-            marco de calidez y respeto.</p>
-        </div>
-        <!-- Filosofía y objetivos -->
-        <div class="col-md-4 text-center">
-          <img src="img/Banner/W12-BLOG-tons-blancs.webp" class="img-fluid mb-3" alt="Filosofía y Objetivos"
-            style="height: 200px; object-fit: cover;">
-          <h5>Filosofía y Objetivos</h5>
-          <p>Nuestra búsqueda es constante; ofrecemos productos modernos que siguen las tendencias de moda del mercado y
-            se destacan en el mundo.</p>
-        </div>
-      </div>
-    </section>
+
     <!-- Productos Destacados -->
     <section class="container my-5">
       <h2 class="text-center mb-4">Productos Destacados</h2>
@@ -318,11 +192,12 @@
         <!-- Producto -->
         <div class="col-md-6 col-lg-3">
           <div class="card d-flex align-items-center">
-            <img src="img/Cocina/D_NQ_NP_815163-MLB42175908102_062020-W.jpg" class="object-cover" alt="Producto 1" style="object-fit: contain; width: 230px;">
+            <img src="img/Cocina/D_NQ_NP_815163-MLB42175908102_062020-W.jpg" class="object-cover" alt="Producto 1"
+              style="object-fit: contain; width: 230px;">
             <div class="card-body d-flex flex-column align-items-center">
               <h5 class="card-title">Nombre del Producto</h5>
               <p class="card-text">Descripción</p>
-              <button type="button" class="btn btn-primary w-100" data-bs-toggle="modal"
+              <button type="button" class="btn btn-success w-100" data-bs-toggle="modal"
                 data-bs-target="#modalProducto">
                 Ver más
               </button>
@@ -336,7 +211,7 @@
             <div class="card-body d-flex flex-column align-items-center">
               <h5 class="card-title">Nombre del Producto</h5>
               <p class="card-text">Descripción</p>
-              <button type="button" class="btn btn-primary w-100" data-bs-toggle="modal"
+              <button type="button" class="btn btn-success w-100" data-bs-toggle="modal"
                 data-bs-target="#modalProducto">
                 Ver más
               </button>
@@ -350,7 +225,7 @@
             <div class="card-body d-flex flex-column align-items-center">
               <h5 class="card-title">Nombre del Producto</h5>
               <p class="card-text">Descripción</p>
-              <button type="button" class="btn btn-primary w-100" data-bs-toggle="modal"
+              <button type="button" class="btn btn-success w-100" data-bs-toggle="modal"
                 data-bs-target="#modalProducto">
                 Ver más
               </button>
@@ -360,11 +235,12 @@
         <!-- Producto -->
         <div class="col-md-6 col-lg-3">
           <div class="card d-flex align-items-center">
-            <img src="img/Cocina/storage emulated 0 DCIM Camera IMG_20240809_110643.jpg" class="card-img-top" alt="Producto 1">
+            <img src="img/Cocina/storage emulated 0 DCIM Camera IMG_20240809_110643.jpg" class="card-img-top"
+              alt="Producto 1">
             <div class="card-body d-flex flex-column align-items-center">
               <h5 class="card-title">Nombre del Producto</h5>
               <p class="card-text">Descripción</p>
-              <button type="button" class="btn btn-primary w-100" data-bs-toggle="modal"
+              <button type="button" class="btn btn-success w-100" data-bs-toggle="modal"
                 data-bs-target="#modalProducto">
                 Ver más
               </button>
@@ -374,35 +250,38 @@
 
       </div>
     </section>
-    <!-- Modal -->
-    <div class="modal fade" id="modalProducto" tabindex="-1" aria-labelledby="modalProducto" aria-hidden="true">
-      <div class="modal-dialog modal-lg modal-dialog-centered">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title">Nombre del Producto</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
-          </div>
-          <div class="modal-body">
-            <div class="container-fluid">
-              <div class="row">
-                <div class="col-md-6">
-                  <img src="img/Cocina/D_NQ_NP_815163-MLB42175908102_062020-W.jpg" class="img-fluid" alt="Producto">
-                </div>
-                <div class="col-md-6">
-                  <h3>Producto</h3>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas atque aliquam cumque quae,
-                    distinctio accusamus consequuntur dolorem dignissimos rerum temporibus veniam corrupti officiis
-                    aperiam fugit perferendis? Ea, dolore fuga. Voluptate?</p>
-                  <p><strong>Precio:</strong> $25.000</p>
-                  <!-- Botón para agregar al carrito -->
-                  <button type="button" class="btn btn-success">Agregar al Carrito</button>
+      <!-- Modal -->
+      <div class="modal fade" id="modalProducto" tabindex="-1" aria-labelledby="modalProducto" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Nombre del Producto</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+            </div>
+            <div class="modal-body">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-md-6">
+                    <img src="img/Cocina/D_NQ_NP_815163-MLB42175908102_062020-W.jpg" class="img-fluid" alt="Producto">
+                  </div>
+                  <div class="col-md-6">
+                    <h3>Producto</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas atque aliquam cumque quae,
+                      distinctio accusamus consequuntur dolorem dignissimos rerum temporibus veniam corrupti officiis
+                      aperiam fugit perferendis? Ea, dolore fuga. Voluptate?</p>
+                    <p><strong>Precio:</strong> $25.000</p>
+                    <!-- Botones para detalles y agregar al carrito -->
+                    <div class="d-flex flex-column flex-md-row gap-2 mt-3">
+                      <a href="producto.html" class="btn btn-success w-100">Más Detalles</a>
+                      <button type="button" class="btn btn-success w-100">Agregar al Carrito</button>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>          
+          </div>
         </div>
       </div>
-    </div>
 
   </main>
 
@@ -410,12 +289,12 @@
     <div class="container">
       <div class="row align-items-center">
         <!-- Perfil -->
-        <div class="col-md-3 d-flex justify-content-center">
+        <div class="col-12 col-md-3 d-flex justify-content-center">
           <img src="img/perfil.webp" alt="foto de perfil" class="img-fluid rounded-circle mb-3" style="width: 150px;">
         </div>
 
         <!-- Datos -->
-        <div class="col-md-6 d-flex flex-column align-items-center">
+        <div class="col-12 col-md-6 d-flex flex-column align-items-center">
           <p class="mb-1">Ricardo Rodolfo García</p>
           <p class="mb-1">36 años</p>
           <p class="mb-1">Ricardo.garcia@davinci.edu.ar</p>
@@ -423,21 +302,16 @@
         </div>
 
         <!-- Redes sociales -->
-        <div class="col-md-3 d-flex justify-content-center justify-content-md-end">
-          <ul class="list-unstyled d-flex">
+        <div class="col-12 col-md-3 d-flex justify-content-center justify-content-md-end">
+          <ul class="list-unstyled d-flex">            
             <li class="mx-3">
-              <a href="https://www.facebook.com/martes.sano.7" target="_blank" class="text-white">
-                <i class="bi bi-facebook fs-3"></i>
-              </a>
-            </li>
-            <li class="mx-3">
-              <a href="https://www.instagram.com/artesano_beer.co" target="_blank" class="text-white">
+              <a href="https://www.instagram.com/bruno.decohogar/" target="_blank" class="text-white">
                 <i class="bi bi-instagram fs-3"></i>
               </a>
             </li>
             <li class="mx-3">
-              <a href="https://www.tiktok.com/@arte_sanobeerco" target="_blank" class="text-white">
-                <i class="bi bi-tiktok fs-3"></i>
+              <a href="https://wa.me/5491133968453" target="_blank" class="text-white">
+                <i class="bi bi-whatsapp fs-3"></i>
               </a>
             </li>
           </ul>
