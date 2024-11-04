@@ -6,10 +6,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
 
 <body>
@@ -53,8 +53,8 @@
               </a>
             </li> -->
             <li class="nav-item mx-2">
-              <a class="nav-link d-flex flex-column align-items-center text-center" href="#"
-                 data-bs-toggle="offcanvas" data-bs-target="#Carrito" aria-controls="Carrito" aria-expanded="false">
+              <a class="nav-link d-flex flex-column align-items-center text-center" href="#" data-bs-toggle="offcanvas"
+                data-bs-target="#Carrito" aria-controls="Carrito" aria-expanded="false">
                 <i class="bi bi-cart4 fs-3 text-crema-claro"></i>
                 <span>Mi carrito</span>
               </a>
@@ -62,7 +62,7 @@
           </ul>
         </div>
       </div>
-    </nav>  
+    </nav>
     <!-- Navbar movile -->
     <nav class="navbar navbar-expand-lg bg-verde-pino d-lg-none">
       <div class="container-fluid d-flex justify-content-between align-items-center">
@@ -92,7 +92,7 @@
       <button class="btn btn-outline-light" type="submit">
         <i class="fa fa-search"></i>
       </button>
-    </form>  
+    </form>
 
     <!-- offcanvas menu -->
     <div class="offcanvas offcanvas-end bg-verde-pino" data-bs-backdrop="static" tabindex="-1" id="staticBackdrop">
@@ -117,36 +117,14 @@
               <a class="nav-link text-verde-oscuro fw-bold" aria-current="page" href="productos.html">
                 Productos
               </a>
-            </li>      
-            <li class="nav-item divider-list">
-              <a class="nav-link text-verde-oscuro fw-bold" aria-current="page" href="contacto.html"> Contacto
-                <!-- <i
-                  class="bi bi-envelope fs-3 text-crema-claro"></i> -->
-              </a>
             </li>
-
-          </ul>
-          <!-- Menú normal -->
-
-
+            <li class="nav-item divider-list">
+              <a class="nav-link text-verde-oscuro fw-bold" aria-current="page" href="contacto.html"> Contacto</a>
+            </li>
+          </ul>        
         </div>
       </div>
-      <!-- <div class="offcanvas-footer">
-        <div>
-          <ul class="navbar-nav d-flex flex-row justify-content-end ms-auto mb-2 mb-lg-0">
-            <li class="nav-item d-flex flex-column align-items-center mx-2">
-              <a class="nav-link text-crema-claro" href="#">Iniciar Sesión</a>
-            </li>
-            <li class="nav-item d-flex flex-column align-items-center mx-2">
-              <a class="nav-link text-crema-claro" href="#">Crear Cuenta</a>
-            </li>
-            <li class="nav-item d-flex flex-column align-items-center mx-2">
-              <i class="bi bi-person fs-2 text-crema-claro"></i>
-            </li>
-          </ul>
-
-        </div>
-      </div> -->
+      
     </div>
 
     <!-- Carrito offcanvas -->
@@ -185,103 +163,210 @@
   </header>
   <main>
 
-    <!-- Productos Destacados -->
-    <section class="container my-5">
-      <h2 class="text-center mb-4">Productos Destacados</h2>
-      <div class="row">
-        <!-- Producto -->
-        <div class="col-md-6 col-lg-3">
-          <div class="card d-flex align-items-center">
-            <img src="img/Cocina/D_NQ_NP_815163-MLB42175908102_062020-W.jpg" class="object-cover" alt="Producto 1"
-              style="object-fit: contain; width: 230px;">
-            <div class="card-body d-flex flex-column align-items-center">
+   <!-- Productos Destacados -->
+   <section class="container my-5">
+    <h2 class="text-center mb-4">Productos</h2>
+    <div class="row">
+      <!-- Producto -->
+      <div class="col-md-6 col-lg-3">
+        <div class="card d-flex align-items-center">
+          <img src="img/Cocina/D_NQ_NP_815163-MLB42175908102_062020-W.jpg" class="object-cover" alt="Producto 1"
+            style="object-fit: contain; width: 230px;">
+            <div class="card-body">
               <h5 class="card-title">Nombre del Producto</h5>
-              <p class="card-text">Descripción</p>
-              <button type="button" class="btn btn-success w-100" data-bs-toggle="modal"
-                data-bs-target="#modalProducto">
-                Ver más
-              </button>
+              <p class="text-muted mb-1"><del>$900,000</del> <strong class="text-danger">$585,000</strong> <span
+                  class="text-success">35% OFF</span></p>
+                  <button type="button" class="btn btn-success w-100" data-bs-toggle="modal"
+                    data-bs-target="#modalProducto">
+                    Ver más
+                  </button>
             </div>
+          
+        </div>
+      </div>
+      <!-- Producto -->
+      <div class="col-md-6 col-lg-3">
+        <div class="card d-flex align-items-center">
+          <img src="img/Cocina/thumb_3541_031792.jpg" class="card-img-top" alt="Producto 1">
+          <div class="card-body">
+            <h5 class="card-title">Nombre del Producto</h5>
+            <p class="text-muted mb-1"><del>$900,000</del> <strong class="text-danger">$585,000</strong> <span
+                class="text-success">35% OFF</span></p>
+                <button type="button" class="btn btn-success w-100" data-bs-toggle="modal"
+                  data-bs-target="#modalProducto">
+                  Ver más
+                </button>
           </div>
         </div>
-        <!-- Producto -->
-        <div class="col-md-6 col-lg-3">
-          <div class="card d-flex align-items-center">
-            <img src="img/Cocina/thumb_3541_031792.jpg" class="card-img-top" alt="Producto 1">
-            <div class="card-body d-flex flex-column align-items-center">
-              <h5 class="card-title">Nombre del Producto</h5>
-              <p class="card-text">Descripción</p>
-              <button type="button" class="btn btn-success w-100" data-bs-toggle="modal"
-                data-bs-target="#modalProducto">
-                Ver más
-              </button>
-            </div>
+      </div>
+      <!-- Producto -->
+      <div class="col-md-6 col-lg-3">
+        <div class="card d-flex align-items-center">
+          <img src="img/Dormitorio/1647874049730.jpg" class="card-img-top" alt="Producto 1">
+          <div class="card-body">
+            <h5 class="card-title">Nombre del Producto</h5>
+            <p class="text-muted mb-1"><del>$900,000</del> <strong class="text-danger">$585,000</strong> <span
+                class="text-success">35% OFF</span></p>
+                <button type="button" class="btn btn-success w-100" data-bs-toggle="modal"
+                  data-bs-target="#modalProducto">
+                  Ver más
+                </button>
           </div>
         </div>
-        <!-- Producto -->
-        <div class="col-md-6 col-lg-3">
-          <div class="card d-flex align-items-center">
-            <img src="img/Dormitorio/1647874049730.jpg" class="card-img-top" alt="Producto 1">
-            <div class="card-body d-flex flex-column align-items-center">
+      </div>
+      <!-- Producto -->
+      <div class="col-md-6 col-lg-3">
+        <div class="card d-flex align-items-center">
+          <img src="img/Cocina/storage emulated 0 DCIM Camera IMG_20240809_110643.jpg" class="card-img-top"
+            alt="Producto 1">
+            <div class="card-body">
               <h5 class="card-title">Nombre del Producto</h5>
-              <p class="card-text">Descripción</p>
-              <button type="button" class="btn btn-success w-100" data-bs-toggle="modal"
-                data-bs-target="#modalProducto">
-                Ver más
-              </button>
+              <p class="text-muted mb-1"><del>$900,000</del> <strong class="text-danger">$585,000</strong> <span
+                  class="text-success">35% OFF</span></p>
+                  <button type="button" class="btn btn-success w-100" data-bs-toggle="modal"
+                    data-bs-target="#modalProducto">
+                    Ver más
+                  </button>
             </div>
+        </div>
+      </div>
+
+    </div>
+    <div class="row mt-5">
+      <!-- Producto -->
+      <div class="col-md-6 col-lg-3">
+        <div class="card d-flex align-items-center">
+          <img src="img/Cocina/D_NQ_NP_815163-MLB42175908102_062020-W.jpg" class="object-cover" alt="Producto 1"
+            style="object-fit: contain; width: 230px;">
+            <div class="card-body">
+              <h5 class="card-title">Nombre del Producto</h5>
+              <p class="text-muted mb-1"><del>$900,000</del> <strong class="text-danger">$585,000</strong> <span
+                  class="text-success">35% OFF</span></p>
+                  <button type="button" class="btn btn-success w-100" data-bs-toggle="modal"
+                    data-bs-target="#modalProducto">
+                    Ver más
+                  </button>
+            </div>
+          
+        </div>
+      </div>
+      <!-- Producto -->
+      <div class="col-md-6 col-lg-3">
+        <div class="card d-flex align-items-center">
+          <img src="img/Cocina/thumb_3541_031792.jpg" class="card-img-top" alt="Producto 1">
+          <div class="card-body">
+            <h5 class="card-title">Nombre del Producto</h5>
+            <p class="text-muted mb-1"><del>$900,000</del> <strong class="text-danger">$585,000</strong> <span
+                class="text-success">35% OFF</span></p>
+                <button type="button" class="btn btn-success w-100" data-bs-toggle="modal"
+                  data-bs-target="#modalProducto">
+                  Ver más
+                </button>
           </div>
         </div>
-        <!-- Producto -->
-        <div class="col-md-6 col-lg-3">
-          <div class="card d-flex align-items-center">
-            <img src="img/Cocina/storage emulated 0 DCIM Camera IMG_20240809_110643.jpg" class="card-img-top"
-              alt="Producto 1">
-            <div class="card-body d-flex flex-column align-items-center">
-              <h5 class="card-title">Nombre del Producto</h5>
-              <p class="card-text">Descripción</p>
-              <button type="button" class="btn btn-success w-100" data-bs-toggle="modal"
-                data-bs-target="#modalProducto">
-                Ver más
-              </button>
-            </div>
+      </div>
+      <!-- Producto -->
+      <div class="col-md-6 col-lg-3">
+        <div class="card d-flex align-items-center">
+          <img src="img/Dormitorio/1647874049730.jpg" class="card-img-top" alt="Producto 1">
+          <div class="card-body">
+            <h5 class="card-title">Nombre del Producto</h5>
+            <p class="text-muted mb-1"><del>$900,000</del> <strong class="text-danger">$585,000</strong> <span
+                class="text-success">35% OFF</span></p>
+                <button type="button" class="btn btn-success w-100" data-bs-toggle="modal"
+                  data-bs-target="#modalProducto">
+                  Ver más
+                </button>
           </div>
+        </div>
+      </div>
+      <!-- Producto -->
+      <div class="col-md-6 col-lg-3">
+        <div class="card d-flex align-items-center">
+          <img src="img/Cocina/storage emulated 0 DCIM Camera IMG_20240809_110643.jpg" class="card-img-top"
+            alt="Producto 1">
+            <div class="card-body">
+              <h5 class="card-title">Nombre del Producto</h5>
+              <p class="text-muted mb-1"><del>$900,000</del> <strong class="text-danger">$585,000</strong> <span
+                  class="text-success">35% OFF</span></p>
+                  <button type="button" class="btn btn-success w-100" data-bs-toggle="modal"
+                    data-bs-target="#modalProducto">
+                    Ver más
+                  </button>
+            </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <div class="modal fade" id="modalProducto" tabindex="-1" aria-labelledby="modalProductoLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Nombre del Producto</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
         </div>
 
-      </div>
-    </section>
-      <!-- Modal -->
-      <div class="modal fade" id="modalProducto" tabindex="-1" aria-labelledby="modalProducto" aria-hidden="true">
-        <div class="modal-dialog modal-lg modal-dialog-centered">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title">Nombre del Producto</h5>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
-            </div>
-            <div class="modal-body">
-              <div class="container-fluid">
-                <div class="row">
-                  <div class="col-md-6">
-                    <img src="img/Cocina/D_NQ_NP_815163-MLB42175908102_062020-W.jpg" class="img-fluid" alt="Producto">
+        <div class="modal-body">
+          <div class="card shadow-sm p-3">
+            <div class="row g-0">
+              <!-- Imagen Principal y Miniaturas -->
+              <div class="col-12 col-md-6 d-flex flex-column align-items-center">
+                <!-- Imagen Principal -->
+                <img id="mainImageModal" src="img/Cocina/D_NQ_NP_815163-MLB42175908102_062020-W.jpg"
+                  class="img-fluid mb-3 w-75" alt="Sofá relax cielo">
+                <!-- Miniaturas -->
+                <div class="d-flex gap-2">
+                  <img src="img/Cocina/23498015EBM001G.jpg" alt="Vista 1" class="img-thumbnail"
+                    style="width: 60px; height: 60px;"
+                    onclick="changeMainImageModal('img/Cocina/23498015EBM001G.jpg')">
+                  <img src="img/Cocina/CUBIERTOS-CAREYES-ORO-ROSA-1_1000x.jpg" alt="Vista 2" class="img-thumbnail"
+                    style="width: 60px; height: 60px;"
+                    onclick="changeMainImageModal('img/Cocina/CUBIERTOS-CAREYES-ORO-ROSA-1_1000x.jpg')">
+                  <img src="img/Cocina/D_NQ_NP_815163-MLB42175908102_062020-W.jpg" alt="Vista 3" class="img-thumbnail"
+                    style="width: 60px; height: 60px;"
+                    onclick="changeMainImageModal('img/Cocina/D_NQ_NP_815163-MLB42175908102_062020-W.jpg')">
+                </div>
+              </div>
+              <!-- Información del Producto -->
+              <div class="col-12 col-md-6">
+                <div class="card-body">
+                  <h3 class="card-title">Detalle del producto</h3>
+                  <p class="text-muted"><del>$64,916</del> <strong class="text-danger">$42,195</strong> <span
+                      class="text-success">35% OFF</span></p>
+                  <p class="text-success">Mismo precio en 3 cuotas de $14,065</p>
+                  <p class="text-success">Llega gratis el jueves 14 de noviembre</p>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit doloremque,
+                    reprehenderit autem fugit beatae eius. Aut tempore similique, recusandae molestiae a odit
+                    blanditiis
+                    accusantium veniam, sapiente dolor nisi soluta dolorum?</p>
+
+                  <!-- Stock y Selección de Cantidad -->
+                  <p class="fw-bold">Stock disponible</p>
+                  <div class="d-flex align-items-center mb-3">
+                    <label for="cantidadModal" class="me-2">Cantidad:</label>
+                    <select id="cantidadModal" class="form-select me-2" style="width: auto;">
+                      <option value="1">1 unidad</option>
+                      <option value="2">2 unidades</option>
+                      <option value="3">3 unidades</option>
+                      <option value="4">4 unidades</option>
+                      <option value="5">5 unidades</option>
+                      <option value="6">6 unidades</option>
+                    </select>
+                    <span class="text-muted">(+10 disponibles)</span>
                   </div>
-                  <div class="col-md-6">
-                    <h3>Producto</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas atque aliquam cumque quae,
-                      distinctio accusamus consequuntur dolorem dignissimos rerum temporibus veniam corrupti officiis
-                      aperiam fugit perferendis? Ea, dolore fuga. Voluptate?</p>
-                    <p><strong>Precio:</strong> $25.000</p>
-                    <!-- Botones para detalles y agregar al carrito -->
-                    <div class="d-flex flex-column flex-md-row gap-2 mt-3">
-                      <a href="producto.html" class="btn btn-success w-100">Más Detalles</a>
-                      <button type="button" class="btn btn-success w-100">Agregar al Carrito</button>
-                    </div>
-                  </div>
+                  <!-- Botones de Compra -->
+                  <button class="btn btn-success w-100 mb-2">Comprar ahora</button>
+                  <button class="btn btn-outline-success w-100 mb-2">Agregar al carrito</button>
+                  <a href="producto.html" class="btn btn-outline-success w-100">Más detalles</a>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
+    </div>
+  </div>
 
   </main>
 
@@ -303,7 +388,7 @@
 
         <!-- Redes sociales -->
         <div class="col-12 col-md-3 d-flex justify-content-center justify-content-md-end">
-          <ul class="list-unstyled d-flex">            
+          <ul class="list-unstyled d-flex">
             <li class="mx-3">
               <a href="https://www.instagram.com/bruno.decohogar/" target="_blank" class="text-white">
                 <i class="bi bi-instagram fs-3"></i>
