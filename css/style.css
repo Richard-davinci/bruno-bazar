@@ -8,6 +8,7 @@
   --color-verde-oscuro: #45462A;
   --color-verde-pino: #26603F;
   --color-dark: #4e4e4e;
+  --box-shadow: 0px 0px 5px #000
 
 }
   
@@ -73,16 +74,16 @@
 .text-verde-pino {
   color: var(--color-verde-pino);
 }
-
 body {
   background-color: var(--color-crema-claro);
   font-family: Roboto, sans-serif;
   color: var(--color-verde-oscuro);
 }
+/*-------------estilos navbar-----------*/
 
 .navbar .nav-link {
   color: var(--color-crema-claro);
-  /* text-transform: uppercase; */
+
 }
 
 .navbar .nav-link.active {
@@ -108,7 +109,7 @@ body {
 }
 
 
-/* Estilos para el carrusel */
+/*--------------- Estilos para el carrusel ---------------------*/
 .carousel-item img {
   height: 500px; /* Puedes ajustar la altura según tus necesidades */
   object-fit: cover;
@@ -124,18 +125,24 @@ body {
 .carousel-indicators  .active {
   background-color: var(--color-verde-pino); 
 }
+/*------------estilos sobre nosotros ------------------------*/
+.conocenos {
+  background-color: #f9f9f9;
+}
+.imagen-conocenos {
+  box-shadow: 0px 0px 10px  #000 ;
+}
 
-/* Estilos para la sección de productos destacados */
+/* -------------Estilos para la sección de productos destacados------------------------ */
 section h2 {
   font-weight: bold;
   color: var(--color-verde-oscuro);
 }
-
-.card > img{
+.card{
+  border: none;
+}
+.img-producto{
   width: 300px;
-  height: 250px;
-  object-fit: cover;
-  object-position: center;
 }
 
 .card-title {
@@ -145,11 +152,45 @@ section h2 {
 .card-text {
   color: var(--color-verde-oscuro);
 }
-
-.btn-primary {
-  border: none;
+.productoCard:hover{
+  cursor: pointer!;
+  transition: transform 0.2s ease;
 }
 
 .btn-primary:hover {
   background-color: var(--color-verde-oscuro);
 }
+
+.img-miniatura:hover{
+  cursor: pointer;
+}
+
+
+  .zoom-container {
+    position: relative;
+    display: inline-block;
+  }
+
+  .zoom-image {
+    cursor: zoom-in;
+  }
+
+  .zoom-result {
+    position: absolute;
+    top: 0;
+    left: 100%; /* Mostrar a la derecha de la imagen */
+    width: 500px; /* Ajusta el ancho del zoom */
+    height: 500px; /* Ajusta el alto del zoom */
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+    overflow: hidden;
+    display: none; /* Ocultar por defecto */
+    z-index: 10;
+  }
+
+  .zoom-result img {
+    position: absolute;
+    width: 200%; /* Ajusta el nivel de zoom */
+    height: auto;
+  }
+
