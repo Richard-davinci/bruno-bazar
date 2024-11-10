@@ -185,42 +185,46 @@
   </header>
   <main class="container my-5">
     <section>
-      <!-- Detalle del Producto -->
+      <!-- Detalle del Producto -->     
       <div class="card mb-5 shadow-sm p-3">
         <div class="row g-0">
           <!-- Imagen Principal y Miniaturas -->
-          <div class="col-12 col-md-6 d-flex flex-column align-items-center">
+          <div class="col-12 col-lg-6 d-flex flex-column align-items-center">
             <!-- Imagen Principal -->
-            <img id="mainImage" src="img/Cocina/IMG_20240717_131336.jpg" class="img-fluid mb-3 w-50"
-              alt="Sofá relax cielo">
+            <img id="mainImageModal" src="img/Cocina/1/set-cuchillas-tramontina.webp"
+              class="img-fluid zoom-image mb-3 w-75" alt="Producto">
             <!-- Miniaturas -->
             <div class="d-flex gap-2">
-              <img src="img/Cocina/23498015EBM001G.jpg" alt="Vista 1" class="img-thumbnail"
-                style="width: 60px; height: 60px;" onclick="changeMainImage('img/Cocina/23498015EBM001G.jpg')">
-              <img src="img/Cocina/CUBIERTOS-CAREYES-ORO-ROSA-1_1000x.jpg" alt="Vista 2" class="img-thumbnail"
-                style="width: 60px; height: 60px;"
-                onclick="changeMainImage('img/Cocina/CUBIERTOS-CAREYES-ORO-ROSA-1_1000x.jpg')">
-              <img src="img/Cocina/IMG_20240717_131336.jpg" alt="Vista 3" class="img-thumbnail"
-                style="width: 60px; height: 60px;" onclick="changeMainImage('img/Cocina/IMG_20240717_131336.jpg')">
+              <img src="img/Cocina/1/set-cuchillas-tramontina.webp" class="img-miniatura border rounded-2"
+                onclick="changeMainImageModal('img/Cocina/1/set-cuchillas-tramontina.webp')">
+              <img src="img/Cocina/1/set-cuchillas-tramontina_caja.webp" class="img-miniatura border rounded-2"
+                onclick="changeMainImageModal('img/Cocina/1/set-cuchillas-tramontina_caja.webp')">
+              <img src="img/Cocina/1/set-cuchillos+taco.webp" class="img-miniatura border rounded-2"
+                onclick="changeMainImageModal('img/Cocina/1/set-cuchillos+taco.webp')">
+              <img src="img/Cocina/1/set-cuchillos.webp" class="img-miniatura border rounded-2"
+                onclick="changeMainImageModal('img/Cocina/1/set-cuchillos.webp')">
             </div>
           </div>
           <!-- Información del Producto -->
-          <div class="col-12 col-md-6">
+          <div class="col-12 col-lg-6">
+
             <div class="card-body">
-              <h3 class="card-title">Nombre del Producto</h3>
-              <p class="text-muted"><del>$64,916</del> <strong class="text-danger">$42,195</strong> <span
-                  class="text-success">35% OFF</span></p>
-              <p class="text-success">Mismo precio en 3 cuotas de $14,065</p>
-              <p class="text-success">Llega gratis el jueves 14 de noviembre</p>
-              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit doloremque,
-                reprehenderit autem fugit beatae eius. Aut tempore similique, recusandae molestiae a odit blanditiis
-                accusantium veniam, sapiente dolor nisi soluta dolorum?</p>
+              <h3 class="fs-6">TRAMONTINA</h3>
+              <p class="card-title">Set 4 Cuchillos Tramontina De Cocina Taco De Madera Y Tijera</p>
+              <small class="text-black-50"><del>$67.352</del></small>
+              <p class="text-muted mb-1 fs-4"> <strong class="text-danger">$43.778</strong> <span
+                  class="text-success fs-6">35%
+                  OFF</span>
+              </p>
+              <p class="text-success">Mismo precio en 3 cuotas de $14,593</p>
+              <p class="text-success">Llega gratis el lunes</p>
+
 
               <!-- Stock y Selección de Cantidad -->
               <p class="fw-bold">Stock disponible</p>
-              <div class="d-flex align-items-center mb-3">
-                <label for="cantidad" class="me-2">Cantidad:</label>
-                <select id="cantidad" class="form-select me-2" style="width: auto;">
+              <div class="d-flex align-items-center flex-wrap mb-3">
+                <label for="cantidadModal" class="me-2">Cantidad:</label>
+                <select id="cantidadModal" class="form-select me-2" style="width: auto;">
                   <option value="1">1 unidad</option>
                   <option value="2">2 unidades</option>
                   <option value="3">3 unidades</option>
@@ -228,16 +232,15 @@
                   <option value="5">5 unidades</option>
                   <option value="6">6 unidades</option>
                 </select>
-                <span class="text-muted">(+10 disponibles)</span>
+                <small class="text-muted mt-1">(+10 disponibles)</small>
               </div>
               <!-- Botones de Compra -->
-              <button class="btn btn-success w-50 mb-2">Comprar ahora</button>
-              <button class="btn btn-outline-success w-50">Agregar al carrito</button>
+              <a href="producto.html" class="btn btn-success w-100 mb-2">Comprar</a>
+              <button class="btn btn-outline-success  mb-2">Agregar al carrito</button>
             </div>
           </div>
         </div>
-      </div>
-
+      </div>      
 
       <!-- Características del Producto y Opciones -->
       <div class="row">
