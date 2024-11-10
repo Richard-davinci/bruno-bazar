@@ -6,19 +6,19 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
 
 <body>
   <header>
     <!-- Navbar principal -->
-    <nav class="navbar navbar-expand-lg bg-verde-pino d-none d-lg-flex ">
+    <nav class="navbar navbar-expand-lg bg-verde-pino d-none d-lg-flex">
       <div class="container-fluid d-flex justify-content-between align-items-center">
         <a class="navbar-brand" href="index.html">
-          <img src="img/Logos/logo-2.webp" alt="Bruno Bazar logo" width="120">
+          <img src="img/Logos/logo.webp" alt="Bruno Bazar logo" width="120">
         </a>
         <form class="input-search d-flex d-none d-lg-flex" role="search">
           <input class="form-control me-2 w-100" type="search" placeholder="¿Qué estás buscando?" aria-label="Search">
@@ -62,10 +62,9 @@
           </ul>
         </div>
       </div>
-
     </nav>
     <!-- Navbar movile -->
-    <nav class="navbar navbar-expand-lg bg-verde-pino d-lg-none ">
+    <nav class="navbar navbar-expand-lg bg-verde-pino d-lg-none">
       <div class="container-fluid d-flex justify-content-between align-items-center">
         <a class="navbar-brand" href="index.html">
           <img src="img/Logos/logo.webp" alt="Bruno Bazar logo" width="120">
@@ -104,13 +103,14 @@
           <img src="img/Logos/logo.webp" alt="Bruno Bazar logo" width="120">
         </a>
       </div>
-      <div class="offcanvas-body bg-white">
+      <div class="offcanvas-body bg-beige-claro">
         <div>
           <!-- Menú solo en movile -->
           <ul class="navbar-nav d-lg-none flex-start">
             <li class="nav-item divider-list">
               <a class="nav-link text-verde-oscuro fw-bold" aria-current="page" href="index.html">
                 Inicio
+                <!-- <i class="bi bi-house fs-3 text-crema-claro"></i> -->
               </a>
             </li>
             <li class="nav-item divider-list">
@@ -119,12 +119,34 @@
               </a>
             </li>
             <li class="nav-item divider-list">
-              <a class="nav-link text-verde-oscuro fw-bold" aria-current="page" href="contacto.html"> Contacto </a>
+              <a class="nav-link text-verde-oscuro fw-bold" aria-current="page" href="contacto.html"> Contacto
+                <!-- <i
+                  class="bi bi-envelope fs-3 text-crema-claro"></i> -->
+              </a>
             </li>
+
           </ul>
           <!-- Menú normal -->
+
+
         </div>
       </div>
+      <!-- <div class="offcanvas-footer">
+        <div>
+          <ul class="navbar-nav d-flex flex-row justify-content-end ms-auto mb-2 mb-lg-0">
+            <li class="nav-item d-flex flex-column align-items-center mx-2">
+              <a class="nav-link text-crema-claro" href="#">Iniciar Sesión</a>
+            </li>
+            <li class="nav-item d-flex flex-column align-items-center mx-2">
+              <a class="nav-link text-crema-claro" href="#">Crear Cuenta</a>
+            </li>
+            <li class="nav-item d-flex flex-column align-items-center mx-2">
+              <i class="bi bi-person fs-2 text-crema-claro"></i>
+            </li>
+          </ul>
+
+        </div>
+      </div> -->
     </div>
 
     <!-- Carrito offcanvas -->
@@ -132,15 +154,20 @@
       <div class="offcanvas-header d-flex  align-items-start ">
         <button type="button" class="navbar-toggler rounded-2 p-2" data-bs-dismiss="offcanvas" aria-label="Close"><i
             class="bi bi-x fs-1 text-crema-claro"></i></button>
+
       </div>
-      <div class="offcanvas-body bg-white">
+      <div class="offcanvas-body bg-beige-claro">
         <div>
           <!-- Menú solo en movile -->
           <ul class="navbar-nav  ">
             <li class="nav-item divider-list  border border-2 border-success rounded-2 px-4">
               <a class="nav-link text-verde-oscuro" href="#">El carrito de compras está vacío. </a>
             </li>
+
           </ul>
+          <!-- Menú normal -->
+
+
         </div>
       </div>
       <div class="offcanvas-footer">
@@ -149,7 +176,9 @@
             <li class="nav-item mx-2">
               <a class="nav-link text-crema-claro" href="#">Finalizar Compra</a>
             </li>
+
           </ul>
+
         </div>
       </div>
     </div>
@@ -160,34 +189,22 @@
       <div class="card mb-5 shadow-sm p-3">
         <div class="row g-0">
           <!-- Imagen Principal y Miniaturas -->
-          <div class="col-12 col-lg-6 d-flex flex-column align-items-center">
+          <div class="col-12 col-lg-8 d-flex flex-column align-items-center ">
             <!-- Imagen Principal -->
-            <img id="mainImageModal" src="img/Cocina/1/set-cuchillas-tramontina.webp"
-              class="img-fluid zoom-image mb-3 w-75" alt="Producto">
-            <!-- Miniaturas -->
-            <div class="d-flex gap-2">
-              <img src="img/Cocina/1/set-cuchillas-tramontina.webp" class="img-miniatura border rounded-2"
-                onclick="changeMainImageModal('img/Cocina/1/set-cuchillas-tramontina.webp')">
-              <img src="img/Cocina/1/set-cuchillas-tramontina_caja.webp" class="img-miniatura border rounded-2"
-                onclick="changeMainImageModal('img/Cocina/1/set-cuchillas-tramontina_caja.webp')">
-              <img src="img/Cocina/1/set-cuchillos+taco.webp" class="img-miniatura border rounded-2"
-                onclick="changeMainImageModal('img/Cocina/1/set-cuchillos+taco.webp')">
-              <img src="img/Cocina/1/set-cuchillos.webp" class="img-miniatura border rounded-2"
-                onclick="changeMainImageModal('img/Cocina/1/set-cuchillos.webp')">
-            </div>
+            <img id="producto-imagenPrincipal" class="img-fluid zoom-image mb-3 w-75" alt="Producto">
+            <div class="d-flex gap-2" id="producto-miniaturas"></div> <!-- Mismo ID -->
           </div>
           <!-- Información del Producto -->
-          <div class="col-12 col-lg-6">
+          <div class="col-12 col-lg-4">
 
-            <div class="card-body">
-              <h3 class="fs-6">TRAMONTINA</h3>
-              <p class="card-title">Set 4 Cuchillos Tramontina De Cocina Taco De Madera Y Tijera</p>
-              <small class="text-black-50"><del>$67.352</del></small>
-              <p class="text-muted mb-1 fs-4"> <strong class="text-danger">$43.778</strong> <span
-                  class="text-success fs-6">35%
-                  OFF</span>
+            <div class="card-body">              
+              <h1 id="producto-descripcion" class="fs-4"></h1>
+              <small class="text-black-50"><del id="producto-precioReal"></del></small>
+              <p class="mb-1 fs-4">
+                <strong id="producto-precio" class=""></strong> <span id="producto-descuento"
+                  class="text-success fs-6"></span>
               </p>
-              <p class="text-success">Mismo precio en 3 cuotas de $14,593</p>
+              <p id="producto-cuotas" class="text-success"></p>
               <p class="text-success">Llega gratis el lunes</p>
 
 
@@ -206,7 +223,7 @@
                 <small class="text-muted mt-1">(+10 disponibles)</small>
               </div>
               <!-- Botones de Compra -->
-              <a href="producto.html" class="btn btn-success w-100 mb-2">Comprar</a>
+              <a href="#" class="btn btn-success w-100 mb-2">Comprar</a>
               <button class="btn btn-outline-success w-100 mb-2">Agregar al carrito</button>
             </div>
           </div>
@@ -219,42 +236,33 @@
         <div class="col-12 col-md-8 mb-4">
           <div class="card p-3 shadow-sm">
             <div class="container">
-              <h5>Características principales</h5>
+              <h2 class="fs-4">Características principales</h2>
               <div class="row">
                 <!-- Características principales -->
-                <div class="col-md-6">
-                  <ul class="list-unstyled ms-3">
-                    <li><strong>Marca:</strong> Tramontina</li>
-                    <li><strong>Línea:</strong> Plenus</li>
-                    <li><strong>Modelo:</strong> 23498/015</li>
-                    <li><strong>Color:</strong> Madera</li>
-                    <li><strong>Unidades por pack:</strong> 6</li>
-                    <li><strong>Tipos de cuchillos:</strong> Cuchillo de chef Plenus de 7"</li>
-                    <li><strong>Material de la hoja:</strong> Acero inoxidable</li>
-                  </ul>
-                </div>
-            
-                <!-- Otras características -->
-                <div class="col-md-6">
-                  <ul class="list-unstyled ms-3">
-                    <li><strong>Material del mango:</strong> Plástico</li>
-                    <li><strong>Largo x Ancho:</strong> 33 cm x 2 cm</li>
-                    <li><strong>Es apto para lavavajillas:</strong> Sí</li>
-                    <li><strong>Cantidad de piezas:</strong> 6</li>
-                    <li><strong>Largo total:</strong> 27,5 cm</li>
-                    <li><strong>Largo de la hoja:</strong> 14,6 cm</li>
-                    <li><strong>Espesor:</strong> 1,5 cm</li>
-                  </ul>
+                <div class="row">
+                  <!-- Características principales -->
+                  <div class="col-md-6">
+                    <ul class="list-unstyled ms-3" id="producto-caracteristicas">
+
+                    </ul>
+                  </div>
+
+                  <!-- Otras características -->
+                  <div class="col-md-6">
+                    <ul class="list-unstyled ms-3" id="producto-caracteristicas-2">
+                    </ul>
+                  </div>
                 </div>
               </div>
             </div>
-            
+
           </div>
         </div>
+
         <!-- Opciones Adicionales -->
         <div class="col-12 col-md-4 mb-4">
           <div class="card p-3 shadow-sm bg-color-dark">
-            <h5 class="text-crema-claro text-center">Opciones y Beneficios</h5>
+            <h2 class="text-crema-claro text-center fs-4">Opciones y Beneficios</h2>
             <ul class="list-unstyled text-center">
               <li class="text-crema-claro"><i class="bi bi-credit-card me-2 text-crema-claro"></i>Hasta 3 cuotas sin
                 interés</li>
@@ -267,54 +275,15 @@
           </div>
         </div>
       </div>
-    </section>
-
-    <!-- Productos Relacionados -->
-    <section class="mt-5">
-      <h3>Productos Relacionados</h3>
-      <div class="row g-3">
-        <div class="col-12 col-md-3">
-          <div class="card shadow-sm">
-            <img src="img/Hogar/Sillon_celeste_cielo.jpeg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h6 class="card-title">Sofá Moderno DecoHogar</h6>
-              <p class="text-muted mb-1"><del>$900,000</del> <strong class="text-danger">$585,000</strong> <span
-                  class="text-success">35% OFF</span></p>
-            </div>
-          </div>
-        </div>
-        <div class="col-12 col-md-3">
-          <div class="card shadow-sm">
-            <img src="img/Hogar/beautiful-interior-room-design-concept.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h6 class="card-title">Sofá Chesterfield DecoHogar</h6>
-              <p class="text-muted mb-1"><del>$980,000</del> <strong class="text-danger">$637,000</strong> <span
-                  class="text-success">35% OFF</span></p>
-            </div>
-          </div>
-        </div>
-        <div class="col-12 col-md-3">
-          <div class="card shadow-sm">
-            <img src="img/Hogar/white-couch-with-cushions.jpg" class="card-img-top" alt="Producto Relacionado 3">
-            <div class="card-body">
-              <h6 class="card-title">Sofá Nórdico DecoHogar</h6>
-              <p class="text-muted mb-1"><del>$800,000</del> <strong class="text-danger">$520,000</strong> <span
-                  class="text-success">35% OFF</span></p>
-            </div>
-          </div>
-        </div>
-        <div class="col-12 col-md-3">
-          <div class="card shadow-sm">
-            <img src="img/Hogar/white-couch-with-cushions.jpg" class="card-img-top" alt="Producto Relacionado 3">
-            <div class="card-body">
-              <h6 class="card-title">Sofá Nórdico DecoHogar</h6>
-              <p class="text-muted mb-1"><del>$800,000</del> <strong class="text-danger">$520,000</strong> <span
-                  class="text-success">35% OFF</span></p>
-            </div>
-          </div>
+      <div class="col-12">
+        <h2 class="fs-4">Descripción</h2>
+        <div id="producto-descripcion-completa">
+          
         </div>
       </div>
     </section>
+
+
   </main>
   <footer id="contact" class="bg-dark text-white py-5">
     <div class="container">
@@ -354,7 +323,8 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
-  <script src="js/script.js"></script>
+  <script src="js/producto.js"></script>
 </body>
+
 
 </html>
