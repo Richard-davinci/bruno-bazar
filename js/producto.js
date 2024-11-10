@@ -36,9 +36,8 @@ function cargarDatosProducto(productId) {
           { id: "producto-precioReal", valor: producto.precioReal },
           { id: "producto-precio", valor: producto.precio },
           { id: "producto-descuento", valor: producto.descuento },
-          { id: "producto-cuotas", valor: `Mismo precio en 3 cuotas de $${(parseFloat(producto.precio.replace(/[^0-9.-]+/g, "")) / 3).toFixed(2)}` },
-           // Asignar la descripción completa con innerHTML
-        
+          { id: "producto-descuento", valor: producto.descuento },
+          { id: "producto-cuotas", valor: producto.cuotas },      
 
 
         ];
