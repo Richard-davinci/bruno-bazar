@@ -32,7 +32,7 @@
       "Largo de la hoja: 14,6 cm",
       "Espesor: 1,5 cm"
     ],
-    "descripcionCompleta": "<p>Modelo: 23498/015 Línea: Plenus</p><h3 class='fs-5 fw-bold'>Características:</h3><ul><li>Los cuchillos de la Línea PLENUS atienden a todas las necesidades de los que cocinan.</li><li>Elija el adecuado para cada alimento.</li><li>Las láminas de acero inoxidable reciben tratamiento térmico, que le da mayor durabilidad al filo y mangos de polipropileno.</li><li>Se pueden lavar en lavavajillas.</li></ul><h4 class='fs-6 fw-bold'>Incluye:</h4><ul><li>Cuchillo de legumbres de 3\"</li><li>Cuchillo para asado de 5\"</li><li>Cuchillo de cocina de 6\"</li><li>Cuchillo para carne de 7\"</li><li>Tijera multiuso de 8\"</li><li>Taco de madera</li></ul>"
+    "descripcionCompleta": "<p>Juego de cuchillos Tramontina con taco de madera y tijera</p><p>Modelo: 23498/015 Línea: Plenus</p><h3 class='fs-5 fw-bold'>Características:</h3><ul><li>Los cuchillos de la Línea PLENUS atienden a todas las necesidades de los que cocinan.</li><li>Elija el adecuado para cada alimento.</li><li>Las láminas de acero inoxidable reciben tratamiento térmico, que le da mayor durabilidad al filo y mangos de polipropileno.</li><li>Se pueden lavar en lavavajillas.</li></ul><h4 class='fs-6 fw-bold'>Incluye:</h4><ul><li>Cuchillo de legumbres de 3\"</li><li>Cuchillo para asado de 5\"</li><li>Cuchillo de cocina de 6\"</li><li>Cuchillo para carne de 7\"</li><li>Tijera multiuso de 8\"</li><li>Taco de madera</li></ul>"
   },
   {
     "id": "2",
@@ -40,32 +40,27 @@
     "descripcion": "Juego De Cubiertos Dorados X 16 Piezas Dublin.",
     "detalles": "Set de 4 cuchillos Tramontina de cocina con taco de madera y tijera.",
     "imagenPrincipal": "img/Cocina/2/Set-de-cubiertos-dorado.webp",
-    "miniatura1": "img/Cocina/1/set-cuchillas-tramontina.webp",
-    "miniatura2": "img/Cocina/1/set-cuchillas-tramontina_caja.webp",
-    "miniatura3": "img/Cocina/1/set-cuchillos+taco.webp",
-    "miniatura4": "img/Cocina/1/set-cuchillos.webp",
+    "miniatura1": "img/Cocina/2/cubiertos-dorados.webp",
+    "miniatura2": "img/Cocina/2/cubiertos-dorados-fondo.webp",
+    "miniatura3": "img/Cocina/2/Set-de-cubiertos-dorado.webp",
     "precioReal": "$109.990",
     "precio": "$71.494",
     "descuento": "35% OFF",
     "cuotas": "Mismo precio en 3 cuotas de  $23.832",
     "caracteristicas": [
-      "Marca: Tramontina",
-      "Línea: Plenus",
-      "Modelo: 23498/015",
-      "Color: Madera",
-      "Unidades por pack: 6",
-      "Tipos de cuchillos: Cuchillo de chef Plenus de 7\"",
+      "Marca: Binah Deco",
+      "Línea: Dublin",
+      "Modelo: Dublin",
+      "Tipo de envase: Caja",      
+      "Material del mango: Acero inoxidable",
       "Material de la hoja: Acero inoxidable"
     ],
     "caracteristicas-2": [
-      "Material del mango: Plástico",
-      "Largo x Ancho: 33 cm x 2 cm",
-      "Es apto para lavavajillas: Sí",
-      "Cantidad de piezas: 6",
-      "Largo total: 27,5 cm",
-      "Largo de la hoja: 14,6 cm",
-      "Espesor: 1,5 cm"
+      "Cubiertos incluidos: Cucharas de Mesa, Cucharitas de Postre, Cuchillo, Tenedor",
+      "Es apto para lavavajillas: No",
+      "Cantidad de piezas: 16",
+      "Es un kit de fábrica: Sí"    
     ],
-    "descripcionCompleta": "<p>Modelo: 23498/015 Línea: Plenus</p><h3 class='fs-5 fw-bold'>Características:</h3><ul><li>Los cuchillos de la Línea PLENUS atienden a todas las necesidades de los que cocinan.</li><li>Elija el adecuado para cada alimento.</li><li>Las láminas de acero inoxidable reciben tratamiento térmico, que le da mayor durabilidad al filo y mangos de polipropileno.</li><li>Se pueden lavar en lavavajillas.</li></ul><h4 class='fs-6 fw-bold'>Incluye:</h4><ul><li>Cuchillo de legumbres de 3\"</li><li>Cuchillo para asado de 5\"</li><li>Cuchillo de cocina de 6\"</li><li>Cuchillo para carne de 7\"</li><li>Tijera multiuso de 8\"</li><li>Taco de madera</li></ul>"
+    "descripcionCompleta": "<p>JUEGO DE CUBIERTOS DORADOS X 16 PIEZAS DUBLIN</p><p>Modelo: Dublin</p>  <h3 class='fs-5 fw-bold'>Características:</h3>  <ul>    <li>tenedor: 22.50cm</li>    <li>cuchara: 22.50cm</li>    <li>cuchillo: 21.50cm</li>    <li>cuchara postre: 13.00cm</li>    <li>material: acero</li>    <li>no apto a lavavajillas</li> </ul>"
   }
 ]
