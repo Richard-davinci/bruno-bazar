@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 :root {
   --color-crema-claro: #FEFAE0;
   --color-white: #f9f9f9;
@@ -8,10 +9,10 @@
   --color-verde-oscuro: #45462A;
   --color-verde-pino: #26603F;
   --color-dark: #4e4e4e;
-  --box-shadow: 0px 0px 5px #000
+  --border-bottom: 1px solid #0000003f;
 
 }
-  
+
 /* *{
   outline: 1px solid;
 } */
@@ -21,7 +22,7 @@
 }
 
 .bg-white {
-  background-color: var(--color-white); 
+  background-color: var(--color-white);
 }
 
 .bg-durazno-suave {
@@ -39,9 +40,11 @@
 .bg-verde-oscuro {
   background-color: var(--color-verde-oscuro);
 }
+
 .bg-verde-pino {
   background-color: var(--color-verde-pino);
 }
+
 .bg-color-dark {
   background-color: var(--color-dark);
 }
@@ -69,16 +72,20 @@
 
 .text-verde-oscuro {
   color: var(--color-verde-oscuro);
-  
+
 }
+
 .text-verde-pino {
   color: var(--color-verde-pino);
 }
+
 body {
   background-color: var(--color-crema-claro);
   font-family: Roboto, sans-serif;
-  color: var(--color-verde-oscuro);
+  color: var(--color-dark);
+
 }
+
 /*-------------estilos navbar-----------*/
 
 .navbar .nav-link {
@@ -91,46 +98,57 @@ body {
   font-weight: bold;
 }
 
-.navbar-collapse { 
-  flex-grow: 0; 
+.navbar-collapse {
+  flex-grow: 0;
 }
 
-.navbar-toggler{
+.navbar-toggler {
   border: 1px solid var(--color-crema-claro);
 }
-.navbar-toggler:hover{
+
+.navbar-toggler:hover {
   background-color: var(--color-crema-claro);
 }
-.navbar-toggler:hover > i{
+
+.navbar-toggler:hover>i {
   color: var(--color-verde-oscuro);
 }
-.navbar .input-search{
+
+.navbar .input-search {
   width: 40%;
 }
 
 
 /*--------------- Estilos para el carrusel ---------------------*/
 .carousel-item img {
-  height: 500px; /* Puedes ajustar la altura según tus necesidades */
+  height: 500px;
+  /* Puedes ajustar la altura según tus necesidades */
   object-fit: cover;
 }
+
 .carousel-indicators button {
-  background-color: var(--color-verde-pino); 
-  transition: background-color 0.3s ease, opacity 0.3s ease; 
+  background-color: var(--color-verde-pino);
+  transition: background-color 0.3s ease, opacity 0.3s ease;
 }
 
 .carousel-indicators button:hover {
-  background-color: var(--color-verde-pino); 
+  background-color: var(--color-verde-pino);
 }
-.carousel-indicators  .active {
-  background-color: var(--color-verde-pino); 
+
+.carousel-indicators .active {
+  background-color: var(--color-verde-pino);
 }
+
 /*------------estilos sobre nosotros ------------------------*/
 .conocenos {
   background-color: #f9f9f9;
+  border-bottom: var(--border-bottom);
 }
+
 .imagen-conocenos {
-  box-shadow: 0px 0px 10px  #000 ;
+  box-shadow: 0px 0px 10px #000;
+  width: 300px;
+  object-fit: cover;
 }
 
 /* -------------Estilos para la sección de productos destacados------------------------ */
@@ -138,11 +156,14 @@ section h2 {
   font-weight: bold;
   color: var(--color-verde-oscuro);
 }
-.card{
+
+.card {
   border: none;
 }
-.img-producto{
-  width: 300px;
+
+.img-producto {
+  max-width: 100%;
+
 }
 
 .card-title {
@@ -152,8 +173,9 @@ section h2 {
 .card-text {
   color: var(--color-verde-oscuro);
 }
-.productoCard:hover{
-  cursor: pointer!;
+
+.productoCard:hover {
+  cursor: pointer;
   transition: transform 0.2s ease;
 }
 
@@ -164,7 +186,8 @@ section h2 {
 .img-miniatura {
   width: 50px;
 }
-.img-miniatura:hover{
+
+.img-miniatura:hover {
   cursor: pointer;
 }
 
@@ -181,22 +204,29 @@ section h2 {
 .zoom-result {
   position: absolute;
   top: 0;
-  left: 100%; /* Mostrar a la derecha de la imagen */
-  width: 350px; /* Tamaño del área de zoom */
-  height: 400px; 
-  background-color: #fff; 
-  overflow: hidden; 
+  left: 100%;
+  /* Mostrar a la derecha de la imagen */
+  width: 350px;
+  /* Tamaño del área de zoom */
+  height: 400px;
+  background-color: #fff;
+  overflow: hidden;
   z-index: 10;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 .zoom-result img {
   position: absolute;
-  width: auto; /* Deja que el ancho se ajuste automáticamente */
-  height: auto; /* Deja que el alto se ajuste automáticamente */
-  max-width: none; /* Asegúrate de que no limite el tamaño */
-  max-height: none; /* Evita que limite el tamaño */
-  transform-origin: center center; /* Punto inicial del zoom */
+  width: auto;
+  /* Deja que el ancho se ajuste automáticamente */
+  height: auto;
+  /* Deja que el alto se ajuste automáticamente */
+  max-width: none;
+  /* Asegúrate de que no limite el tamaño */
+  max-height: none;
+  /* Evita que limite el tamaño */
+  transform-origin: center center;
+  /* Punto inicial del zoom */
   transition: transform 0.2s ease, transform-origin 0.2s ease;
 }
 
@@ -206,12 +236,15 @@ section h2 {
   background-color: rgba(255, 255, 255, 0.3);
   pointer-events: none;
   z-index: 2;
-  transition: width 0.2s ease, height 0.2s ease; /* Suavidad al cambiar tamaño */
+  transition: width 0.2s ease, height 0.2s ease;
+  /* Suavidad al cambiar tamaño */
 }
+
 .zoom-image,
 .zoom-result img {
   width: 100%;
   height: auto;
-  max-width: 500px; /* Ajusta según tu preferencia */
+  max-width: 500px;
+  /* Ajusta según tu preferencia */
   max-height: 500px;
 }
