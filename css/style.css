@@ -82,7 +82,7 @@
 body {
   background-color: var(--color-crema-claro);
   font-family: Roboto, sans-serif;
-  color: var(--color-dark);
+  color: var(--color-verde-oscuro);
 
 }
 
@@ -125,7 +125,7 @@ body {
 
 
 /*--------------- Estilos para el carrusel ---------------------*/
-.imagen-carousel  {
+.imagen-carousel {
   height: 500px;
   object-fit: cover;
   filter: brightness(50%);
@@ -150,6 +150,7 @@ body {
   width: 100%;
   height: 300px;
 }
+
 /*------------estilos sobre nosotros ------------------------*/
 .conocenos {
   background-color: #f9f9f9;
@@ -164,7 +165,8 @@ body {
 
 /* -------------Estilos para la sección de productos destacados------------------------ */
 .renueva {
-  border-top: var(--border-bottom);}
+  border-top: var(--border-bottom);
+}
 
 
 .destacados h2 {
@@ -182,22 +184,27 @@ body {
 
 }
 
-.card-title {
+.titulo-color {
   color: var(--color-verde-oscuro);
 }
 
-.card-text {
-  color: var(--color-verde-oscuro);
-}
 
 .productoCard:hover {
   cursor: pointer;
   transition: transform 0.2s ease;
 }
 
-.btn-primary:hover {
-  background-color: var(--color-verde-oscuro);
+.boton {
+ background: var(--color-verde-pino);
+ color: var(--color-white);
 }
+
+.boton:hover {
+  background-color: var(--color-verde-oscuro);
+  color: var(--color-white);
+}
+
+
 
 .img-miniatura {
   width: 50px;
