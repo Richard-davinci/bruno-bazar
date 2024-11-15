@@ -58,12 +58,11 @@ function cargarDatosProducto(productId) {
           }
         });
 
-        // Crear listas de características dinámicamente
         const caracteristicasList1 = document.getElementById("producto-caracteristicas");
         const caracteristicasList2 = document.getElementById("producto-caracteristicas-2");
 
         if (caracteristicasList1) {
-          caracteristicasList1.innerHTML = ""; // Limpiar la lista anterior
+          caracteristicasList1.innerHTML = ""; 
           producto.caracteristicas.forEach((caracteristica) => {
             const li = document.createElement("li");
             const [campo, valor] = caracteristica.split(":");
@@ -73,7 +72,7 @@ function cargarDatosProducto(productId) {
         }
 
         if (caracteristicasList2) {
-          caracteristicasList2.innerHTML = ""; // Limpiar la lista anterior
+          caracteristicasList2.innerHTML = ""; 
           producto["caracteristicas-2"].forEach((caracteristica) => {
             const li = document.createElement("li");
             const [campo, valor] = caracteristica.split(":");

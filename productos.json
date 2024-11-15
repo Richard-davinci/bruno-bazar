@@ -129,10 +129,10 @@
     "miniatura1": "img/Cocina/5/Cuchillas_Asado.webp",
     "miniatura2": "img/Cocina/5/Cuchillas_Asado+tabla.webp",
     "miniatura3": "img/Cocina/5/Cuchillas_Asado+tabla_2.webp",
-    "precioReal": "$15,000",
-    "precio": "$9,750",
+    "precioReal": "$35.000",
+    "precio": "$25.750",
     "descuento": "35% OFF",
-    "cuotas": "Mismo precio en 3 cuotas de $3,250",
+    "cuotas": "Mismo precio en 3 cuotas de $8.550",
     "caracteristicas": [
       "Marca: Simonaggio",
       "Línea: Churrasco",
@@ -159,10 +159,10 @@
     "imagenPrincipal": "img/Cocina/7/Secaplatos.webp",
     "miniatura1": "img/Cocina/7/Secaplatos.webp",
     "miniatura2": "img/Cocina/7/Secaplatos_2.webp",
-    "precioReal": "$25,000",
-    "precio": "$16,250",
+    "precioReal": "$25.000",
+    "precio": "$16.250",
     "descuento": "35% OFF",
-    "cuotas": "Mismo precio en 3 cuotas de $5,417",
+    "cuotas": "Mismo precio en 3 cuotas de $5.417",
     "caracteristicas": [
       "Marca: Tramontina",
       "Modelo: Compacto",
@@ -185,12 +185,12 @@
     "titulo": "Conjunto de Contenedores de Bambú para Cocina",
     "descripcion": "Set de contenedores de bambú y acrílico para almacenamiento de alimentos, ideal para organizar tu cocina.",
     "detalles": "Este conjunto incluye varios contenedores de diferentes tamaños con tapas de bambú natural, perfectos para almacenar alimentos secos como granos, nueces, y especias.",
-    "imagenPrincipal": "img/Cocina/8/contenedores _de_bamboo.webp",
-    "miniatura1": "img/Cocina/8/contenedores _de_bamboo.webp",
-    "precioReal": "$80,000",
-    "precio": "$52,000",
+    "imagenPrincipal": "img/Cocina/8/contenedores_de_bamboo.webp",
+    "miniatura1": "img/Cocina/8/contenedores_de_bamboo.webp",
+    "precioReal": "$80.000",
+    "precio": "$52.000",
     "descuento": "35% OFF",
-    "cuotas": "Mismo precio en 3 cuotas de $17,333",
+    "cuotas": "Mismo precio en 3 cuotas de $17.333",
     "caracteristicas": [
       "Marca: HYF",
       "Material del contenedor: Acrílico",
@@ -216,10 +216,10 @@
     "imagenPrincipal": "img/Cocina/9/Vaso_texturado.webp",
     "miniatura1": "img/Cocina/9/Vaso_texturado.webp",
     "miniatura2": "img/Cocina/9/Vasos_texturado-2.webp",
-    "precioReal": "$20,000",
-    "precio": "$13,000",
+    "precioReal": "$60,000",
+    "precio": "$39.000",
     "descuento": "35% OFF",
-    "cuotas": "Mismo precio en 3 cuotas de $4,333",
+    "cuotas": "Mismo precio en 3 cuotas de $13.000",
     "caracteristicas": [
       "Marca: Bonux",
       "Material: Vidrio",
@@ -247,10 +247,10 @@
     "miniatura1": "img/Cocina/6/cubiertos-1.webp",
     "miniatura2": "img/Cocina/6/cubiertos-2.webp",
     "miniatura3": "img/Cocina/6/cubierto-3.webp",
-    "precioReal": "$15,000",
-    "precio": "$9,750",
+    "precioReal": "$60.000",
+    "precio": "$39.000",
     "descuento": "35% OFF",
-    "cuotas": "Mismo precio en 3 cuotas de $3,250",
+    "cuotas": "Mismo precio en 3 cuotas de $13.000",
     "caracteristicas": [
       "Marca: Kremer",
       "Modelo: Paris Silver",
@@ -276,10 +276,10 @@
     "detalles": "Fabricado en bambú natural con un forro interior y tapa, este canasto es perfecto para cualquier habitación. Elegante y funcional.",
     "imagenPrincipal": "img/Decoracion/Canasto_de_ropa.webp",
     "miniatura1": "img/Decoracion/Canasto_de_ropa.webp",
-    "precioReal": "$40,000",
-    "precio": "$26,000",
+    "precioReal": "$40.000",
+    "precio": "$26.000",
     "descuento": "35% OFF",
-    "cuotas": "Mismo precio en 3 cuotas de $8,667",
+    "cuotas": "Mismo precio en 3 cuotas de $8.667",
     "caracteristicas": [
       "Marca: Bonux",
       "Material: Bambú",
@@ -305,10 +305,10 @@
     "detalles": "Fabricado en terciopelo suave y con estructura reforzada, este baúl combina funcionalidad y diseño para el almacenamiento de objetos.",
     "imagenPrincipal": "img/Decoracion/baul_rosa.webp",
     "miniatura1": "img/Decoracion/baul_rosa.webp",
-    "precioReal": "$25,000",
-    "precio": "$16,250",
+    "precioReal": "$25.000",
+    "precio": "$16.250",
     "descuento": "35% OFF",
-    "cuotas": "Mismo precio en 3 cuotas de $5,417",
+    "cuotas": "Mismo precio en 3 cuotas de $5.417",
     "caracteristicas": [
       "Marca: Bonux",
       "Material: Terciopelo y estructura reforzada",
@@ -333,10 +333,10 @@
     
     "imagenPrincipal": "img/Decoracion/Espejo.webp",
     "miniatura1": "img/Decoracion/Espejo.webp",
-    "precioReal": "$50,000",
-    "precio": "$32,500",
+    "precioReal": "$50.000",
+    "precio": "$32.500",
     "descuento": "35% OFF",
-    "cuotas": "Mismo precio en 3 cuotas de $10,833",
+    "cuotas": "Mismo precio en 3 cuotas de $10.833",
     "caracteristicas": [
       "Marca: Bonux",
       "Material del marco: Metal texturizado",
@@ -365,7 +365,7 @@
     "precioReal": "$980,000",
     "precio": "$637,000",
     "descuento": "35% OFF",
-    "cuotas": "Mismo precio en 3 cuotas de $212,333",
+    "cuotas": "En 3 cuotas de $212,333",
     "caracteristicas": [
       "Marca: DecoHogar",
       "Línea: Relax",
@@ -390,7 +390,7 @@
     "precioReal": "$1,050,000",
     "precio": "$682,500",
     "descuento": "35% OFF",
-    "cuotas": "Mismo precio en 6 cuotas de $113,750",
+    "cuotas": "En 6 cuotas de $113,750",
     "caracteristicas": [
       "Marca: DecoHogar",
       "Línea: Nórdica",
@@ -416,7 +416,7 @@
     "precioReal": "$1,200,000",
     "precio": "$850,000",
     "descuento": "35% OFF",
-    "cuotas": "Mismo precio en 6 cuotas de $141,667",
+    "cuotas": "En 6 cuotas de $141,667",
     "caracteristicas": [
       "Marca: DecoHogar",
       "Línea: Moderno",
@@ -442,7 +442,7 @@
     "precioReal": "$1,500,000",
     "precio": "$975,000",
     "descuento": "35% OFF",
-    "cuotas": "Mismo precio en 6 cuotas de $162,500",
+    "cuotas": "En 6 cuotas de $162,500",
     "caracteristicas": [
       "Marca: DecoHogar",
       "Línea: Chesterfield",
@@ -457,5 +457,35 @@
       "Estilo: Atemporal y moderno",
       "Uso recomendado: Salas sofisticadas"
     ]
+  },
+  {
+    "id": "17",
+    "marca": "BONUX",
+    "titulo": "Baúl Negro Organizador Multiuso",
+    "descripcion": "Baúl negro organizador multiuso, ideal para almacenamiento y decoración.",
+    "detalles": "Baúl de diseño elegante en color negro, con tapa acolchada y amplia capacidad de almacenamiento.",
+    "imagenPrincipal": "img/Decoracion/baul_negro.webp",
+    "miniatura1": "img/Decoracion/baul_negro.webp",
+    "precioReal": "$25.000",
+    "precio": "$16.650",
+    "descuento": "35% OFF",
+    "cuotas": "Mismo precio en 3 cuotas de $5.517",
+    "caracteristicas": [
+      "Marca: Bonux",
+      "Color: Negro",
+      "Material: Estructura reforzada con cubierta de vinilo",
+      "Tapa acolchada: Sí",
+      "Capacidad: Grande",
+      "Uso recomendado: Almacenamiento y decoración"
+    ],
+    "caracteristicas-2": [
+      "Plegable: Sí",
+      "Fácil de limpiar: Sí",
+      "Diseño elegante y funcional",
+      "Ideal para salas, dormitorios u oficinas",
+      "Soporta peso en la tapa como asiento adicional"
+    ],
+    "descripcionCompleta": "<p>El Baúl Negro Organizador Multiuso de Bonux combina funcionalidad y estilo en un diseño elegante. Ideal para almacenar objetos como ropa, juguetes o artículos del hogar, este baúl plegable es perfecto para mantener tus espacios organizados.</p><h3 class='fs-5 fw-bold'>Características:</h3><ul><li>Material resistente con cubierta de vinilo en color negro.</li><li>Tapa acolchada que puede utilizarse como asiento.</li><li>Plegable para un fácil almacenamiento cuando no se utiliza.</li></ul><p>Perfecto para quienes buscan maximizar el espacio con un toque moderno.</p>"
   }
+  
 ]
