@@ -39,7 +39,7 @@
   <main class="container-fluid ">
     <div class="row ">
       <!-- Filtros -->
-      <aside class="col-12 col-md-2 mt-5 p-4 shadow bg-white rounded-top-3">
+      <aside class="col-12 col-lg-2 mt-5 p-4 shadow bg-white rounded-top-3 d-none d-lg-block">
         <h4 class="mb-3">Filtrar por</h4>
 
         <!-- Filtro por Marca -->
@@ -68,29 +68,41 @@
 
         <!-- Filtro por Modelo -->
         <div class="mb-4">
-          <h5 class="fs-6">Modelo</h5>
+          <h5 class="fs-6">Categoria</h5>
           <div class="form-check">
             <input class="form-check-input" type="checkbox" value="Modelo 1" id="modelo1">
-            <label class="form-check-label" for="modelo1">Modelo 1</label>
+            <label class="form-check-label" for="modelo1">Cocina</label>
           </div>
           <div class="form-check">
             <input class="form-check-input" type="checkbox" value="Modelo 2" id="modelo2">
-            <label class="form-check-label" for="modelo2">Modelo 2</label>
+            <label class="form-check-label" for="modelo2">Decoración</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="Modelo 2" id="modelo2">
+            <label class="form-check-label" for="modelo2">Dormitorio</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="Modelo 2" id="modelo2">
+            <label class="form-check-label" for="modelo2">Hogar</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="Modelo 2" id="modelo2">
+            <label class="form-check-label" for="modelo2">Vajillas</label>
           </div>
         </div>
 
         <!-- Botón de Aplicar Filtros -->
         <button class="btn boton w-100" id="aplicarFiltros">Aplicar Filtros</button>
-        <img src="img/Banner/Banner-lateral.jpg" alt="">
+        <img class="mt-5" src="img/Banner/Banner-lateral.webp" alt="banner sillon oferta">
       </aside>
 
-      
+
       <!-- Productos  -->
-      <section class="col-12 col-md-10 pb-5  px-5">
+      <section class="col-12 col-md-12 col-lg-10 pb-5  px-5">
         <h2 class="mb-4 fs-4">Nuestros Productos</h2>
         <div class="row">
           <!-- Producto 1-->
-          <div class="col col-sm-6 col-lg-3 mb-4">
+          <div class="col-12 col-sm-6 col-lg-3 mb-4">
             <div class=" productoCard card d-flex align-items-center   rounded-3 " data-bs-toggle="modal"
               data-bs-target="#modalProducto" data-product-id="1">
               <div class="card-header p-0">
@@ -99,10 +111,11 @@
               </div>
               <div class="card-body">
                 <h3 class="fs-6">TRAMONTINA</h3>
-  
+
                 <p class="card-title text-verde-oscuro">Set 4 Cuchillos Tramontina De Cocina Taco De Madera Y Tijera</p>
                 <small class="text-black-50"><del>$67.352</del></small>
-                <p class="text-verde-pino mb-1 fs-4"> <strong class="">$43.778</strong> <span class="text-naranja-tostado fs-6">35%
+                <p class="text-verde-pino mb-1 fs-4"> <strong class="">$43.778</strong> <span
+                    class="text-naranja-tostado fs-6">35%
                     OFF</span>
                 </p>
                 <p class="text-naranja-tostado">Mismo precio en 3 cuotas de $14.593</p>
@@ -110,9 +123,9 @@
               </div>
             </div>
           </div>
-  
+
           <!-- Producto 2-->
-          <div class="col col-sm-6 col-lg-3 mb-4">
+          <div class="col-12 col-sm-6 col-lg-3 mb-4">
             <div class=" productoCard card d-flex align-items-center   rounded-3 p-0 " data-bs-toggle="modal"
               data-bs-target="#modalProducto" data-product-id="2">
               <div class="card-header p-0">
@@ -123,7 +136,8 @@
                 <h3 class="fs-6">BINAH DECO</h3>
                 <p class="card-title text-verde-oscuro">Juego De Cubiertos Dorados X 16 Piezas Dublin</p>
                 <small class="text-black-50"><del>$109.990</del></small>
-                <p class="text-verde-pino mb-1 fs-4"> <strong class="">$71.494</strong> <span class="text-naranja-tostado fs-6">35%
+                <p class="text-verde-pino mb-1 fs-4"> <strong class="">$71.494</strong> <span
+                    class="text-naranja-tostado fs-6">35%
                     OFF</span>
                 </p>
                 <p class="text-naranja-tostado">Mismo precio en 3 cuotas de $23.832</p>
@@ -131,9 +145,9 @@
               </div>
             </div>
           </div>
-  
+
           <!-- Producto 3-->
-          <div class="col col-sm-6 col-lg-3 mb-4">
+          <div class="col-12 col-sm-6 col-lg-3 mb-4">
             <div class=" productoCard card d-flex align-items-center   rounded-3 p-0 " data-bs-toggle="modal"
               data-bs-target="#modalProducto" data-product-id="3">
               <div class="card-header p-0">
@@ -144,7 +158,8 @@
                 <h3 class="fs-6">HYF</h3>
                 <p class="card-title text-verde-oscuro">Exhibidor De Dos Pisos De Porcelana para frutas y masas</p>
                 <small class="text-black-50"><del>$109.990</del></small>
-                <p class="text-verde-pino mb-1 fs-4"> <strong class="">$71.494</strong> <span class="text-naranja-tostado fs-6">35%
+                <p class="text-verde-pino mb-1 fs-4"> <strong class="">$71.494</strong> <span
+                    class="text-naranja-tostado fs-6">35%
                     OFF</span>
                 </p>
                 <p class="text-naranja-tostado">Mismo precio en 3 cuotas de $23.832</p>
@@ -152,20 +167,21 @@
               </div>
             </div>
           </div>
-  
+
           <!-- Producto 4-->
-          <div class="col col-sm-6 col-lg-3 mb-4">
+          <div class="col-12 col-sm-6 col-lg-3 mb-4">
             <div class=" productoCard card d-flex align-items-center   rounded-3 " data-bs-toggle="modal"
               data-bs-target="#modalProducto" data-product-id="4">
               <div class="card-header p-0">
-                <img src="img/Cocina/4/secaplatos_1.jpg" alt="Producto 1"
+                <img src="img/Cocina/4/secaplatos_1.webp" alt="Producto 1"
                   class="card-img-top img-producto rounded-bottom-0 rounded-top-3 ">
               </div>
               <div class="card-body">
                 <h3 class="fs-6">BONUX</h3>
                 <p class="card-title text-verde-oscuro">Secador/escurridor De Platos Bonux Aluminio Color Plateado</p>
                 <small class="text-black-50"><del>$67.352</del></small>
-                <p class="text-verde-pino mb-1 fs-4"> <strong class="">$43.778</strong> <span class="text-naranja-tostado fs-6">35%
+                <p class="text-verde-pino mb-1 fs-4"> <strong class="">$43.778</strong> <span
+                    class="text-naranja-tostado fs-6">35%
                     OFF</span>
                 </p>
                 <p class="text-naranja-tostado">Mismo precio en 3 cuotas de $14.593</p>
@@ -176,18 +192,19 @@
         </div>
         <div class="row">
           <!-- Producto 5-->
-          <div class="col col-sm-6 col-lg-3 mb-4">
+          <div class="col-12 col-sm-6 col-lg-3 mb-4">
             <div class=" productoCard card d-flex align-items-center   rounded-3 p-0 " data-bs-toggle="modal"
               data-bs-target="#modalProducto" data-product-id="5">
               <div class="card-header p-0">
-                <img src="img/Cocina/2/Set-de-cubiertos-dorado.webp" alt="Producto 1"
+                <img src="img/Cocina/5/Cuchillas_Asado.webp" alt="Producto 1"
                   class="card-img-top img-producto rounded-bottom-0 rounded-top-3 ">
               </div>
               <div class="card-body">
                 <h3 class="fs-6">BINAH DECO</h3>
                 <p class="card-title text-verde-oscuro">Juego De Cubiertos Dorados X 16 Piezas Dublin</p>
                 <small class="text-black-50"><del>$109.990</del></small>
-                <p class="text-verde-pino mb-1 fs-4"> <strong class="">$71.494</strong> <span class="text-naranja-tostado fs-6">35%
+                <p class="text-verde-pino mb-1 fs-4"> <strong class="">$71.494</strong> <span
+                    class="text-naranja-tostado fs-6">35%
                     OFF</span>
                 </p>
                 <p class="text-naranja-tostado">Mismo precio en 3 cuotas de $23.832</p>
@@ -195,157 +212,157 @@
               </div>
             </div>
           </div>
-  
+
+
           <!-- Producto 6-->
-          <div class="col col-sm-6 col-lg-3 mb-4">
-            <div class=" productoCard card d-flex align-items-center   rounded-3 " data-bs-toggle="modal"
+          <div class="col-12 col-sm-6 col-lg-3 mb-4">
+            <div class="productoCard card d-flex align-items-center rounded-3" data-bs-toggle="modal"
               data-bs-target="#modalProducto" data-product-id="6">
               <div class="card-header p-0">
-                <img src="img/Cocina/1/set-cuchillas-tramontina.webp" alt="Producto 1"
-                  class="card-img-top img-producto rounded-bottom-0 rounded-top-3 ">
+                <img src="img/Cocina/7/Secaplatos.webp" alt="Secaplatos Tramontina Blanco"
+                  class="card-img-top img-producto rounded-bottom-0 rounded-top-3">
               </div>
               <div class="card-body">
                 <h3 class="fs-6">TRAMONTINA</h3>
-  
-                <p class="card-title text-verde-oscuro">Set 4 Cuchillos Tramontina De Cocina Taco De Madera Y Tijera</p>
-                <small class="text-black-50"><del>$67.352</del></small>
-                <p class="text-verde-pino mb-1 fs-4"> <strong class="">$43.778</strong> <span class="text-naranja-tostado fs-6">35%
-                    OFF</span>
-                </p>
-                <p class="text-naranja-tostado">Mismo precio en 3 cuotas de $14.593</p>
+                <p class="card-title text-verde-oscuro">Secaplatos Blanco con Porta Cubiertos de plastico</p>
+                <small class="text-black-50"><del>$25,000</del></small>
+                <p class="text-verde-pino mb-1 fs-4"><strong>$16,250</strong> <span
+                    class="text-naranja-tostado fs-6">35% OFF</span></p>
+                <p class="text-naranja-tostado">Mismo precio en 3 cuotas de $5,417</p>
                 <p class="text-naranja-tostado">Llega gratis el lunes</p>
               </div>
             </div>
           </div>
-  
+
+
           <!-- Producto 7-->
-          <div class="col col-sm-6 col-lg-3 mb-4">
-            <div class=" productoCard card d-flex align-items-center   rounded-3 p-0 " data-bs-toggle="modal"
+          <div class="col-12 col-sm-6 col-lg-3 mb-4">
+            <div class="productoCard card d-flex align-items-center rounded-3 p-0" data-bs-toggle="modal"
               data-bs-target="#modalProducto" data-product-id="7">
               <div class="card-header p-0">
-                <img src="img/Cocina/3/bandejas-con-frutas.webp" alt="Producto 1"
-                  class="card-img-top img-producto rounded-bottom-0 rounded-top-3 ">
+                <img src="img/Cocina/8/contenedores _de_bamboo.webp" alt="Conjunto de Contenedores de Bambu HYF"
+                  class="card-img-top img-producto rounded-bottom-0 rounded-top-3">
               </div>
               <div class="card-body">
                 <h3 class="fs-6">HYF</h3>
-                <p class="card-title text-verde-oscuro">Exhibidor De Dos Pisos De Porcelana para frutas y masas</p>
-                <small class="text-black-50"><del>$109.990</del></small>
-                <p class="text-verde-pino mb-1 fs-4"> <strong class="">$71.494</strong> <span class="text-naranja-tostado fs-6">35%
-                    OFF</span>
-                </p>
-                <p class="text-naranja-tostado">Mismo precio en 3 cuotas de $23.832</p>
+                <p class="card-title text-verde-oscuro">Conjunto de Contenedores de Bambu para Cocina</p>
+                <small class="text-black-50"><del>$80,000</del></small>
+                <p class="text-verde-pino mb-1 fs-4"><strong>$52,000</strong> <span
+                    class="text-naranja-tostado fs-6">35% OFF</span></p>
+                <p class="text-naranja-tostado">Mismo precio en 3 cuotas de $17,333</p>
                 <p class="text-naranja-tostado">Llega gratis el lunes</p>
               </div>
             </div>
           </div>
-  
-          <!-- Producto 8-->
-          <div class="col col-sm-6 col-lg-3 mb-4">
-            <div class=" productoCard card d-flex align-items-center   rounded-3 " data-bs-toggle="modal"
+
+
+
+          <!-- Producto 8 -->
+          <div class="col-12 col-sm-6 col-lg-3 mb-4">
+            <div class="productoCard card d-flex align-items-center rounded-3" data-bs-toggle="modal"
               data-bs-target="#modalProducto" data-product-id="8">
               <div class="card-header p-0">
-                <img src="img/Cocina/4/secaplatos_1.jpg" alt="Producto 1"
-                  class="card-img-top img-producto rounded-bottom-0 rounded-top-3 ">
+                <img src="img/Cocina/9/Vasos_texturado-2.webp" alt="Conjunto de Vasos Texturados Bonux"
+                  class="card-img-top img-producto rounded-bottom-0 rounded-top-3">
               </div>
               <div class="card-body">
                 <h3 class="fs-6">BONUX</h3>
-                <p class="card-title text-verde-oscuro">Secador/escurridor De Platos Bonux Aluminio Color Plateado</p>
-                <small class="text-black-50"><del>$67.352</del></small>
-                <p class="text-verde-pino mb-1 fs-4"> <strong class="">$43.778</strong> <span class="text-naranja-tostado fs-6">35%
-                    OFF</span>
-                </p>
-                <p class="text-naranja-tostado">Mismo precio en 3 cuotas de $14.593</p>
+                <p class="card-title text-verde-oscuro">Set de Vasos Texturados de Vidrio x6 reforzado </p>
+                <small class="text-black-50"><del>$20,000</del></small>
+                <p class="text-verde-pino mb-1 fs-4"><strong>$13,000</strong> <span
+                    class="text-naranja-tostado fs-6">35% OFF</span></p>
+                <p class="text-naranja-tostado">Mismo precio en 3 cuotas de $4,333</p>
                 <p class="text-naranja-tostado">Llega gratis el lunes</p>
               </div>
             </div>
           </div>
-        </div>
-        <div class="row">
-          <!-- Producto 9-->
-          <div class="col col-sm-6 col-lg-3 mb-4">
-            <div class=" productoCard card d-flex align-items-center   rounded-3 p-0 " data-bs-toggle="modal"
-              data-bs-target="#modalProducto" data-product-id="9">
-              <div class="card-header p-0">
-                <img src="img/Cocina/2/Set-de-cubiertos-dorado.webp" alt="Producto 1"
-                  class="card-img-top img-producto rounded-bottom-0 rounded-top-3 ">
-              </div>
-              <div class="card-body">
-                <h3 class="fs-6">BINAH DECO</h3>
-                <p class="card-title text-verde-oscuro">Juego De Cubiertos Dorados X 16 Piezas Dublin</p>
-                <small class="text-black-50"><del>$109.990</del></small>
-                <p class="text-verde-pino mb-1 fs-4"> <strong class="">$71.494</strong> <span class="text-naranja-tostado fs-6">35%
-                    OFF</span>
-                </p>
-                <p class="text-naranja-tostado">Mismo precio en 3 cuotas de $23.832</p>
-                <p class="text-naranja-tostado">Llega gratis el lunes</p>
-              </div>
-            </div>
-          </div>
-  
-          <!-- Producto 10-->
-          <div class="col col-sm-6 col-lg-3 mb-4">
-            <div class=" productoCard card d-flex align-items-center   rounded-3 " data-bs-toggle="modal"
-              data-bs-target="#modalProducto" data-product-id="10">
-              <div class="card-header p-0">
-                <img src="img/Cocina/1/set-cuchillas-tramontina.webp" alt="Producto 1"
-                  class="card-img-top img-producto rounded-bottom-0 rounded-top-3 ">
-              </div>
-              <div class="card-body">
-                <h3 class="fs-6">TRAMONTINA</h3>
-  
-                <p class="card-title text-verde-oscuro">Set 4 Cuchillos Tramontina De Cocina Taco De Madera Y Tijera</p>
-                <small class="text-black-50"><del>$67.352</del></small>
-                <p class="text-verde-pino mb-1 fs-4"> <strong class="">$43.778</strong> <span class="text-naranja-tostado fs-6">35%
-                    OFF</span>
-                </p>
-                <p class="text-naranja-tostado">Mismo precio en 3 cuotas de $14.593</p>
-                <p class="text-naranja-tostado">Llega gratis el lunes</p>
+
+          <div class="row">
+            <!-- Producto 9 -->
+            <div class="col-12 col-sm-6 col-lg-3 mb-4">
+              <div class="productoCard card d-flex align-items-center rounded-3 p-0" data-bs-toggle="modal"
+                data-bs-target="#modalProducto" data-product-id="9">
+                <div class="card-header p-0">
+                  <img src="img/Cocina/6/cubiertos-1.webp" alt="Set de Cubiertos Kremer Paris Silver"
+                    class="card-img-top img-producto rounded-bottom-0 rounded-top-3">
+                </div>
+                <div class="card-body">
+                  <h3 class="fs-6">KREMER</h3>
+                  <p class="card-title text-verde-oscuro">Set de Cubiertos Paris Silver de 24 Piezas de acero
+                    inoxirables</p>
+                  <small class="text-black-50"><del>$15,000</del></small>
+                  <p class="text-verde-pino mb-1 fs-4"><strong>$9,750</strong> <span
+                      class="text-naranja-tostado fs-6">35% OFF</span></p>
+                  <p class="text-naranja-tostado">Mismo precio en 3 cuotas de $3,250</p>
+                  <p class="text-naranja-tostado">Llega gratis el lunes</p>
+                </div>
               </div>
             </div>
-          </div>
-  
-          <!-- Producto 11-->
-          <div class="col col-sm-6 col-lg-3 mb-4">
-            <div class=" productoCard card d-flex align-items-center   rounded-3 p-0 " data-bs-toggle="modal"
-              data-bs-target="#modalProducto" data-product-id="11">
-              <div class="card-header p-0">
-                <img src="img/Cocina/3/bandejas-con-frutas.webp" alt="Producto 1"
-                  class="card-img-top img-producto rounded-bottom-0 rounded-top-3 ">
-              </div>
-              <div class="card-body">
-                <h3 class="fs-6">HYF</h3>
-                <p class="card-title text-verde-oscuro">Exhibidor De Dos Pisos De Porcelana para frutas y masas</p>
-                <small class="text-black-50"><del>$109.990</del></small>
-                <p class="text-verde-pino mb-1 fs-4"> <strong class="">$71.494</strong> <span class="text-naranja-tostado fs-6">35%
-                    OFF</span>
-                </p>
-                <p class="text-naranja-tostado">Mismo precio en 3 cuotas de $23.832</p>
-                <p class="text-naranja-tostado">Llega gratis el lunes</p>
-              </div>
-            </div>
-          </div>
-  
-          <!-- Producto 12-->
-          <div class="col col-sm-6 col-lg-3 mb-4">
-            <div class=" productoCard card d-flex align-items-center   rounded-3 " data-bs-toggle="modal"
-              data-bs-target="#modalProducto" data-product-id="12">
-              <div class="card-header p-0">
-                <img src="img/Cocina/4/secaplatos_1.jpg" alt="Producto 1"
-                  class="card-img-top img-producto rounded-bottom-0 rounded-top-3 ">
-              </div>
-              <div class="card-body">
-                <h3 class="fs-6">BONUX</h3>
-                <p class="card-title text-verde-oscuro">Secador/escurridor De Platos Bonux Aluminio Color Plateado</p>
-                <small class="text-black-50"><del>$67.352</del></small>
-                <p class="text-verde-pino mb-1 fs-4"> <strong class="">$43.778</strong> <span class="text-naranja-tostado fs-6">35%
-                    OFF</span>
-                </p>
-                <p class="text-naranja-tostado">Mismo precio en 3 cuotas de $14.593</p>
-                <p class="text-naranja-tostado">Llega gratis el lunes</p>
+
+
+            <!-- Producto 10 -->
+            <div class="col-12 col-sm-6 col-lg-3 mb-4">
+              <div class="productoCard card d-flex align-items-center rounded-3" data-bs-toggle="modal"
+                data-bs-target="#modalProducto" data-product-id="10">
+                <div class="card-header p-0">
+                  <img src="img/Decoracion/Canasto_de_ropa.webp" alt="Canasto de Ropa de Bambú"
+                    class="card-img-top img-producto rounded-bottom-0 rounded-top-3">
+                </div>
+                <div class="card-body">
+                  <h3 class="fs-6">BONUX</h3>
+                  <p class="card-title text-verde-oscuro">Canasto de Ropa de Bambú con Tapa rectangular</p>
+                  <small class="text-black-50"><del>$40,000</del></small>
+                  <p class="text-verde-pino mb-1 fs-4"><strong>$26,000</strong> <span
+                      class="text-naranja-tostado fs-6">35% OFF</span></p>
+                  <p class="text-naranja-tostado">Mismo precio en 3 cuotas de $8,667</p>
+                  <p class="text-naranja-tostado">Llega gratis el lunes</p>
+                </div>
               </div>
             </div>
+
+
+            <!-- Producto 11 -->
+            <div class="col-12 col-sm-6 col-lg-3 mb-4">
+              <div class="productoCard card d-flex align-items-center rounded-3" data-bs-toggle="modal"
+                data-bs-target="#modalProducto" data-product-id="11">
+                <div class="card-header p-0">
+                  <img src="img/Decoracion/baul_rosa.webp" alt="Baúl Rosa Plegable de Almacenamiento"
+                    class="card-img-top img-producto rounded-bottom-0 rounded-top-3">
+                </div>
+                <div class="card-body">
+                  <h3 class="fs-6">BONUX</h3>
+                  <p class="card-title text-verde-oscuro">Baúl y puff Rosa Plegable de Almacenamiento </p>
+                  <small class="text-black-50"><del>$25,000</del></small>
+                  <p class="text-verde-pino mb-1 fs-4"><strong>$16,250</strong> <span
+                      class="text-naranja-tostado fs-6">35% OFF</span></p>
+                  <p class="text-naranja-tostado">Mismo precio en 3 cuotas de $5,417</p>
+                  <p class="text-naranja-tostado">Llega gratis el lunes</p>
+                </div>
+              </div>
+            </div>
+
+
+            <!-- Producto 12 -->
+            <div class="col-12 col-sm-6 col-lg-3 mb-4">
+              <div class="productoCard card d-flex align-items-center rounded-3" data-bs-toggle="modal"
+                data-bs-target="#modalProducto" data-product-id="12">
+                <div class="card-header p-0">
+                  <img src="img/Decoracion/Espejo.webp" alt="Espejo Decorativo Grande"
+                    class="card-img-top img-producto rounded-bottom-0 rounded-top-3">
+                </div>
+                <div class="card-body">
+                  <h3 class="fs-6">BONUX</h3>
+                  <p class="card-title text-verde-oscuro">Espejo Decorativo Grande para Interiores 120x90</p>
+                  <small class="text-black-50"><del>$50,000</del></small>
+                  <p class="text-verde-pino mb-1 fs-4"><strong>$32,500</strong> <span
+                      class="text-naranja-tostado fs-6">35% OFF</span></p>
+                  <p class="text-naranja-tostado">Mismo precio en 3 cuotas de $10,833</p>
+                  <p class="text-naranja-tostado">Llega gratis el lunes</p>
+                </div>
+              </div>
+            </div>
+
           </div>
-        </div>
       </section>
     </div>
 

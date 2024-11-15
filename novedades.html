@@ -19,143 +19,162 @@
     <div id="navbar-container"></div>
 
     <div class="container">
-      <img class="banner-novedad img-fluid" src="img/Banner/banner-sofa.webp" alt="Cocina moderna">
-
+      <img class="banner-novedad img-fluid shadow" src="img/Banner/banner-sofa.webp" alt="Cocina moderna">
     </div>
   </header>
   <main class="my-5">
-    <div class="container my-5">
-      <div class="row shadow p-4 bg-white rounded">
-        <!-- Columna de la imagen -->
-        <div class="col-12 col-md-6 d-flex justify-content-center align-items-center">
-          <img src="img/Hogar/sofa-living-room.webp" alt="Sofá relax cielo" class="img-fluid rounded">
-        </div>
-
-        <!-- Columna del texto -->
-        <div class="col-12 col-md-6">
-          <h1 class="fs-4">Sofá relax cielo</h1>
-          <small class="text-black-50"><del>$980.000</del></small>
-          <p class="mb-1 fs-4">
-            <strong id="producto-precio" class="text-verde-pino">$637.000</strong>
-            <span class="text-naranja-tostado fs-6">35% OFF</span>
-          </p>
-          <p id="producto-cuotas" class="text-naranja-tostado"></p>
-          <p>
-            El sofá relax azul cielo DecoHogar ofrece estilo y comodidad con una estructura sólida, placa de espuma Sofá
-            de
-            alta densidad y patas de madera maciza.
-          </p>
-          <p>
-            Tapizado en tela de alta calidad, este sofá combina elegancia y funcionalidad, siendo fácil de limpiar y
-            mantener.
-          </p>
-          <p>
-            Ideal para cualquier espacio de estar, ofrece confort y estilo a un precio atractivo, convirtiéndolo en una
-            inversión en calidad y comodidad para tu hogar.
-          </p>
-          <button class="btn boton w-50">COMPRAR</button>
-        </div>
-      </div>
-    </div>
-
-    <section class="container">
-      <!-- Detalle del Producto -->
-      <div class="card mb-5  -sm p-3">
-        <div class="row g-0">
-          <!-- Imagen Principal y Miniaturas -->
-          <div class="col col-lg-8 d-flex flex-column align-items-center ">
-            <!-- Imagen Principal -->
-            <img id="producto-imagenPrincipal" class="img-fluid zoom-image mb-3 w-75" alt="Producto">
-            <div class="d-flex gap-2" id="producto-miniaturas"></div> <!-- Mismo ID -->
+    <section class="container my-5">
+     
+      <div class="card shadow p-4 bg-white rounded">
+        <div class="row">
+          <!-- Columna de la imagen -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <img src="img/Hogar/sofa-living-room.webp" alt="Sofá relax cielo" class="img-fluid rounded">
           </div>
-          <!-- Información del Producto -->
-          <div class="col col-lg-4">
-
+      
+          <!-- Columna del texto -->
+          <div class="col-12 col-md-6 col-lg-8">
             <div class="card-body">
-              <h1 id="producto-descripcion" class="fs-4"></h1>
-              <small class="text-black-50"><del id="producto-precioReal"></del></small>
+              <h1 class="fs-4">Sofá relax cielo</h1>
+              <small class="text-black-50"><del>$980.000</del></small>
               <p class="mb-1 fs-4">
-                <strong id="producto-precio" class=""></strong> <span id="producto-descuento"
-                  class="text-naranja-tostado fs-6"></span>
+                <strong id="producto-precio" class="text-verde-pino">$637.000</strong>
+                <span class="text-naranja-tostado fs-6">35% OFF</span>
               </p>
               <p id="producto-cuotas" class="text-naranja-tostado"></p>
-              <p class="text-naranja-tostado">Llega gratis el lunes</p>
+              <p>
+                El sofá relax azul cielo DecoHogar ofrece estilo y comodidad con una estructura sólida, placa de espuma Sofá
+                de
+                alta densidad y patas de madera maciza.
+              </p>
+              <p>
+                Tapizado en tela de alta calidad, este sofá combina elegancia y funcionalidad, siendo fácil de limpiar y
+                mantener.
+              </p>
+              <p>
+                Ideal para cualquier espacio de estar, ofrece confort y estilo a un precio atractivo, convirtiéndolo en una
+                inversión en calidad y comodidad para tu hogar.
+              </p>
+              <a href="producto.html?id=13" class="btn boton w-50">COMPRAR</a>
 
-
-              <!-- Stock y Selección de Cantidad -->
-              <p class="fw-bold">Stock disponible</p>
-              <div class="d-flex align-items-center flex-wrap mb-3">
-                <label for="cantidadModal" class="me-2">Cantidad:</label>
-                <select id="cantidadModal" class="form-select me-2" style="width: auto;">
-                  <option value="1">1 unidad</option>
-                  <option value="2">2 unidades</option>
-                  <option value="3">3 unidades</option>
-                  <option value="4">4 unidades</option>
-                  <option value="5">5 unidades</option>
-                  <option value="6">6 unidades</option>
-                </select>
-                <small class="text-muted mt-1">(+10 disponibles)</small>
-              </div>
-              <!-- Botones de Compra -->
-              <a href="#" class="btn boton w-100 mb-2">Comprar</a>
-              <button class="btn btn-outline-success w-100 mb-2">Agregar al carrito</button>
             </div>
           </div>
         </div>
       </div>
 
-    </section>
-    <section class="container">
-      <!-- Características del Producto y Opciones -->
-      <div class="row">
-        <!-- Características -->
-        <div class="col col-lg-8 mb-4">
-          <div class="card p-3  -sm">
-            <div class="container">
-              <h2 class="fs-4">Características principales</h2>
-              <div class="row">
-                <!-- Características principales -->
-                <div class="row">
-                  <!-- Características principales -->
-                  <div class="col-md-6">
-                    <ul class="list-unstyled ms-3" id="producto-caracteristicas">
-                    </ul>
-                  </div>
-                  <!-- Otras características -->
-                  <div class="col-md-6">
-                    <ul class="list-unstyled ms-3" id="producto-caracteristicas-2">
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
+      <div class="card shadow mt-4 p-4 bg-white rounded">
+        <div class="row">
+          <!-- Columna de la imagen -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <img src="img/Hogar/Sillon_celeste_cielo.webp" alt="Sillón Chesterfield" class="img-fluid rounded">
           </div>
-        </div>
-        <!-- Opciones Adicionales -->
-        <div class="col col-lg-4 mb-4">
-          <div class="card p-3  -sm bg-color-dark">
-            <h2 class="text-crema-claro text-center fs-4">Opciones y Beneficios</h2>
-            <ul class="list-unstyled text-center">
-              <li class="text-crema-claro"><i class="bi bi-credit-card me-2 text-crema-claro"></i>Hasta 3 cuotas sin
-                interés</li>
-              <li class="text-crema-claro"><i class="bi bi-truck me-2 text-crema-claro"></i>Envíos a todo el país</li>
-              <li class="text-crema-claro"><i class="bi bi-percent me-2 text-crema-claro"></i>Descuentos en productos
-                seleccionados</li>
-              <li class="text-crema-claro"><i class="bi bi-gear me-2 text-crema-claro"></i>Trabajamos con productos
-                nacionales e importados</li>
-            </ul>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card mb-5 p-3">
-            <h2 class="fs-4">Descripción</h2>
-            <div id="producto-descripcion-completa" class="">
+      
+          <!-- Columna del texto -->
+          <div class="col-12 col-md-6 col-lg-8">
+            <div class="card-body">
+              <h1 class="fs-4">Sillón Chesterfield</h1>
+              <small class="text-black-50"><del>$1,500,000</del></small>
+              <p class="mb-1 fs-4">
+                <strong id="producto-precio" class="text-verde-pino">$975,000</strong>
+                <span class="text-naranja-tostado fs-6">35% OFF</span>
+              </p>
+              <p id="producto-cuotas" class="text-naranja-tostado"></p>
+              <p>
+                El clásico Sillón Chesterfield en su versión celeste combina la elegancia atemporal con un toque moderno.
+                Diseñado para brindar el máximo confort, este modelo cuenta con un respaldo capitoné y una estructura sólida
+                que garantiza durabilidad.
+              </p>
+              <p>
+                Tapizado en suave tela de terciopelo y con patas de madera natural, este sillón es ideal para cualquier sala de
+                estar que busque sofisticación y estilo.
+              </p>
+              <p>
+                Perfecto para momentos de relajación, el Sillón Chesterfield es una elección destacada para quienes valoran la
+                calidad y el diseño exclusivo.
+              </p>
+              <a href="producto.html?id=16" class="btn boton w-50">COMPRAR</a>
             </div>
-
           </div>
         </div>
       </div>
+      
+
+      <div class="card shadow mt-4 p-4 bg-white rounded">
+        <div class="row">
+          <!-- Columna de la imagen -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <img src="img/Hogar/Sillon moderno.webp" alt="Sillón moderno DecoHogar" class="img-fluid rounded">
+          </div>
+      
+          <!-- Columna del texto -->
+          <div class="col-12 col-md-6 col-lg-8">
+            <div class="card-body">
+              <h1 class="fs-4">Sillón moderno DecoHogar</h1>
+              <small class="text-black-50"><del>$1,200,000</del></small>
+              <p class="mb-1 fs-4">
+                <strong id="producto-precio" class="text-verde-pino">$850,000</strong>
+                <span class="text-naranja-tostado fs-6">30% OFF</span>
+              </p>
+              <p id="producto-cuotas" class="text-naranja-tostado"></p>
+              <p>
+                El sillón moderno DecoHogar es una opción ideal para quienes buscan diseño y funcionalidad en un solo
+                mueble. Este modelo ofrece una estructura robusta y está tapizado en tela de alta calidad con un acabado
+                suave y elegante.
+              </p>
+              <p>
+                Con patas de madera natural y líneas minimalistas, este sillón se adapta perfectamente a espacios
+                contemporáneos y modernos, brindando un toque de sofisticación a tu sala de estar.
+              </p>
+              <p>
+                Perfecto para relajarse, su diseño ergonómico proporciona el máximo confort mientras agrega estilo a tu
+                hogar. Este sillón combina calidad y comodidad, siendo una inversión inteligente para quienes valoran el
+                buen gusto.
+              </p>
+              <a href="producto.html?id=14" class="btn boton w-50">COMPRAR</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card shadow mt-4 p-4 bg-white rounded">
+        <div class="row">
+          <!-- Columna de la imagen -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <img src="img/Hogar/sofa-nordico.webp" alt="Sillón Nórdico" class="img-fluid rounded">
+          </div>
+      
+          <!-- Columna del texto -->
+          <div class="col-12 col-md-6 col-lg-8">
+            <div class="card-body">
+              <h1 class="fs-4">Sillón Nórdico</h1>
+              <small class="text-black-50"><del>$1,050,000</del></small>
+              <p class="mb-1 fs-4">
+                <strong id="producto-precio" class="text-verde-pino">$682,500</strong>
+                <span class="text-naranja-tostado fs-6">35% OFF</span>
+              </p>
+              <p id="producto-cuotas" class="text-naranja-tostado"></p>
+              <p>
+                El sillón Nórdico DecoHogar es perfecto para quienes buscan una pieza que combine funcionalidad y diseño
+                escandinavo. Su estructura robusta y acolchado de alta calidad ofrecen el confort ideal para tu sala de estar.
+              </p>
+              <p>
+                Tapizado en tela suave con acabado premium, este sillón presenta un diseño minimalista que se adapta a cualquier
+                estilo moderno o contemporáneo.
+              </p>
+              <p>
+                Ideal para espacios reducidos o amplios, el Sillón Nórdico se convierte en una inversión en estilo y comodidad,
+                transformando tu hogar en un lugar más acogedor.
+              </p>
+              <a href="producto.html?id=15" class="btn boton w-50">COMPRAR</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      
+      
     </section>
+
 
 
 

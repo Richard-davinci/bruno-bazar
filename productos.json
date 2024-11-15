@@ -51,7 +51,7 @@
       "Marca: Binah Deco",
       "Línea: Dublin",
       "Modelo: Dublin",
-      "Tipo de envase: Caja",      
+      "Tipo de envase: Caja",
       "Material del mango: Acero inoxidable",
       "Material de la hoja: Acero inoxidable"
     ],
@@ -59,26 +59,27 @@
       "Cubiertos incluidos: Cucharas de Mesa, Cucharitas de Postre, Cuchillo, Tenedor",
       "Es apto para lavavajillas: No",
       "Cantidad de piezas: 16",
-      "Es un kit de fábrica: Sí"    
+      "Es un kit de fábrica: Sí"
     ],
     "descripcionCompleta": "<p>JUEGO DE CUBIERTOS DORADOS X 16 PIEZAS DUBLIN</p><p>Modelo: Dublin</p>  <h3 class='fs-5 fw-bold'>Características:</h3>  <ul>    <li>tenedor: 22.50cm</li>    <li>cuchara: 22.50cm</li>    <li>cuchillo: 21.50cm</li>    <li>cuchara postre: 13.00cm</li>    <li>material: acero</li>    <li>no apto a lavavajillas</li> </ul>"
   },
-    {
-      "id": "3",
-      "marca": "HYF",
-      "descripcion": "Exhibidor De Dos Pisos De Porcelana para frutas y masas",
-      "imagenPrincipal": "img/Cocina/3/bandejas-con-frutas.webp",
-      "miniatura1": "img/Cocina/3/bandejas.webp",
-      "miniatura2": "img/Cocina/3/bandejas-con-frutas.webp",
-      "precioReal": "$46.630",
-      "precio": "$ 30.3010",
-      "descuento": "35% OFF",
-      "cuotas": "en 6 cuotas de $6.520",
-      "caracteristicas": [
+  {
+    "id": "3",
+    "marca": "HYF",
+    "descripcion": "Exhibidor De Dos Pisos De Porcelana para frutas y masas",
+    "descripcionCompleta": "El exhibidor de dos pisos de porcelana HYF es la opción ideal para presentar frutas, masas y otros alimentos de manera elegante y funcional. Diseñado con porcelana de alta calidad, este exhibidor combina resistencia y estilo, siendo perfecto para cualquier ocasión especial o para el uso diario. Su diseño de dos niveles optimiza el espacio y realza la presentación de los alimentos, convirtiéndolo en un elemento destacado en cualquier mesa. Este producto está pensado para quienes buscan funcionalidad y diseño en un solo artículo.",
+    "imagenPrincipal": "img/Cocina/3/bandejas-con-frutas.webp",
+    "miniatura1": "img/Cocina/3/bandejas.webp",
+    "miniatura2": "img/Cocina/3/bandejas-con-frutas.webp",
+    "precioReal": "$46.630",
+    "precio": "$30.3010",
+    "descuento": "35% OFF",
+    "cuotas": "en 6 cuotas de $6.520",
+    "caracteristicas": [
       "Marca: Binah Deco",
       "Línea: Dublin",
       "Modelo: Dublin",
-      "Tipo de envase: Caja",      
+      "Tipo de envase: Caja",
       "Material del mango: Acero inoxidable",
       "Material de la hoja: Acero inoxidable"
     ],
@@ -86,26 +87,28 @@
       "Cubiertos incluidos: Cucharas de Mesa, Cucharitas de Postre, Cuchillo, Tenedor",
       "Es apto para lavavajillas: No",
       "Cantidad de piezas: 16",
-      "Es un kit de fábrica: Sí"    
+      "Es un kit de fábrica: Sí"
     ]
-    },
-    {
-      "id": "4",
-      "marca": "BONUX",
-      "descripcion": "Secador/escurridor De Platos Bonux Aluminio Color Plateado",
-      "imagenPrincipal": "img/Cocina/4/secaplatos_1.jpg",
-      "miniatura1": "img/Cocina/4/secaplatos_1.jpg",
-      "miniatura2": "img/Cocina/4/secaplatos_2.jpg",
-      "miniatura3": "img/Cocina/4/secaplatos_3.jpg",
-      "precioReal": "$36.381",
-      "precio": "$23648",
-      "descuento": "35% OFF",
-      "cuotas": "Mismo precio en 3 cuotas de $7.883",
-      "caracteristicas": [
+  },
+
+  {
+    "id": "4",
+    "marca": "BONUX",
+    "descripcion": "Secador/escurridor De Platos Bonux Aluminio Color Plateado",
+    "descripcionCompleta": "El secador/escurridor de platos Bonux, fabricado en aluminio de alta calidad, ofrece una solución práctica y elegante para organizar y secar tus platos, vasos y utensilios de cocina. Su diseño compacto y funcional lo convierte en una excelente opción para cocinas de todos los tamaños. El material de aluminio garantiza resistencia al óxido y una larga durabilidad, mientras que su acabado en color plateado agrega un toque moderno a tu espacio. Ideal para quienes buscan combinar practicidad y diseño en su cocina.",
+    "imagenPrincipal": "img/Cocina/4/secaplatos_1.webp",
+    "miniatura1": "img/Cocina/4/secaplatos_1.webp",
+    "miniatura2": "img/Cocina/4/secaplatos_2.webp",
+    "miniatura3": "img/Cocina/4/secaplatos_3.webp",
+    "precioReal": "$36.381",
+    "precio": "$23.648",
+    "descuento": "35% OFF",
+    "cuotas": "Mismo precio en 3 cuotas de $7.883",
+    "caracteristicas": [
       "Marca: Binah Deco",
       "Línea: Dublin",
       "Modelo: Dublin",
-      "Tipo de envase: Caja",      
+      "Tipo de envase: Caja",
       "Material del mango: Acero inoxidable",
       "Material de la hoja: Acero inoxidable"
     ],
@@ -113,9 +116,346 @@
       "Cubiertos incluidos: Cucharas de Mesa, Cucharitas de Postre, Cuchillo, Tenedor",
       "Es apto para lavavajillas: No",
       "Cantidad de piezas: 16",
-      "Es un kit de fábrica: Sí"    
+      "Es un kit de fábrica: Sí"
     ]
-    }
-  
-  
+  },
+  {
+    "id": "5",
+    "marca": "SIMONAGGIO",
+    "descripcion": "Set de Cuchillo y Tenedor para Asado",
+
+    "detalles": "Set de 2 piezas Simonaggio ideal para cortar y servir carnes. Fabricado con mango de madera resistente y hoja de acero inoxidable.",
+    "imagenPrincipal": "img/Cocina/5/Cuchillas_Asado.webp",
+    "miniatura1": "img/Cocina/5/Cuchillas_Asado.webp",
+    "miniatura2": "img/Cocina/5/Cuchillas_Asado+tabla.webp",
+    "miniatura3": "img/Cocina/5/Cuchillas_Asado+tabla_2.webp",
+    "precioReal": "$15,000",
+    "precio": "$9,750",
+    "descuento": "35% OFF",
+    "cuotas": "Mismo precio en 3 cuotas de $3,250",
+    "caracteristicas": [
+      "Marca: Simonaggio",
+      "Línea: Churrasco",
+      "Modelo: 2 piezas",
+      "Material del mango: Madera",
+      "Material de la hoja: Acero inoxidable",
+      "Incluye funda: No"
+    ],
+    "caracteristicas-2": [
+      "Es apto para lavavajillas: No",
+      "Cantidad de piezas: 2",
+      "Incluye: Cuchillo y tenedor",
+      "Uso recomendado: Asado y barbacoa",
+      "Diseño: Rústico y funcional",
+      "Empaque: Caja de cartón"
+    ],
+    "descripcionCompleta": "<p>El set de cuchillo y tenedor Simonaggio para asado es la elección perfecta para los amantes de la parrilla. Diseñado con mangos de madera resistente y hojas de acero inoxidable, este set combina funcionalidad y estilo.</p><h3 class='fs-5 fw-bold'>Características:</h3><ul><li>Hoja de acero inoxidable que garantiza durabilidad y precisión en el corte.</li><li>Mango ergonómico de madera para un agarre cómodo y seguro.</li><li>Diseño rústico y elegante, ideal para eventos y reuniones.</li></ul><h4 class='fs-6 fw-bold'>Incluye:</h4><ul><li>Cuchillo para carne.</li><li>Tenedor de asado.</li></ul><p>El set viene en una caja de cartón ecológica, perfecta para regalar o almacenar.</p>"
+  },
+  {
+    "id": "6",
+    "marca": "TRAMONTINA",
+    "descripcion": "Secaplatos Blanco con Porta Cubiertos de plastico",
+    "detalles": "Fabricado en material plástico resistente, cuenta con ranuras para platos, vasos y un compartimiento para cubiertos. Compacto y fácil de limpiar.",
+    "imagenPrincipal": "img/Cocina/7/Secaplatos.webp",
+    "miniatura1": "img/Cocina/7/Secaplatos.webp",
+    "miniatura2": "img/Cocina/7/Secaplatos_2.webp",
+    "precioReal": "$25,000",
+    "precio": "$16,250",
+    "descuento": "35% OFF",
+    "cuotas": "Mismo precio en 3 cuotas de $5,417",
+    "caracteristicas": [
+      "Marca: Tramontina",
+      "Modelo: Compacto",
+      "Color: Blanco",
+      "Material: Plástico resistente",
+      "Dimensiones: 40 cm x 20 cm x 10 cm",
+      "Incluye compartimiento para cubiertos"
+    ],
+    "caracteristicas-2": [
+      "Es fácil de limpiar: Sí",
+      "Apto para todo tipo de vajilla: Sí",
+      "Diseño compacto y moderno: Sí",
+      "Ideal para cocinas pequeñas: Sí"
+    ],
+    "descripcionCompleta": "<p>El secaplatos blanco de Tramontina es la solución perfecta para mantener tu cocina ordenada y limpia. Con un diseño compacto y moderno, este secaplatos ofrece espacio suficiente para platos, vasos y cubiertos, optimizando el espacio de tu encimera.</p><h3 class='fs-5 fw-bold'>Características:</h3><ul><li>Fabricado en plástico resistente de alta calidad.</li><li>Ranuras especiales para platos y vasos.</li><li>Compartimiento adicional para cubiertos.</li></ul><p>Compacto, fácil de limpiar y perfecto para cocinas modernas, este secaplatos combina practicidad y diseño.</p>"
+  },
+  {
+    "id": "7",
+    "marca": "HYF",
+    "titulo": "Conjunto de Contenedores de Bambú para Cocina",
+    "descripcion": "Set de contenedores de bambú y acrílico para almacenamiento de alimentos, ideal para organizar tu cocina.",
+    "detalles": "Este conjunto incluye varios contenedores de diferentes tamaños con tapas de bambú natural, perfectos para almacenar alimentos secos como granos, nueces, y especias.",
+    "imagenPrincipal": "img/Cocina/8/contenedores _de_bamboo.webp",
+    "miniatura1": "img/Cocina/8/contenedores _de_bamboo.webp",
+    "precioReal": "$80,000",
+    "precio": "$52,000",
+    "descuento": "35% OFF",
+    "cuotas": "Mismo precio en 3 cuotas de $17,333",
+    "caracteristicas": [
+      "Marca: HYF",
+      "Material del contenedor: Acrílico",
+      "Material de la tapa: Bambú natural",
+      "Estilo: Moderno y ecológico",
+      "Apto para alimentos secos: Sí",
+      "Respetuoso con el medio ambiente: Sí"
+    ],
+    "caracteristicas-2": [
+      "Incluye varios tamaños: Sí",
+      "Es fácil de limpiar: Sí",
+      "Ideal para cocina y despensa: Sí",
+      "Diseño transparente para fácil identificación de contenido",
+      "Tapas herméticas para conservar frescura"
+    ],
+    "descripcionCompleta": "<p>Organiza tu cocina con el conjunto de contenedores de bambú de HYF. Fabricados en acrílico resistente con tapas de bambú natural, estos contenedores son ideales para almacenar alimentos secos como granos, nueces, especias y más.</p><h3 class='fs-5 fw-bold'>Características:</h3><ul><li>Material acrílico transparente que permite ver el contenido fácilmente.</li><li>Tapas de bambú natural para un cierre hermético y mantener la frescura.</li><li>Diseño moderno y ecológico, perfecto para una cocina organizada.</li></ul><p>Este conjunto es la solución perfecta para quienes buscan practicidad y estilo en el almacenamiento de alimentos.</p>"
+  },
+  {
+    "id": "8",
+    "marca": "BONUX",
+    "descripcion": "Set de Vasos Texturados de Vidrio",
+    "detalles": "Este conjunto incluye varios vasos de vidrio con un diseño texturado que aporta un toque distintivo a cualquier mesa. Perfectos para bebidas frías y calientes.",
+    "imagenPrincipal": "img/Cocina/9/Vaso_texturado.webp",
+    "miniatura1": "img/Cocina/9/Vaso_texturado.webp",
+    "miniatura2": "img/Cocina/9/Vasos_texturado-2.webp",
+    "precioReal": "$20,000",
+    "precio": "$13,000",
+    "descuento": "35% OFF",
+    "cuotas": "Mismo precio en 3 cuotas de $4,333",
+    "caracteristicas": [
+      "Marca: Bonux",
+      "Material: Vidrio",
+      "Estilo: Texturado",
+      "Apto para bebidas frías y calientes",
+      "Capacidad: 300 ml por vaso",
+      "Cantidad en set: 6 vasos"
+    ],
+    "caracteristicas-2": [
+      "Es apto para lavavajillas: Sí",
+      "Es resistente al calor: Sí",
+      "Diseño: Clásico y elegante",
+      "Ideal para uso diario y ocasiones especiales",
+      "Transparente para ver el contenido"
+    ],
+    "descripcionCompleta": "<p>Este set de vasos texturados de Bonux está diseñado para aquellos que buscan estilo y funcionalidad en su mesa. Cada vaso está hecho de vidrio resistente, adecuado para bebidas frías y calientes, y presenta un elegante diseño texturado que le da un toque distintivo.</p><h3 class='fs-5 fw-bold'>Características:</h3><ul><li>Vidrio de alta calidad y durabilidad.</li><li>Textura única para un diseño llamativo y elegante.</li><li>Apto para lavavajillas, lo que facilita su limpieza.</li></ul><p>Perfecto para uso diario o para ocasiones especiales, este set de vasos es una adición elegante a cualquier hogar.</p>"
+  },
+  {
+    "id": "9",
+    "marca": "KREMER",
+    "titulo": "Set de Cubiertos Paris Silver de 24 Piezas",
+    "descripcion": "Juego de cubiertos Kremer modelo Paris Silver, de 24 piezas en acero inoxidable.",
+    "detalles": "Incluye 6 tenedores, 6 cuchillos, 6 cucharas y 6 cucharitas. Ideal para toda ocasión con un elegante acabado en acero inoxidable.",
+    "imagenPrincipal": "img/Cocina/6/cubiertos-1.webp",
+    "miniatura1": "img/Cocina/6/cubiertos-1.webp",
+    "miniatura2": "img/Cocina/6/cubiertos-2.webp",
+    "miniatura3": "img/Cocina/6/cubierto-3.webp",
+    "precioReal": "$15,000",
+    "precio": "$9,750",
+    "descuento": "35% OFF",
+    "cuotas": "Mismo precio en 3 cuotas de $3,250",
+    "caracteristicas": [
+      "Marca: Kremer",
+      "Modelo: Paris Silver",
+      "Cantidad de piezas: 24",
+      "Material: Acero inoxidable",
+      "Incluye: Tenedores, cuchillos, cucharas y cucharitas",
+      "Color: Plateado"
+    ],
+    "caracteristicas-2": [
+      "Es apto para lavavajillas: Sí",
+      "Resistente a manchas: Sí",
+      "Ideal para uso diario y ocasiones especiales",
+      "Estilo: Clásico y elegante",
+      "Empaque: Caja de cartón para almacenamiento seguro"
+    ],
+    "descripcionCompleta": "<p>Este set de cubiertos Kremer Paris Silver de 24 piezas es perfecto para darle un toque de elegancia a cualquier mesa. Fabricado en acero inoxidable de alta calidad, cada pieza ofrece durabilidad y resistencia. El set incluye tenedores, cuchillos, cucharas y cucharitas, todos diseñados con un acabado plateado brillante.</p><h3 class='fs-5 fw-bold'>Características:</h3><ul><li>Fabricado en acero inoxidable resistente a manchas.</li><li>Apto para lavavajillas, lo que facilita su limpieza.</li><li>Diseño clásico y elegante, ideal para ocasiones especiales o el uso diario.</li></ul><p>Presentado en una caja de cartón ideal para almacenamiento o regalo.</p>"
+  },
+  {
+    "id": "10",
+    "marca": "BONUX",
+    "descripcion": "Canasto de Ropa de Bambú con Tapa",
+
+    "detalles": "Fabricado en bambú natural con un forro interior y tapa, este canasto es perfecto para cualquier habitación. Elegante y funcional.",
+    "imagenPrincipal": "img/Decoracion/Canasto_de_ropa.webp",
+    "miniatura1": "img/Decoracion/Canasto_de_ropa.webp",
+    "precioReal": "$40,000",
+    "precio": "$26,000",
+    "descuento": "35% OFF",
+    "cuotas": "Mismo precio en 3 cuotas de $8,667",
+    "caracteristicas": [
+      "Marca: Bonux",
+      "Material: Bambú",
+      "Color: Natural",
+      "Incluye tapa: Sí",
+      "Forro interior: Tela extraíble",
+      "Diseño: Rectangular y compacto"
+    ],
+    "caracteristicas-2": [
+      "Apto para múltiples usos: Sí",
+      "Es fácil de limpiar: Sí",
+      "Capacidad: Grande, para familias",
+      "Estilo: Rústico y natural",
+      "Ideal para dormitorios y baños"
+    ],
+    "descripcionCompleta": "<p>El canasto de ropa de bambú de Bonux es una opción elegante y práctica para mantener organizada la ropa sucia. Su diseño en bambú natural se adapta perfectamente a cualquier espacio, aportando un toque rústico y natural.</p><h3 class='fs-5 fw-bold'>Características:</h3><ul><li>Fabricado en bambú natural con un diseño duradero.</li><li>Incluye tapa y forro interior de tela, que se puede extraer para limpiar.</li><li>Perfecto para dormitorios, baños y cuartos de lavado.</li></ul><p>Un canasto funcional que combina estilo y practicidad, ideal para quienes buscan organización con un diseño atractivo.</p>"
+  },
+  {
+    "id": "11",
+    "marca": "BONUX",
+    "descripcion": "Baúl Rosa Plegable de Almacenamiento",
+
+    "detalles": "Fabricado en terciopelo suave y con estructura reforzada, este baúl combina funcionalidad y diseño para el almacenamiento de objetos.",
+    "imagenPrincipal": "img/Decoracion/baul_rosa.webp",
+    "miniatura1": "img/Decoracion/baul_rosa.webp",
+    "precioReal": "$25,000",
+    "precio": "$16,250",
+    "descuento": "35% OFF",
+    "cuotas": "Mismo precio en 3 cuotas de $5,417",
+    "caracteristicas": [
+      "Marca: Bonux",
+      "Material: Terciopelo y estructura reforzada",
+      "Color: Rosa",
+      "Tipo: Plegable",
+      "Incluye tapa acolchada: Sí",
+      "Capacidad de almacenamiento: Amplia"
+    ],
+    "caracteristicas-2": [
+      "Es resistente y duradero: Sí",
+      "Ideal para dormitorios, salas de estar o juegos",
+      "Fácil de plegar y guardar",
+      "Diseño moderno y elegante",
+      "Perfecto para almacenamiento de ropa, juguetes u otros objetos"
+    ],
+    "descripcionCompleta": "<p>El baúl rosa plegable de Bonux es la solución perfecta para combinar almacenamiento y diseño. Su construcción en terciopelo suave con estructura reforzada lo hace resistente y funcional, mientras que su tapa acolchada permite usarlo también como asiento.</p><h3 class='fs-5 fw-bold'>Características:</h3><ul><li>Material de terciopelo suave que aporta un toque elegante.</li><li>Diseño plegable para ahorrar espacio cuando no está en uso.</li><li>Tapa acolchada, ideal para usar como asiento adicional.</li></ul><p>Perfecto para cualquier habitación, este baúl es ideal para almacenar ropa, juguetes u otros objetos, manteniendo tu espacio organizado y con estilo.</p>"
+  },
+  {
+    "id": "12",
+    "marca": "BONUX",
+    "descripcion": "Espejo Decorativo Grande para Interiores",
+    
+    "imagenPrincipal": "img/Decoracion/Espejo.webp",
+    "miniatura1": "img/Decoracion/Espejo.webp",
+    "precioReal": "$50,000",
+    "precio": "$32,500",
+    "descuento": "35% OFF",
+    "cuotas": "Mismo precio en 3 cuotas de $10,833",
+    "caracteristicas": [
+      "Marca: Bonux",
+      "Material del marco: Metal texturizado",
+      "Color del marco: Plateado",
+      "Forma: Rectangular",
+      "Tamaño: Grande",
+      "Uso recomendado: Interiores"
+    ],
+    "caracteristicas-2": [
+      "Apto para colgar en paredes: Sí",
+      "Fácil de limpiar: Sí",
+      "Diseño moderno y elegante",
+      "Ideal para decoración de salas, dormitorios o recibidores",
+      "Aumenta la luminosidad y profundidad de los espacios"
+    ],
+    "descripcionCompleta": "<p>Este espejo decorativo grande de Bonux es la elección perfecta para añadir estilo y funcionalidad a tus espacios interiores. Su marco texturizado de diseño moderno combina con cualquier decoración, mientras que su tamaño grande proporciona profundidad y luminosidad a tus habitaciones.</p><h3 class='fs-5 fw-bold'>Características:</h3><ul><li>Marco de metal texturizado con acabado plateado.</li><li>Ideal para decoración de interiores como salas, dormitorios o recibidores.</li><li>Fácil de colgar y mantener limpio.</li></ul><p>El complemento ideal para quienes buscan una decoración elegante y práctica.</p>"
+  }
+,  
+  {
+    "id": "13",
+    "marca": "DecoHogar",
+    "titulo": "Sillón Relax Cielo",
+    "descripcion": "Sillón Relax Cielo",
+    "descripcionCompleta": "El sofá relax azul cielo DecoHogar ofrece estilo y comodidad con una estructura sólida, placa de espuma Sofá de alta densidad y patas de madera maciza. Tapizado en tela de alta calidad, este sofá combina elegancia y funcionalidad, siendo fácil de limpiar y mantener. Ideal para cualquier espacio de estar, ofrece confort y estilo a un precio atractivo, convirtiéndolo en una inversión en calidad y comodidad para tu hogar.",
+    "imagenPrincipal": "img/Hogar/sofa-living-room.webp",
+    "precioReal": "$980,000",
+    "precio": "$637,000",
+    "descuento": "35% OFF",
+    "cuotas": "Mismo precio en 3 cuotas de $212,333",
+    "caracteristicas": [
+      "Marca: DecoHogar",
+      "Línea: Relax",
+      "Modelo: Azul Cielo",
+      "Material del tapizado: Tela de alta calidad",
+      "Material de las patas: Madera maciza",
+      "Estructura: Sólida y duradera"
+    ],
+    "caracteristicas-2": [
+      "Es apto para espacios reducidos: Sí",
+      "Es fácil de limpiar: Sí",
+      "Estilo: Moderno y elegante",
+      "Uso recomendado: Sala de estar"
+    ]
+  },
+  {
+    "id": "14",
+    "marca": "DecoHogar",
+    "descripcion": "Sillón Nórdico",
+    "descripcionCompleta": "El sillón Nórdico DecoHogar es perfecto para quienes buscan una pieza que combine funcionalidad y diseño escandinavo. Su estructura robusta y acolchado de alta calidad ofrecen el confort ideal para tu sala de estar. Tapizado en tela suave con acabado premium, este sillón presenta un diseño minimalista que se adapta a cualquier estilo moderno o contemporáneo. Ideal para espacios reducidos o amplios, el Sillón Nórdico se convierte en una inversión en estilo y comodidad, transformando tu hogar en un lugar más acogedor.",
+    "imagenPrincipal": "img/Hogar/sofa-nordico.webp",
+    "precioReal": "$1,050,000",
+    "precio": "$682,500",
+    "descuento": "35% OFF",
+    "cuotas": "Mismo precio en 6 cuotas de $113,750",
+    "caracteristicas": [
+      "Marca: DecoHogar",
+      "Línea: Nórdica",
+      "Modelo: Escandinavo",
+      "Material del tapizado: Tela premium",
+      "Material de las patas: Madera natural",
+      "Estructura: Robusta y ergonómica"
+    ],
+    "caracteristicas-2": [
+      "Es apto para espacios amplios: Sí",
+      "Es fácil de mover: Sí",
+      "Estilo: Escandinavo y minimalista",
+      "Uso recomendado: Sala de estar y oficinas"
+    ]
+  },
+  {
+    "id": "15",
+    "marca": "DecoHogar",
+    "titulo": "Sillón Moderno DecoHogar",
+    "descripcion": "Sillón Moderno",
+    "descripcionCompleta": "El sillón moderno DecoHogar ofrece un diseño limpio y funcional con materiales de alta calidad. Estructura sólida y acolchado ergonómico que brinda estilo y comodidad para tu hogar. Tapizado en tela de alta calidad, combina elegancia y funcionalidad, siendo fácil de limpiar y mantener. Perfecto para quienes buscan una pieza moderna que eleve el estilo de cualquier espacio.",
+    "imagenPrincipal": "img/Hogar/sillon-moderno-decohogar.webp",
+    "precioReal": "$1,200,000",
+    "precio": "$850,000",
+    "descuento": "35% OFF",
+    "cuotas": "Mismo precio en 6 cuotas de $141,667",
+    "caracteristicas": [
+      "Marca: DecoHogar",
+      "Línea: Moderno",
+      "Modelo: Contemporáneo",
+      "Material del tapizado: Tela premium",
+      "Material de las patas: Madera natural",
+      "Estructura: Resistente y duradera"
+    ],
+    "caracteristicas-2": [
+      "Es fácil de limpiar: Sí",
+      "Es apto para espacios modernos: Sí",
+      "Estilo: Minimalista y funcional",
+      "Uso recomendado: Salas modernas y oficinas"
+    ]
+  },
+  {
+    "id": "16",
+    "marca": "DecoHogar",
+    "descripcion": "Sillón Chesterfield",
+
+    "descripcionCompleta": "El clásico Sillón Chesterfield en su versión celeste combina la elegancia atemporal con un toque moderno. Diseñado para brindar el máximo confort, este modelo cuenta con un respaldo capitoné y una estructura sólida que garantiza durabilidad. Tapizado en suave tela de terciopelo y con patas de madera natural, este sillón es ideal para cualquier sala de estar que busque sofisticación y estilo. Perfecto para momentos de relajación, el Sillón Chesterfield es una elección destacada para quienes valoran la calidad y el diseño exclusivo.",
+    "imagenPrincipal": "img/Hogar/sillon-chesterfield-celeste.webp",
+    "precioReal": "$1,500,000",
+    "precio": "$975,000",
+    "descuento": "35% OFF",
+    "cuotas": "Mismo precio en 6 cuotas de $162,500",
+    "caracteristicas": [
+      "Marca: DecoHogar",
+      "Línea: Chesterfield",
+      "Modelo: Clásico",
+      "Material del tapizado: Terciopelo premium",
+      "Material de las patas: Madera natural",
+      "Estructura: Resistente y duradera"
+    ],
+    "caracteristicas-2": [
+      "Es apto para ambientes elegantes: Sí",
+      "Es fácil de mantener: Sí",
+      "Estilo: Atemporal y moderno",
+      "Uso recomendado: Salas sofisticadas"
+    ]
+  }
 ]
