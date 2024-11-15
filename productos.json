@@ -358,7 +358,6 @@
   {
     "id": "13",
     "marca": "DecoHogar",
-    "titulo": "Sillón Relax Cielo",
     "descripcion": "Sillón Relax Cielo",
     "descripcionCompleta": "El sofá relax azul cielo DecoHogar ofrece estilo y comodidad con una estructura sólida, placa de espuma Sofá de alta densidad y patas de madera maciza. Tapizado en tela de alta calidad, este sofá combina elegancia y funcionalidad, siendo fácil de limpiar y mantener. Ideal para cualquier espacio de estar, ofrece confort y estilo a un precio atractivo, convirtiéndolo en una inversión en calidad y comodidad para tu hogar.",
     "imagenPrincipal": "img/Hogar/sofa-living-room.webp",
@@ -409,8 +408,8 @@
   {
     "id": "15",
     "marca": "DecoHogar",
-    "titulo": "Sillón Moderno DecoHogar",
-    "descripcion": "Sillón Moderno",
+    "descripcion": "Sillón Moderno DecoHogar",
+    
     "descripcionCompleta": "El sillón moderno DecoHogar ofrece un diseño limpio y funcional con materiales de alta calidad. Estructura sólida y acolchado ergonómico que brinda estilo y comodidad para tu hogar. Tapizado en tela de alta calidad, combina elegancia y funcionalidad, siendo fácil de limpiar y mantener. Perfecto para quienes buscan una pieza moderna que eleve el estilo de cualquier espacio.",
     "imagenPrincipal": "img/Hogar/sillon-moderno-decohogar.webp",
     "precioReal": "$1,200,000",
@@ -438,7 +437,7 @@
     "descripcion": "Sillón Chesterfield",
 
     "descripcionCompleta": "El clásico Sillón Chesterfield en su versión celeste combina la elegancia atemporal con un toque moderno. Diseñado para brindar el máximo confort, este modelo cuenta con un respaldo capitoné y una estructura sólida que garantiza durabilidad. Tapizado en suave tela de terciopelo y con patas de madera natural, este sillón es ideal para cualquier sala de estar que busque sofisticación y estilo. Perfecto para momentos de relajación, el Sillón Chesterfield es una elección destacada para quienes valoran la calidad y el diseño exclusivo.",
-    "imagenPrincipal": "img/Hogar/sillon-chesterfield-celeste.webp",
+    "imagenPrincipal": "img/Hogar/Sillon_celeste_cielo.webp",
     "precioReal": "$1,500,000",
     "precio": "$975,000",
     "descuento": "35% OFF",
@@ -461,9 +460,7 @@
   {
     "id": "17",
     "marca": "BONUX",
-    "titulo": "Baúl Negro Organizador Multiuso",
-    "descripcion": "Baúl negro organizador multiuso, ideal para almacenamiento y decoración.",
-    "detalles": "Baúl de diseño elegante en color negro, con tapa acolchada y amplia capacidad de almacenamiento.",
+    "descripcion": "Baúl Negro Organizador Multiuso",    
     "imagenPrincipal": "img/Decoracion/baul_negro.webp",
     "miniatura1": "img/Decoracion/baul_negro.webp",
     "precioReal": "$25.000",
