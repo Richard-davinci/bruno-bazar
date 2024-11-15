@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 function cargarDatosProducto(productId) {
-  fetch("productos.json")
+  fetch("../productos.json")
     .then((response) => response.json())
     .then((productos) => {
       const producto = productos.find((item) => item.id === productId);

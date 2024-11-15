@@ -9,7 +9,7 @@
   --color-verde-oscuro: #45462A;
   --color-verde-pino: #26603F;
   --color-dark: #4e4e4e;
-  --border-bottom: 1px solid #0000003f;
+  --border-bottom: 1px solid #606c3854;
 
 }
 
@@ -87,6 +87,11 @@ body {
 }
 
 /*-------------estilos navbar-----------*/
+.promo-bar {
+  background-color: var(--color-white);
+  color: var(--color-verde-oscuro);
+  font-weight: bold;
+}
 
 .navbar .nav-link {
   color: var(--color-crema-claro);
@@ -120,25 +125,31 @@ body {
 
 
 /*--------------- Estilos para el carrusel ---------------------*/
-.carousel-item img {
+.imagen-carousel  {
   height: 500px;
-  /* Puedes ajustar la altura según tus necesidades */
   object-fit: cover;
+  filter: brightness(50%);
 }
 
-.carousel-indicators button {
+.color-indicador button {
   background-color: var(--color-verde-pino);
   transition: background-color 0.3s ease, opacity 0.3s ease;
 }
 
-.carousel-indicators button:hover {
+.color-indicador button:hover {
   background-color: var(--color-verde-pino);
 }
 
-.carousel-indicators .active {
+.color-indicador .active {
   background-color: var(--color-verde-pino);
 }
 
+/*------------------estilos banner-----------------*/
+.banner {
+  filter: brightness(75%);
+  width: 100%;
+  height: 300px;
+}
 /*------------estilos sobre nosotros ------------------------*/
 .conocenos {
   background-color: #f9f9f9;
@@ -152,7 +163,11 @@ body {
 }
 
 /* -------------Estilos para la sección de productos destacados------------------------ */
-section h2 {
+.renueva {
+  border-top: var(--border-bottom);}
+
+
+.destacados h2 {
   font-weight: bold;
   color: var(--color-verde-oscuro);
 }
@@ -190,62 +205,4 @@ section h2 {
 
 .img-miniatura:hover {
   cursor: pointer;
-}
-
-
-.zoom-container {
-  position: relative;
-  display: inline-block;
-}
-
-.zoom-image {
-  cursor: zoom-in;
-}
-
-.zoom-result {
-  position: absolute;
-  top: 0;
-  left: 100%;
-  /* Mostrar a la derecha de la imagen */
-  width: 350px;
-  /* Tamaño del área de zoom */
-  height: 400px;
-  background-color: #fff;
-  overflow: hidden;
-  z-index: 10;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
-}
-
-.zoom-result img {
-  position: absolute;
-  width: auto;
-  /* Deja que el ancho se ajuste automáticamente */
-  height: auto;
-  /* Deja que el alto se ajuste automáticamente */
-  max-width: none;
-  /* Asegúrate de que no limite el tamaño */
-  max-height: none;
-  /* Evita que limite el tamaño */
-  transform-origin: center center;
-  /* Punto inicial del zoom */
-  transition: transform 0.2s ease, transform-origin 0.2s ease;
-}
-
-.zoom-lens {
-  position: absolute;
-  border: 2px solid #BC6C25;
-  background-color: rgba(255, 255, 255, 0.3);
-  pointer-events: none;
-  z-index: 2;
-  transition: width 0.2s ease, height 0.2s ease;
-  /* Suavidad al cambiar tamaño */
-}
-
-.zoom-image,
-.zoom-result img {
-  width: 100%;
-  height: auto;
-  max-width: 500px;
-  /* Ajusta según tu preferencia */
-  max-height: 500px;
 }
