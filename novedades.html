@@ -15,7 +15,162 @@
 
 <body>
   <header>
-    <div id="navbar-container"></div>
+    <!-- Barra Promocional -->
+    <div class="alert promo-bar alert-dismissible fade show text-center mb-0  d-none d-md-block" role="alert">
+      <button type="button" class="btn-close pa-0 ma-0 " data-bs-dismiss="alert" aria-label="Cerrar"></button>
+      <span>🔥&#128525;Renová tus cocina | <strong>35% OFF todo Noviembre&#128525;🔥</strong></span>
+    </div>
+
+    <!-- Navbar principal -->
+    <nav class="navbar navbar-expand-lg bg-verde-pino d-none d-lg-flex ">
+      <div class="container-fluid d-flex justify-content-between align-items-center">
+        <a class="navbar-brand" href="index.html">
+          <img src="img/Logos/logo-2.webp" alt="Bruno Bazar logo" width="120">
+        </a>
+        <form class="input-search d-flex d-none d-lg-flex" role="search">
+          <input class="form-control me-2 w-100" type="search" placeholder="¿Qué estás buscando?" aria-label="Search">
+          <button class="btn btn-outline-light" type="submit">
+            <i class="bi bi-search fs-4 text-crema-claro"></i>
+          </button>
+        </form>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav d-flex ms-auto mb-2 mb-lg-0">
+            <li class="nav-item mx-2">
+              <a class="nav-link d-flex flex-column align-items-center text-center" href="index.html">
+                <i class="bi bi-house fs-3 text-crema-claro"></i>
+                <span>Inicio</span>
+              </a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link d-flex flex-column align-items-center text-center" href="productos.html">
+                <i class="bi bi-bag fs-3 text-crema-claro"></i>
+                <span>Productos</span>
+              </a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link d-flex flex-column align-items-center text-center" href="novedades.html">
+                <i class="bi bi-tag fs-3 text-crema-claro"></i>
+                <span>Novedades</span>
+              </a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link d-flex flex-column align-items-center text-center" href="contacto.html">
+                <i class="bi bi-envelope fs-3 text-crema-claro"></i>
+                <span>Contacto</span>
+              </a>
+            </li>
+            <!-- <li class="nav-item mx-2">
+            <a class="nav-link d-flex flex-column align-items-center text-center" href="#">
+              <i class="bi bi-person fs-3 text-crema-claro"></i>
+              <span>Mi Cuenta</span>
+            </a>
+          </li> -->
+            <li class="nav-item mx-2">
+              <a class="nav-link d-flex flex-column align-items-center text-center" href="#" data-bs-toggle="offcanvas"
+                data-bs-target="#Carrito" aria-controls="Carrito" aria-expanded="false">
+                <i class="bi bi-cart4 fs-3 text-crema-claro"></i>
+                <span>Mi carrito</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+    </nav>
+    <!-- Navbar movile -->
+    <nav class="navbar navbar-expand-lg bg-verde-pino d-lg-none ">
+      <div class="container-fluid d-flex justify-content-between align-items-center">
+        <a class="navbar-brand" href="index.html">
+          <img src="img/Logos/logo.webp" alt="Bruno Bazar logo" width="120">
+        </a>
+        <div class="d-flex ">
+          <button class="navbar-toggler border border-0 mx-2 py-2" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseSearch" aria-expanded="false" aria-controls="collapseSearch">
+            <i class="bi bi-search fs-4 text-crema-claro"></i>
+          </button>
+          <button class="navbar-toggler border border-0 mx-2 py-2" type="button" data-bs-toggle="offcanvas"
+            data-bs-target="#Carrito" aria-controls="Carrito" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-cart4 fs-2 text-crema-claro"></i>
+          </button>
+          <button class="navbar-toggler mx-2 py-2" type="button" data-bs-toggle="offcanvas"
+            data-bs-target="#staticBackdrop" aria-controls="staticBackdrop" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <i class="bi-list fs-1 text-crema-claro"></i>
+          </button>
+        </div>
+      </div>
+    </nav>
+    <!-- buscador movile -->
+    <form class="input-search collapse" id="collapseSearch" role="search">
+      <input class="form-control me-2 w-100" type="search" placeholder="¿Qué estás buscando?" aria-label="Search">
+      <button class="btn btn-outline-light" type="submit">
+        <i class="fa fa-search"></i>
+      </button>
+    </form>
+
+    <!-- offcanvas menu -->
+    <div class="offcanvas offcanvas-end bg-verde-pino" data-bs-backdrop="static" tabindex="-1" id="staticBackdrop">
+      <div class="offcanvas-header d-flex justify-content-between ">
+        <button type="button" class="navbar-toggler rounded-2 p-2" data-bs-dismiss="offcanvas" aria-label="Close"><i
+            class="bi bi-x fs-1 text-crema-claro"></i></button>
+        <a class="navbar-brand" href="#">
+          <img src="img/Logos/logo.webp" alt="Bruno Bazar logo" width="120">
+        </a>
+      </div>
+      <div class="offcanvas-body bg-crema-claro">
+        <div>
+          <!-- Menú solo en movile -->
+          <ul class="navbar-nav d-lg-none flex-start">
+            <li class="nav-item divider-list">
+              <a class="nav-link text-verde-oscuro fw-bold" aria-current="page" href="index.html">
+                Inicio
+              </a>
+            </li>
+            <li class="nav-item divider-list">
+              <a class="nav-link text-verde-oscuro fw-bold" aria-current="page" href="productos.html">
+                Productos
+              </a>
+            </li>
+            <li class="nav-item divider-list">
+              <a class="nav-link text-verde-oscuro fw-bold" aria-current="page" href="novedades.html">
+                Novedades
+              </a>
+            </li>
+            <li class="nav-item divider-list">
+              <a class="nav-link text-verde-oscuro fw-bold" aria-current="page" href="contacto.html"> Contacto </a>
+            </li>
+          </ul>
+          <!-- Menú normal -->
+        </div>
+      </div>
+    </div>
+
+    <!-- Carrito offcanvas -->
+    <div class="offcanvas offcanvas-end bg-verde-pino" data-bs-backdrop="static" tabindex="-1" id="Carrito">
+      <div class="offcanvas-header d-flex  align-items-start ">
+        <button type="button" class="navbar-toggler rounded-2 p-2" data-bs-dismiss="offcanvas" aria-label="Close"><i
+            class="bi bi-x fs-1 text-crema-claro"></i></button>
+      </div>
+      <div class="offcanvas-body bg-crema-claro">
+        <div>
+          <!-- Menú solo en movile -->
+          <ul class="navbar-nav  ">
+            <li class="nav-item divider-list  border border-2 border-success rounded-2 px-4">
+              <a class="nav-link text-verde-oscuro" href="#">El carrito de compras está vacío. </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="offcanvas-footer">
+        <div>
+          <ul class="navbar-nav d-flex align-items-center ms-auto mb-2 mb-lg-0">
+            <li class="nav-item mx-2">
+              <a class="nav-link text-crema-claro" href="#">Finalizar Compra</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
 
     <div class="container">
       <img class="banner-novedad img-fluid shadow" src="img/Banner/banner-sofa.webp" alt="Cocina moderna">
@@ -23,25 +178,26 @@
   </header>
   <main class="my-5">
     <section class="container my-5">
-     
+
       <div class="card shadow p-4 bg-white rounded">
         <div class="row">
           <!-- Columna de la imagen -->
           <div class="col-12 col-md-6 col-lg-4">
             <img src="img/Hogar/sofa-living-room.webp" alt="Sofá relax cielo" class="img-fluid rounded">
           </div>
-      
+
           <!-- Columna del texto -->
           <div class="col-12 col-md-6 col-lg-8">
             <div class="card-body">
               <h1 class="fs-4">Sofá relax cielo</h1>
               <small class="text-black-50"><del>$980.000</del></small>
               <p class="mb-1 fs-4">
-                <strong  class="text-verde-pino">$637.000</strong>
+                <strong class="text-verde-pino">$637.000</strong>
                 <span class="text-naranja-tostado fs-6">35% OFF</span>
               </p>
               <p>
-                El sofá relax azul cielo DecoHogar ofrece estilo y comodidad con una estructura sólida, placa de espuma Sofá
+                El sofá relax azul cielo DecoHogar ofrece estilo y comodidad con una estructura sólida, placa de espuma
+                Sofá
                 de
                 alta densidad y patas de madera maciza.
               </p>
@@ -50,7 +206,8 @@
                 mantener.
               </p>
               <p>
-                Ideal para cualquier espacio de estar, ofrece confort y estilo a un precio atractivo, convirtiéndolo en una
+                Ideal para cualquier espacio de estar, ofrece confort y estilo a un precio atractivo, convirtiéndolo en
+                una
                 inversión en calidad y comodidad para tu hogar.
               </p>
               <a href="producto.html?id=13" class="btn boton w-50">COMPRAR</a>
@@ -66,27 +223,31 @@
           <div class="col-12 col-md-6 col-lg-4">
             <img src="img/Hogar/Sillon_celeste_cielo.webp" alt="Sillón Chesterfield" class="img-fluid rounded">
           </div>
-      
+
           <!-- Columna del texto -->
           <div class="col-12 col-md-6 col-lg-8">
             <div class="card-body">
               <h1 class="fs-4">Sillón Chesterfield</h1>
               <small class="text-black-50"><del>$1.500.000</del></small>
               <p class="mb-1 fs-4">
-                <strong  class="text-verde-pino">$975.000</strong>
+                <strong class="text-verde-pino">$975.000</strong>
                 <span class="text-naranja-tostado fs-6">35% OFF</span>
-              </p>           
+              </p>
               <p>
-                El clásico Sillón Chesterfield en su versión celeste combina la elegancia atemporal con un toque moderno.
-                Diseñado para brindar el máximo confort, este modelo cuenta con un respaldo capitoné y una estructura sólida
+                El clásico Sillón Chesterfield en su versión celeste combina la elegancia atemporal con un toque
+                moderno.
+                Diseñado para brindar el máximo confort, este modelo cuenta con un respaldo capitoné y una estructura
+                sólida
                 que garantiza durabilidad.
               </p>
               <p>
-                Tapizado en suave tela de terciopelo y con patas de madera natural, este sillón es ideal para cualquier sala de
+                Tapizado en suave tela de terciopelo y con patas de madera natural, este sillón es ideal para cualquier
+                sala de
                 estar que busque sofisticación y estilo.
               </p>
               <p>
-                Perfecto para momentos de relajación, el Sillón Chesterfield es una elección destacada para quienes valoran la
+                Perfecto para momentos de relajación, el Sillón Chesterfield es una elección destacada para quienes
+                valoran la
                 calidad y el diseño exclusivo.
               </p>
               <a href="producto.html?id=16" class="btn boton w-50">COMPRAR</a>
@@ -94,7 +255,7 @@
           </div>
         </div>
       </div>
-      
+
 
       <div class="card shadow mt-4 p-4 bg-white rounded">
         <div class="row">
@@ -102,16 +263,16 @@
           <div class="col-12 col-md-6 col-lg-4">
             <img src="img/Hogar/Sillon_moderno.webp" alt="Sillón moderno DecoHogar" class="img-fluid rounded">
           </div>
-      
+
           <!-- Columna del texto -->
           <div class="col-12 col-md-6 col-lg-8">
             <div class="card-body">
               <h1 class="fs-4">Sillón moderno DecoHogar</h1>
               <small class="text-black-50"><del>$1.200.000</del></small>
               <p class="mb-1 fs-4">
-                <strong  class="text-verde-pino">$850.000</strong>
+                <strong class="text-verde-pino">$850.000</strong>
                 <span class="text-naranja-tostado fs-6">30% OFF</span>
-              </p>            
+              </p>
               <p>
                 El sillón moderno DecoHogar es una opción ideal para quienes buscan diseño y funcionalidad en un solo
                 mueble. Este modelo ofrece una estructura robusta y está tapizado en tela de alta calidad con un acabado
@@ -138,7 +299,7 @@
           <div class="col-12 col-md-6 col-lg-4">
             <img src="img/Hogar/sofa-nordico.webp" alt="Sillón Nórdico" class="img-fluid rounded">
           </div>
-      
+
           <!-- Columna del texto -->
           <div class="col-12 col-md-6 col-lg-8">
             <div class="card-body">
@@ -148,17 +309,20 @@
                 <strong class="text-verde-pino">$682.500</strong>
                 <span class="text-naranja-tostado fs-6">35% OFF</span>
               </p>
-           
+
               <p>
                 El sillón Nórdico DecoHogar es perfecto para quienes buscan una pieza que combine funcionalidad y diseño
-                escandinavo. Su estructura robusta y acolchado de alta calidad ofrecen el confort ideal para tu sala de estar.
+                escandinavo. Su estructura robusta y acolchado de alta calidad ofrecen el confort ideal para tu sala de
+                estar.
               </p>
               <p>
-                Tapizado en tela suave con acabado premium, este sillón presenta un diseño minimalista que se adapta a cualquier
+                Tapizado en tela suave con acabado premium, este sillón presenta un diseño minimalista que se adapta a
+                cualquier
                 estilo moderno o contemporáneo.
               </p>
               <p>
-                Ideal para espacios reducidos o amplios, el Sillón Nórdico se convierte en una inversión en estilo y comodidad,
+                Ideal para espacios reducidos o amplios, el Sillón Nórdico se convierte en una inversión en estilo y
+                comodidad,
                 transformando tu hogar en un lugar más acogedor.
               </p>
               <a href="producto.html?id=15" class="btn boton w-50">COMPRAR</a>
@@ -166,9 +330,9 @@
           </div>
         </div>
       </div>
-      
-      
-      
+
+
+
     </section>
 
 
@@ -176,7 +340,38 @@
 
   </main>
   <footer class="bg-verde-oscuro text-white py-5">
-    <div id="footer-container"></div>
+   <div class="container">
+  <div class="row align-items-center">
+    <!-- Perfil -->
+    <div class="col-12 col-md-3 d-flex justify-content-center">
+      <img src="img/perfil.webp" alt="foto de perfil" class="img-fluid rounded-circle mb-3" style="width: 150px;">
+    </div>
+
+    <!-- Datos -->
+    <div class="col-12 col-md-6 d-flex flex-column align-items-center">
+      <p class="mb-1">Ricardo Rodolfo García</p>
+      <p class="mb-1">36 años</p>
+      <p class="mb-1">Ricardo.garcia@davinci.edu.ar</p>
+      <p class="mb-1">&copy; 2024 - Diseño y Programación Web</p>
+    </div>
+
+    <!-- Redes sociales -->
+    <div class="col-12 col-md-3 d-flex justify-content-center justify-content-md-end">
+      <ul class="list-unstyled d-flex">
+        <li class="mx-3">
+          <a href="https://www.instagram.com/bruno.decohogar/" target="_blank" class="text-white">
+            <i class="bi bi-instagram fs-3"></i>
+          </a>
+        </li>
+        <li class="mx-3">
+          <a href="https://wa.me/5491133968453" target="_blank" class="text-white">
+            <i class="bi bi-whatsapp fs-3"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
   </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
